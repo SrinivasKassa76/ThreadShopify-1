@@ -6,4 +6,95 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>01e389fb-1168-43e3-9b01-03034205a7c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98f957d9-3a0d-4606-9529-6600bb81b767</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>625c7296-bc2b-4680-adb8-1450e3181c0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f7556b0-905a-4ad9-b93d-f74f6216c611</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d52037e2-7572-4a83-a115-1bd086e6f352</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>324af5ff-95f1-40ac-a70a-dc37319aea77</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a814d51-4d96-4cd1-bc79-bc6be743f943</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5c5b30f-5978-4362-a25b-6a9d7bfc390f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Please adjust the following:'</defaultValue>
+      <description></description>
+      <id>98f957d9-3a0d-4606-9529-6600bb81b767</id>
+      <masked>false</masked>
+      <name>error_msg1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password can\'t be blank'</defaultValue>
+      <description></description>
+      <id>625c7296-bc2b-4680-adb8-1450e3181c0e</id>
+      <masked>false</masked>
+      <name>error_msg2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Email can\'t be blank'</defaultValue>
+      <description></description>
+      <id>3f7556b0-905a-4ad9-b93d-f74f6216c611</id>
+      <masked>false</masked>
+      <name>error_msg3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Email is invalid'</defaultValue>
+      <description></description>
+      <id>d52037e2-7572-4a83-a115-1bd086e6f352</id>
+      <masked>false</masked>
+      <name>error_msg4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tester'</defaultValue>
+      <description></description>
+      <id>324af5ff-95f1-40ac-a70a-dc37319aea77</id>
+      <masked>false</masked>
+      <name>f_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'terter'</defaultValue>
+      <description></description>
+      <id>4a814d51-4d96-4cd1-bc79-bc6be743f943</id>
+      <masked>false</masked>
+      <name>l_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description></description>
+      <id>a5c5b30f-5978-4362-a25b-6a9d7bfc390f</id>
+      <masked>false</masked>
+      <name>verify_home_page</name>
+   </variable>
 </TestCaseEntity>

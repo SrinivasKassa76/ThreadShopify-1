@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg-icon-ads-c9f-3c8</name>
+   <tag></tag>
+   <elementGuidId>2b6773a5-75a2-4665-9158-e5cc217af9bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#overlay > #modal > header > #close-icon > svg-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='close-icon']/svg-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;top-level-modal&quot;] >> internal:label=&quot;Close&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg-icon</value>
+      <webElementGuid>af5c8d7b-1ad1-4c6e-9d07-6d7bd4b4bb49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>gray</value>
+      <webElementGuid>35aaf14e-f982-4647-926f-9ce15734d83a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/div[@id=&quot;overlay&quot;]/div[@id=&quot;modal&quot;]/header[1]/button[@id=&quot;close-icon&quot;]/svg-icon[1]</value>
+      <webElementGuid>d501ce62-4024-4d0c-9457-982f60ef6080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/top-level-modal_Checkout is currently unava_b91d53</value>
+      <webElementGuid>b00b1125-eaef-474d-a97d-b160344d1ac0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>c4b72458-0dbd-41cb-a7e6-5ef94dd6512e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='close-icon']/svg-icon</value>
+      <webElementGuid>8b756141-3c24-498a-af5d-7f575b0a00ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

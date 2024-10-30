@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>0e897186-6bda-4d67-91a2-5dee119c1157</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.header__icon.header__icon--account.link.focus-inset.small-hide > account-icon > span.svg-wrapper > svg.icon.icon-account > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;shopify-section-sections--18610481725663__header&quot;]/sticky-header/header/div/a[1]/account-icon/span/svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Log in&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>41c81538-355a-45af-9126-519f5537b667</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>fd708daa-8df9-45a0-9f7b-534fe2e69b0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>89cfe766-eb92-4388-b069-9a443faa10a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M6 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-4a4 4 0 1 0 0 8 4 4 0 0 0 0-8m5.58 12.15c1.12.82 1.83 2.24 1.91 4.85H1.51c.08-2.6.79-4.03 1.9-4.85C4.66 11.75 6.5 11.5 9 11.5s4.35.26 5.58 1.15M9 10.5c-2.5 0-4.65.24-6.17 1.35C1.27 12.98.5 14.93.5 18v.5h17V18c0-3.07-.77-5.02-2.33-6.15-1.52-1.1-3.67-1.35-6.17-1.35</value>
+      <webElementGuid>6db6ff8a-0ab5-414a-a2d3-15d3c3fc81b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>b9332841-8e7c-4024-8ac2-9a68c3b65c53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopify-section-sections--18610481725663__header&quot;)/sticky-header[@class=&quot;header-wrapper color-scheme-1 gradient header-wrapper--border-bottom&quot;]/header[@class=&quot;header header--middle-left header--mobile-center page-width header--has-menu header--has-social header--has-account&quot;]/div[@class=&quot;header__icons header__icons--localization header-localization&quot;]/a[@class=&quot;header__icon header__icon--account link focus-inset small-hide&quot;]/account-icon[1]/span[@class=&quot;svg-wrapper&quot;]/svg[@class=&quot;icon icon-account&quot;]/path[1]</value>
+      <webElementGuid>805d4f01-b0d1-43b2-be11-77dc3b2d9d4d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Continue shopping</name>
+   <tag></tag>
+   <elementGuidId>18ab00d9-e9bf-4150-a8f8-08d7cd84a56a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a._1m2hr9ge._1m2hr9gd._1fragemsq._1fragemlj._1fragemnk._1fragem2i._1fragems4._1fragemsg._1fragemsl._1fragemsa._1m2hr9g1h._1m2hr9g1d._1fragemne._1m2hr9g16._1m2hr9g13._1fragemop._1fragemon._1fragemor._1fragemol._1fragempl._1fragemph._1fragempp._1fragempd._1fragemb4._1fragemaf._1fragembt._1fragem9q._1fragemsa._1m2hr9g1r._1m2hr9g1o._1m2hr9g10._1m2hr9gx._1m2hr9g12._1m2hr9g11._1fragemri._1m2hr9g1b._1m2hr9g19._1fragems5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='checkout-main']/div/div/div[2]/div/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Continue shopping&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>81d19f2c-9cb6-41b5-b239-6abae8466b8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://threads0.myshopify.com</value>
+      <webElementGuid>88c90c1d-3ee9-4a4b-9fe9-fd0d6eabd9e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1m2hr9ge _1m2hr9gd _1fragemsq _1fragemlj _1fragemnk _1fragem2i _1fragems4 _1fragemsg _1fragemsl _1fragemsa _1m2hr9g1h _1m2hr9g1d _1fragemne _1m2hr9g16 _1m2hr9g13 _1fragemop _1fragemon _1fragemor _1fragemol _1fragempl _1fragemph _1fragempp _1fragempd _1fragemb4 _1fragemaf _1fragembt _1fragem9q _1fragemsa _1m2hr9g1r _1m2hr9g1o _1m2hr9g10 _1m2hr9gx _1m2hr9g12 _1m2hr9g11 _1fragemri _1m2hr9g1b _1m2hr9g19 _1fragems5</value>
+      <webElementGuid>ad51bb28-65f8-4165-b583-ecfc3a47e677</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue shopping</value>
+      <webElementGuid>fc376175-4ba1-4538-8834-bac41e41d76c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;checkout-main&quot;)/div[@class=&quot;_1fragem1y _1fragemff _1fragemg1 _1fragemgt _1fragemhu _1fragemdm _1frageme8 _1fragemim _1fragemjn _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem4b _1fragem4o _1fragem64 _1fragem6h _1fragem2s&quot;]/div[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem4b _1fragem64 _1fragem2s&quot;]/div[@class=&quot;MV9Am&quot;]/div[1]/a[@class=&quot;_1m2hr9ge _1m2hr9gd _1fragemsq _1fragemlj _1fragemnk _1fragem2i _1fragems4 _1fragemsg _1fragemsl _1fragemsa _1m2hr9g1h _1m2hr9g1d _1fragemne _1m2hr9g16 _1m2hr9g13 _1fragemop _1fragemon _1fragemor _1fragemol _1fragempl _1fragemph _1fragempp _1fragempd _1fragemb4 _1fragemaf _1fragembt _1fragem9q _1fragemsa _1m2hr9g1r _1m2hr9g1o _1m2hr9g10 _1m2hr9gx _1m2hr9g12 _1m2hr9g11 _1fragemri _1m2hr9g1b _1m2hr9g19 _1fragems5&quot;]</value>
+      <webElementGuid>b7fb2e09-52fb-441f-ac51-1aab72105842</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='checkout-main']/div/div/div[2]/div/div[2]/div/a</value>
+      <webElementGuid>8f71638d-850a-4149-bc38-283f642a6af1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alice CenaPursuitabc apartment, xyz road700001 Kolkata WBIndia'])[2]/following::a[1]</value>
+      <webElementGuid>a2a5506d-6860-474d-8e7e-0e4de0bf78c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing address'])[1]/following::a[1]</value>
+      <webElementGuid>9592bc91-dccf-4c77-9c66-aebce3743ea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://threads0.myshopify.com')])[3]</value>
+      <webElementGuid>9c4caaae-3a71-4f49-a43f-1602dfb16632</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>256d2bef-0dff-4800-b7b8-398de1bb511b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://threads0.myshopify.com' and (text() = 'Continue shopping' or . = 'Continue shopping')]</value>
+      <webElementGuid>9e9bfbc9-ca1f-4df7-9ded-55f194937ca4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_month3 months</name>
+   <tag></tag>
+   <elementGuidId>aae15226-07bf-4f02-a5cf-2b728d6001aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;subs_interval&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='subs_interval']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b1c662aa-0778-4a9e-8e70-3e2429e2ea43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sls-select seal-tight</value>
+      <webElementGuid>b759c11f-612a-4e00-bf00-12d1822dbae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>subs_interval</value>
+      <webElementGuid>dead4987-cac6-49f8-a190-f2e0958ed2cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>month3 months</value>
+      <webElementGuid>aa6a2b27-f14c-45a2-925d-664abe8264c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-form-template--18610481004767__main&quot;)/div[@class=&quot;sealsubs-target-element sealsubs-full&quot;]/div[@class=&quot;sealsubs-container&quot;]/div[@class=&quot;sls-option-container seal-table sls-active&quot;]/div[@class=&quot;seal-row&quot;]/div[@class=&quot;sls-label-container  seal-col&quot;]/div[@class=&quot;sls-select-container&quot;]/select[@class=&quot;sls-select seal-tight&quot;]</value>
+      <webElementGuid>bef9377a-0a74-41b1-92c1-e3ab51839c8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='subs_interval']</value>
+      <webElementGuid>c1d4f508-da73-4fee-996f-5b9472dcb004</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-form-template--18610481004767__main']/div/div/div[2]/div/div[2]/div/select</value>
+      <webElementGuid>405fb0d3-65b1-4fe3-a120-5ccb225caa8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One-time purchase'])[1]/following::select[1]</value>
+      <webElementGuid>14f3ae1d-20c4-4482-a5c1-e775295440ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You will get a 5% discount on every recurring order.'])[1]/preceding::select[1]</value>
+      <webElementGuid>cdcf7dc2-78ee-4be3-ac51-307692142010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See details'])[1]/preceding::select[1]</value>
+      <webElementGuid>e1cc9dfa-682d-49db-bf51-877772e07be3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d38edbe1-8558-4552-8918-0515cdbbd817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'subs_interval' and (text() = 'month3 months' or . = 'month3 months')]</value>
+      <webElementGuid>29cc5ae0-b3ad-4bcb-a27a-a22eecdf2606</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
