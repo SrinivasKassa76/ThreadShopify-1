@@ -1,3 +1,94 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK",
+      "brokenLocator": "/html/body/main/div[2]/div/div/div/div/ul/li[1]/div/div/div[2]/div[1]/h3/a/text()",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027CardLink-template--18610480578783__product-grid-8834481160415\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[3]/div/div/div/strong[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TOTAL SAVINGS\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Threads/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dlink[name\u003d\"Log in\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thread_Webshop/Checkout/Page_Threads/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dbutton[name\u003d\"Shipping method Standard · ₹10.00\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-8065b300762b4a82452fb156c5f860bb\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-e1ddef4ea339ac02339348a2a08e6f6c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/input_Card number_number",
+      "brokenLocator": "//input[@id\u003d\u0027number\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Checkout - Threads/input_Card number_number_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry",
+      "brokenLocator": "//input[@id\u003d\u0027expiry\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg",
+      "brokenLocator": "/html/body/div[2]/sticky-header/header/div/a[2]/span[1]/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Log in\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg_neighbor.png"
+    }
+  ]
 }
