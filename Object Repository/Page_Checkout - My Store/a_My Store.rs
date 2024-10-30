@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_My Store</name>
+   <tag></tag>
+   <elementGuidId>f4ab6530-be31-48bc-b4db-1ba648299b41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/header/div/div/div/div/div/span/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.s2kwpi1.s2kwpi0._1fragemlj._1fragemsf._1fragemsp._1fragemsa.s2kwpi3.s2kwpi7.s2kwpi5._1fragems5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;My Store&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1e17e300-8bad-4fc6-9fd8-d08deab1ad7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ltopcorner.myshopify.com</value>
+      <webElementGuid>21b21fe1-74b4-4047-a863-cd348cf573c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s2kwpi1 s2kwpi0 _1fragemlj _1fragemsf _1fragemsp _1fragemsa s2kwpi3 s2kwpi7 s2kwpi5 _1fragems5</value>
+      <webElementGuid>6e471e3f-4368-4555-b914-e157ee871315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Store</value>
+      <webElementGuid>efde22f3-0c2c-4218-8be0-a977a67393e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/header[@class=&quot;EAjaz _8wrz5 d5pfT _1fragemsy _1fragemna _1fragemn6&quot;]/div[@class=&quot;i8Dpn&quot;]/div[1]/div[1]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem41 _1fragem5u _1fragem2s&quot;]/div[@class=&quot;_1mrl40q0 _1fragemlj _1fragem4l _1fragem6e _1fragemm8 _1fragemmc _1fragem2s _1fragemm3 _16s97g7f _16s97g7p _16s97g71j _16s97g71t    _16s97g79l&quot;]/span[1]/a[@class=&quot;s2kwpi1 s2kwpi0 _1fragemlj _1fragemsf _1fragemsp _1fragemsa s2kwpi3 s2kwpi7 s2kwpi5 _1fragems5&quot;]</value>
+      <webElementGuid>a9f657bd-6986-48af-9baf-8dbbfc2522ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/header/div/div/div/div/div/span/a</value>
+      <webElementGuid>0f6fb7f3-2ee9-457e-aa22-916e0201e534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Store Checkout'])[1]/following::a[1]</value>
+      <webElementGuid>e71a16cd-abb0-4e54-9e3e-fb8b4deb88a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to content'])[1]/following::a[1]</value>
+      <webElementGuid>cfb5e646-0e92-442f-a73f-1ec79b582cef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show order summary'])[1]/preceding::a[2]</value>
+      <webElementGuid>8eb9df26-5984-4672-a128-a85919435939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://ltopcorner.myshopify.com')]</value>
+      <webElementGuid>2fd403e1-b82c-46eb-90d6-78ddbf83075d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/a</value>
+      <webElementGuid>32a714d6-b223-44bf-80a2-781a1aefc003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ltopcorner.myshopify.com' and (text() = 'My Store' or . = 'My Store')]</value>
+      <webElementGuid>23089b33-62b8-44c0-a5e5-37b71c9c46d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
