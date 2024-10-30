@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Registraion with Blank, Invalid and valid scenario</description>
+   <name>TC-73,31-Verify the registration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01e389fb-1168-43e3-9b01-03034205a7c5</testCaseGuid>
+</TestCaseEntity>

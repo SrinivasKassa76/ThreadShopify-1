@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-112, 169, 143-Verify Search Scenario</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>99ba2098-4e20-465f-99f5-92ed20949380</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c172dbf5-b4dd-4c99-bebe-1fcb8359210f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d08b3b5-da25-47c2-adec-cb196143192e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ASICS TIGER | GEL-LYTE V \'30 YEARS OF GEL\' PACK'</defaultValue>
+      <description></description>
+      <id>c172dbf5-b4dd-4c99-bebe-1fcb8359210f</id>
+      <masked>false</masked>
+      <name>product1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rs. 220.00'</defaultValue>
+      <description></description>
+      <id>3d08b3b5-da25-47c2-adec-cb196143192e</id>
+      <masked>false</masked>
+      <name>price1</name>
+   </variable>
+</TestCaseEntity>

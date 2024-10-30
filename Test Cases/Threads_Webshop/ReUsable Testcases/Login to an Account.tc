@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login to an Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bfe4a6dd-ba11-45d5-a90d-59803dda9de4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75b30841-699c-443c-b9ab-8e7cc56d510e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a849631-5d60-4c8a-b64b-2033767d1d11</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'cenaalice1234@mailinator.com'</defaultValue>
+      <description></description>
+      <id>75b30841-699c-443c-b9ab-8e7cc56d510e</id>
+      <masked>false</masked>
+      <name>validemail</name>
+   </variable>
+   <variable>
+      <defaultValue>'UDMlkmqWREzH+mr49N5wRw=='</defaultValue>
+      <description></description>
+      <id>4a849631-5d60-4c8a-b64b-2033767d1d11</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

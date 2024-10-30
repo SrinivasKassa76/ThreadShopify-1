@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-308,307-Verify the Credit Card details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b50721c-558b-4f08-9a1d-82ec779fb543</testCaseGuid>
+</TestCaseEntity>

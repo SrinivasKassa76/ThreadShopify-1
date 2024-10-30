@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-593-Verify Wishlist to Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>495edf22-559e-458d-a64f-406e06a1bae7</testCaseGuid>
+</TestCaseEntity>

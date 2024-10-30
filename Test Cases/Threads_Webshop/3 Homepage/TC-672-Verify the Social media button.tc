@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-672-Verify the Social media button</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64bb9db3-f90b-4278-8cbc-d00d6ec8e467</testCaseGuid>
+</TestCaseEntity>

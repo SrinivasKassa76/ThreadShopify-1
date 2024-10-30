@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-89,11-Verify Home page elements</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a10572f7-9581-4748-9610-000cf2112a68</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-309-Verify Promo code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d3b22ca-dd55-444b-8d17-28d0dfaffb7a</testCaseGuid>
+</TestCaseEntity>

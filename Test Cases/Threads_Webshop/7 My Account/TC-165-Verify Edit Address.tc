@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-165-Verify Edit Address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e59c867e-7f6f-46da-93d0-b64f9bc312a5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-3,66-Verify Seach Bar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6058e1f8-2a50-4657-97fd-267019d46f4c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c5c7f15c-f9e6-40bd-a10f-d89a72108eb5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a97d9ace-260c-40c0-be04-ef69b48a4155</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cad12ccc-742a-4977-b5fb-eb743147b739</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>844169c2-42e0-43bd-9101-80883a77a538</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b4bb96d-7282-4f60-8293-56134799a1a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description></description>
+      <id>c5c7f15c-f9e6-40bd-a10f-d89a72108eb5</id>
+      <masked>false</masked>
+      <name>home_page</name>
+   </variable>
+   <variable>
+      <defaultValue>'Search results'</defaultValue>
+      <description></description>
+      <id>a97d9ace-260c-40c0-be04-ef69b48a4155</id>
+      <masked>false</masked>
+      <name>search_result</name>
+   </variable>
+   <variable>
+      <defaultValue>'No results found for'</defaultValue>
+      <description></description>
+      <id>cad12ccc-742a-4977-b5fb-eb743147b739</id>
+      <masked>false</masked>
+      <name>no_result</name>
+   </variable>
+   <variable>
+      <defaultValue>'Shoe'</defaultValue>
+      <description></description>
+      <id>844169c2-42e0-43bd-9101-80883a77a538</id>
+      <masked>false</masked>
+      <name>search_item</name>
+   </variable>
+   <variable>
+      <defaultValue>'Verify invalid search'</defaultValue>
+      <description></description>
+      <id>6b4bb96d-7282-4f60-8293-56134799a1a3</id>
+      <masked>false</masked>
+      <name>invalid_search</name>
+   </variable>
+</TestCaseEntity>

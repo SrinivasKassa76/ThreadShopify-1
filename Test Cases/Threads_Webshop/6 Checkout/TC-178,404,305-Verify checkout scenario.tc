@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-178,404,305-Verify checkout scenario</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a832f53e-1144-4abe-bf88-fb8d13a627d3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62154826-dbc1-48bb-899e-ea78a403cde7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01338883-4f61-4f2d-9028-714ec82029e8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'bobchen@mailinator.com'</defaultValue>
+      <description></description>
+      <id>62154826-dbc1-48bb-899e-ea78a403cde7</id>
+      <masked>false</masked>
+      <name>validemail</name>
+   </variable>
+   <variable>
+      <defaultValue>'UDMlkmqWREzH+mr49N5wRw=='</defaultValue>
+      <description></description>
+      <id>01338883-4f61-4f2d-9028-714ec82029e8</id>
+      <masked>false</masked>
+      <name>validpass</name>
+   </variable>
+</TestCaseEntity>
