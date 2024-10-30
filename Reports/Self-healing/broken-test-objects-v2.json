@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[3]/div/div/div/strong[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TOTAL SAVINGS\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00_neighbor.png"
+    }
+  ]
 }

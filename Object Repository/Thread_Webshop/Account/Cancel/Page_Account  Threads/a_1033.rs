@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_1033</name>
+   <tag></tag>
+   <elementGuidId>2f99952a-bd34-4513-a692-2d2220c112e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#RowOrder > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[@id='RowOrder']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Order number #1033&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0c5d417c-3506-40cc-a271-9f742a2210e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://threads0.myshopify.com/account/orders/e91752105e79a97031b529f96dc95c5a</value>
+      <webElementGuid>ccf46d4f-51a3-4b35-b2c5-e37c1474df71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Order number #1033</value>
+      <webElementGuid>d6d501d9-9542-4e47-a00b-c64dc67ca117</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                      #1033
+                    </value>
+      <webElementGuid>5c92eeac-5cf3-4928-89b0-337fdfd7b007</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopify-section-template--18610481135839__main&quot;)/div[@class=&quot;customer account section-template--18610481135839__main-padding&quot;]/div[2]/div[1]/table[@class=&quot;order-history&quot;]/tbody[1]/tr[1]/td[@id=&quot;RowOrder&quot;]/a[1]</value>
+      <webElementGuid>8b397638-72ed-4e4a-8c72-8b8dc09ae7d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='RowOrder']/a</value>
+      <webElementGuid>642b9055-2a84-40ff-bf37-de80977aeec6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'#1033')]</value>
+      <webElementGuid>0f074017-57e9-4081-ac47-0b6ec1744821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::a[1]</value>
+      <webElementGuid>97a317f9-105c-46e9-999f-3e138d0e3cec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fulfillment status'])[1]/following::a[1]</value>
+      <webElementGuid>98b8778e-8feb-4d0c-a20c-c4d568264836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='October 29, 2024'])[1]/preceding::a[1]</value>
+      <webElementGuid>c419d83f-33a0-4b1b-880d-79778058eaa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paid'])[1]/preceding::a[1]</value>
+      <webElementGuid>f7babbe1-925a-4fcb-99ea-9a6ddf5e17dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='#1033']/parent::*</value>
+      <webElementGuid>8d2743f0-3a25-4965-b491-09c8d9dc7630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://threads0.myshopify.com/account/orders/e91752105e79a97031b529f96dc95c5a')]</value>
+      <webElementGuid>ed37981b-8542-4e73-98f4-351854803800</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>17c8b8a0-7edc-442b-9b23-be2197c82aaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://threads0.myshopify.com/account/orders/e91752105e79a97031b529f96dc95c5a' and (text() = '
+                      #1033
+                    ' or . = '
+                      #1033
+                    ')]</value>
+      <webElementGuid>152c954a-f7de-49ef-8adb-ae1d3114b913</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

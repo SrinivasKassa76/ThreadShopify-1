@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Search_svg-wrapper</name>
+   <tag></tag>
+   <elementGuidId>07bc2581-9d8c-4d7b-bfba-928af3559486</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.header__icon.header__icon--account.link.focus-inset.small-hide > account-icon > span.svg-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-sections--18610481725663__header']/sticky-header/header/div/a/account-icon/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Log in&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5f1c00e6-f217-4c78-b13e-e6dd4f496315</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>svg-wrapper</value>
+      <webElementGuid>76a41169-c473-4f10-8f5c-cefe70653aa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopify-section-sections--18610481725663__header&quot;)/sticky-header[@class=&quot;header-wrapper color-scheme-1 gradient header-wrapper--border-bottom&quot;]/header[@class=&quot;header header--middle-left header--mobile-center page-width header--has-menu header--has-social header--has-account&quot;]/div[@class=&quot;header__icons header__icons--localization header-localization&quot;]/a[@class=&quot;header__icon header__icon--account link focus-inset small-hide&quot;]/account-icon[1]/span[@class=&quot;svg-wrapper&quot;]</value>
+      <webElementGuid>1408bf11-8a42-468e-b599-6c44f8357d58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shopify-section-sections--18610481725663__header']/sticky-header/header/div/a/account-icon/span</value>
+      <webElementGuid>bfb8e5d5-46f3-40fc-a1d8-b07f722d3260</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[5]</value>
+      <webElementGuid>ae534d3c-32cc-4c8b-a1ca-d30ed7fd3403</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[2]/following::span[8]</value>
+      <webElementGuid>d1f2cb8d-c1fd-4971-953c-6f8e04278067</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/preceding::span[1]</value>
+      <webElementGuid>5ad8b4cf-2f8b-4421-9eb4-34ab1f81fdeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/preceding::span[4]</value>
+      <webElementGuid>fcec453a-e3ab-4836-9f68-6d116d9fd446</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/a/account-icon/span</value>
+      <webElementGuid>87f748c5-7b90-42b9-ad64-cd6cc597d437</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
