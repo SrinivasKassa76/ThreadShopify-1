@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Buy it now</name>
+   <tag></tag>
+   <elementGuidId>f146c569-a201-4ab4-83e1-84c3e20bdd05</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[11]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.shopify-payment-button__button.shopify-payment-button__button--unbranded</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Buy it now&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>26a21ad6-1cf8-4321-971e-c6ddf6efed31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>54db71c2-7173-45a5-ac2b-cbaaf76610d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>shopify-payment-button__button shopify-payment-button__button--unbranded</value>
+      <webElementGuid>37562b80-455e-4bee-b642-04be617561c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buy it now</value>
+      <webElementGuid>862d3152-8f2f-4ead-b8db-c1b6a8bc987a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-form-template--18610481004767__main&quot;)/div[@class=&quot;product-form__buttons&quot;]/div[@class=&quot;shopify-payment-button&quot;]/shopify-accelerated-checkout[1]/shopify-buy-it-now-button[1]/button[@class=&quot;shopify-payment-button__button shopify-payment-button__button--unbranded&quot;]</value>
+      <webElementGuid>2a996ac3-7921-4d25-9ff4-899a7130c24c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>e7e2e7e1-72fb-470f-807c-32a7d6a11547</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-form-template--18610481004767__main']/div/div[2]/shopify-accelerated-checkout/shopify-buy-it-now-button/button</value>
+      <webElementGuid>9acd36b0-81d1-47cc-aa6e-b240d67fbed5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/following::button[1]</value>
+      <webElementGuid>7b374e6e-32d6-4a98-a7f4-876e27dcf8af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Increase quantity for ADIDAS | CLASSIC BACKPACK'])[1]/following::button[2]</value>
+      <webElementGuid>d0be710e-405b-459b-ae4a-f769ed21e4da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cancellation policy'])[1]/preceding::button[1]</value>
+      <webElementGuid>0852cad8-3e33-4f16-97b0-73702250aeff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add To Wishlist'])[1]/preceding::button[1]</value>
+      <webElementGuid>65946ba9-90f8-453a-97c4-35a4b30c3cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Buy it now']/parent::*</value>
+      <webElementGuid>6677498b-dfc8-4263-b424-6f8763580e68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//shopify-buy-it-now-button/button</value>
+      <webElementGuid>3c76c966-9787-4436-a031-92e96234a84d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Buy it now' or . = 'Buy it now')]</value>
+      <webElementGuid>a2e3b1a6-539a-4a09-84de-4a6ebe61ec01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

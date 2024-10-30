@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_NIKE  TODDLER ROSHE ONE</name>
+   <tag></tag>
+   <elementGuidId>49112185-247b-4034-b56a-d523f9a864e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink--8834481848543</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink--8834481848543']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;NIKE | TODDLER ROSHE ONE&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7e965a6c-f5a5-4724-813c-1b3a84979c1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/nike-toddler-roshe-one?_pos=4&amp;_sid=f85a24b0a&amp;_ss=r</value>
+      <webElementGuid>71d14919-3113-474c-8754-9f11eea1f654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink--8834481848543</value>
+      <webElementGuid>65aaeab4-59bc-4394-a31f-b6d4173a2013</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>ad9b41d1-e319-4611-8018-2b37200956c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink--8834481848543 Badge--8834481848543</value>
+      <webElementGuid>09ce0eb2-a509-44d5-b672-bebbbeff330d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              NIKE | TODDLER ROSHE ONE
+            </value>
+      <webElementGuid>d700cc18-f317-43c3-b3b0-78bb8b34cadb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink--8834481848543&quot;)</value>
+      <webElementGuid>3c8af5a6-428e-4b17-8c5e-bc744b07575d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink--8834481848543']</value>
+      <webElementGuid>ffeedef2-47e7-449c-9c15-cc5b611aed2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title--8834481848543']/a</value>
+      <webElementGuid>8665e8d2-fb80-45be-ac3b-72a0f5978334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'NIKE | TODDLER ROSHE ONE')])[2]</value>
+      <webElementGuid>9e7d271d-9520-4df9-952c-114f7758cc96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIKE | TODDLER ROSHE ONE'])[1]/following::a[1]</value>
+      <webElementGuid>be3c7c9d-3349-4b48-b92c-bc08e5c4b760</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[2]/following::a[2]</value>
+      <webElementGuid>0f100264-4e63-4a32-9591-073d85567695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[7]/preceding::a[1]</value>
+      <webElementGuid>c08b5140-918f-4ebf-8fb0-047c2a3105c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 70.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>bfda387f-56de-494a-96f5-fe564bad7a63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/nike-toddler-roshe-one?_pos=4&amp;_sid=f85a24b0a&amp;_ss=r')])[2]</value>
+      <webElementGuid>a9f10f81-a754-479e-ae23-f1ca0661f246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>fab37cbe-8591-4a10-9236-c65a0feb9839</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/nike-toddler-roshe-one?_pos=4&amp;_sid=f85a24b0a&amp;_ss=r' and @id = 'CardLink--8834481848543' and (text() = '
+              NIKE | TODDLER ROSHE ONE
+            ' or . = '
+              NIKE | TODDLER ROSHE ONE
+            ')]</value>
+      <webElementGuid>e4a30f3b-574e-4f8c-bcd7-098feeedc580</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

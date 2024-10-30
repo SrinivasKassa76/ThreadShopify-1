@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_10.08</name>
+   <tag></tag>
+   <elementGuidId>e906ebee-c345-4572-a566-38c3048d6b36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[3]/div[2]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._5uqybw2._5uqybw1._1fragem28._1fragemkp._1fragem3m._1fragem5f._1fragemma._1fragemmf._1fragem78 > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;₹10.08&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d0c7e51d-7732-4d6a-893b-74efcc4e14fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu</value>
+      <webElementGuid>57b91f43-8c87-415a-952b-568ad460b652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>₹10.08</value>
+      <webElementGuid>8e04d810-316c-44f7-bcff-da68340e0ea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/div[@class=&quot;Sxi8I&quot;]/div[@class=&quot;i4DWM _1fragemna _1fragemn7 _1fragemsy&quot;]/div[@class=&quot;_4QenE&quot;]/aside[1]/div[1]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem46 _1fragem5z _1fragem2s&quot;]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[2]/div[@class=&quot;nfgb6p1 nfgb6p0 _1fragem2s nfgb6p3&quot;]/div[@class=&quot;_1qy6ue60 _1qy6ue68 _1qy6ue61 _1qy6ue66 _1qy6ue64 _1fragem3h _1fragem5a _1fragem2s&quot;]/div[@class=&quot;_1qy6ue6b&quot;]/div[@class=&quot;_5uqybw0 _1fragemlj _1fragem28 _1fragem78&quot;]/div[@class=&quot;_5uqybw2 _5uqybw1 _1fragem28 _1fragemkp _1fragem3m _1fragem5f _1fragemma _1fragemmf _1fragem78&quot;]/span[@class=&quot;_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu&quot;]</value>
+      <webElementGuid>1c727f60-11bc-4ddf-8a85-8ed29a96ef23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[3]/div[2]/div/div/span</value>
+      <webElementGuid>1aa00da5-d961-47c5-8cef-5333e9f98884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated taxes'])[1]/following::span[3]</value>
+      <webElementGuid>18c753d0-528a-4e63-8bb4-ca6972d5c69e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹10.00'])[3]/following::span[4]</value>
+      <webElementGuid>156350d6-784d-4f6d-bd7f-8449fe4ae12f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::span[1]</value>
+      <webElementGuid>6858e3bb-d8e5-4cc5-b702-d29acd575348</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INR'])[1]/preceding::span[2]</value>
+      <webElementGuid>4281593e-7c06-4839-9159-1d0b70c31e5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='₹10.08']/parent::*</value>
+      <webElementGuid>a2fa4420-bb7f-400b-b27b-8e52331fa4f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/span</value>
+      <webElementGuid>125d2731-cf4f-4f2a-95b9-f9bb3fd3bf8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '₹10.08' or . = '₹10.08')]</value>
+      <webElementGuid>b8b22267-3697-4681-bdc4-f24980503434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹10.00'])[2]/following::span[4]</value>
+      <webElementGuid>90555ad9-04d1-4f4b-9df5-3f66730c3f05</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

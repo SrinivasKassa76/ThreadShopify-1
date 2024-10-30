@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Home</name>
+   <tag></tag>
+   <elementGuidId>1d82c045-1b76-4c10-a514-22af6216500f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#HeaderMenu-home > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='HeaderMenu-home']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Home&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>860ababf-a26e-4da6-9b89-26926b380f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Home</value>
+      <webElementGuid>8ea5b77d-90bc-4fc1-a558-97904dfaf71a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;HeaderMenu-home&quot;)/span[1]</value>
+      <webElementGuid>ba5c3281-7d51-4e66-a2e9-6e17db173c21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='HeaderMenu-home']/span</value>
+      <webElementGuid>7986d31c-3a8a-4c6d-9d46-e257d7d55d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::span[1]</value>
+      <webElementGuid>4ead72de-dd8a-4207-865c-5c24a4cf42a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instagram'])[1]/following::span[3]</value>
+      <webElementGuid>b9f72127-fe23-48f6-8e9a-17d20862597c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog'])[2]/preceding::span[1]</value>
+      <webElementGuid>e91fbd6a-1d93-4589-98d5-f6c0acf5dc10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[2]/preceding::span[2]</value>
+      <webElementGuid>bec5d2e8-ce6c-4869-9761-ebde1fb6ebc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/ul/li/a/span</value>
+      <webElementGuid>4c205a78-1c1d-490b-bcca-d5d58e244609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>c2627d91-2bc1-45c2-bdb5-85b596635d71</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

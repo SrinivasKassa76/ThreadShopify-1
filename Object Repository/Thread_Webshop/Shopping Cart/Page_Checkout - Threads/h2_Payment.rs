@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Payment</name>
+   <tag></tag>
+   <elementGuidId>709cb0c4-b2fe-4889-8219-600fd2b2011b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='Form1']/div/section/div/div/div/div/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._1fragem1y._1fragemlj > div._1ip0g651._1ip0g650._1fragemlj._1fragem3w._1fragem5p._1fragem2s > div._1ip0g651._1ip0g650._1fragemlj._1fragem3c._1fragem55._1fragem2s > h2.n8k95w1.n8k95w0._1fragemlj.n8k95w2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Payment&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>d9f2195a-c911-42a0-b9a5-7a4ac989d56d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n8k95w1 n8k95w0 _1fragemlj n8k95w2</value>
+      <webElementGuid>a02055fa-9589-48e0-b743-01bf2eb6c13b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Payment</value>
+      <webElementGuid>5efd9be4-758b-4c21-a7c4-c132834cba21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Form1&quot;)/div[@class=&quot;km09ry1 _1fragemlj&quot;]/section[@class=&quot;_197l2ofi _197l2ofg _1fragemna _197l2ofp _197l2ofk _1fragemn6 _1fragemsy _1fragem1y _1fragemf0 _1fragemg0 _1fragemh3 _1fragemht _1fragemd7 _1frageme7 _1fragemiw _1fragemjm _1fragemlj&quot;]/div[1]/div[1]/div[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem3w _1fragem5p _1fragem2s&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem3c _1fragem55 _1fragem2s&quot;]/h2[@class=&quot;n8k95w1 n8k95w0 _1fragemlj n8k95w2&quot;]</value>
+      <webElementGuid>03a7497d-d16d-45cc-a09f-7aeb59dfca4d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='Form1']/div/section/div/div/div/div/div/h2</value>
+      <webElementGuid>c98e2b13-6fa7-4f61-9278-c1c654a5f204</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹25.00'])[1]/following::h2[1]</value>
+      <webElementGuid>c2213cc1-01c6-4427-9490-8cb934741b4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹10.00'])[1]/following::h2[1]</value>
+      <webElementGuid>791250d7-5356-4290-bd1e-13555651f83f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit card'])[1]/preceding::h2[1]</value>
+      <webElementGuid>e2feb60d-0528-411e-a16d-0ed1c611b4fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card number'])[1]/preceding::h2[2]</value>
+      <webElementGuid>33b1b940-1ad3-4d41-a74f-ba393b188d4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Payment']/parent::*</value>
+      <webElementGuid>ddd1ed2a-ec2e-4203-808f-603ec20ce752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/section/div/div/div/div/div/h2</value>
+      <webElementGuid>6fe0fcc1-b665-4d75-9667-032a76181335</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Payment' or . = 'Payment')]</value>
+      <webElementGuid>9b14d282-d60f-45a8-bae6-aea21aa5c4f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

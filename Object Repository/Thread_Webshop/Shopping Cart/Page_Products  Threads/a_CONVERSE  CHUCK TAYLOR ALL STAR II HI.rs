@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_CONVERSE  CHUCK TAYLOR ALL STAR II HI</name>
+   <tag></tag>
+   <elementGuidId>73cd421c-09ea-4310-a36c-2debe9462f71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--18610480578783__product-grid-8834481717471']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--18610480578783__product-grid-8834481717471</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;CONVERSE | CHUCK TAYLOR ALL STAR II HI&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>34e8d374-3a2e-4110-afc8-39ff01baf124</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/converse-chuck-taylor-all-star-ii-hi</value>
+      <webElementGuid>c81d59e5-971a-4706-826f-7b47e30db28c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480578783__product-grid-8834481717471</value>
+      <webElementGuid>224d980c-6a62-4f09-a6df-e3136bad6f83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>dcc4cace-7e5c-49ad-b2d3-bb869c35ab3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480578783__product-grid-8834481717471 Badge-template--18610480578783__product-grid-8834481717471</value>
+      <webElementGuid>ad3e8ad1-3a20-4985-908e-2ca53b2f3404</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              CONVERSE | CHUCK TAYLOR ALL STAR II HI
+            </value>
+      <webElementGuid>9c6daaf4-10ee-4bd4-9627-ea6facdd8377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--18610480578783__product-grid-8834481717471&quot;)</value>
+      <webElementGuid>346d257e-7b26-45aa-b503-8f21f707908e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--18610480578783__product-grid-8834481717471']</value>
+      <webElementGuid>01739a87-d8b5-4169-b765-397bc7e8dd97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--18610480578783__product-grid-8834481717471']/a</value>
+      <webElementGuid>2b447aa9-bdd7-43cc-a0bc-90c9c4a25445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'CONVERSE | CHUCK TAYLOR ALL STAR II HI')])[2]</value>
+      <webElementGuid>fd3d3ad5-9971-4bda-acf9-d70282ad864b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONVERSE | CHUCK TAYLOR ALL STAR II HI'])[1]/following::a[1]</value>
+      <webElementGuid>c3fea20e-1cd5-4d2e-be4f-05b8c7bc4e76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[11]/preceding::a[1]</value>
+      <webElementGuid>60c8926c-302b-4f68-9a84-3500fd47ae83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 140.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>5dc03352-9003-4476-8a75-d47af8631a39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/converse-chuck-taylor-all-star-ii-hi')])[2]</value>
+      <webElementGuid>1d721801-bd79-485d-8fea-16e15fa3a67f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>e4c50d9b-c5d9-4729-ac83-025307a2eac9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/converse-chuck-taylor-all-star-ii-hi' and @id = 'CardLink-template--18610480578783__product-grid-8834481717471' and (text() = '
+              CONVERSE | CHUCK TAYLOR ALL STAR II HI
+            ' or . = '
+              CONVERSE | CHUCK TAYLOR ALL STAR II HI
+            ')]</value>
+      <webElementGuid>4abc1607-c70b-4b58-92ae-c0f2c4ff071b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

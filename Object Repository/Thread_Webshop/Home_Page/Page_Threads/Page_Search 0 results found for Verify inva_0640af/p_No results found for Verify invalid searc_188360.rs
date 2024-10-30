@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_No results found for Verify invalid searc_188360</name>
+   <tag></tag>
+   <elementGuidId>44233b96-45b5-4044-8a58-6d349a8a152b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='shopify-section-template--18610481070303__main']/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;No results found for “Verify invalid search”. Check the spelling or use a differ&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4e632ad8-2189-46a0-abe8-9c00a7c65e98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>status</value>
+      <webElementGuid>f09ca736-31e7-4b30-ae25-2db036115f13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No results found for “Verify invalid search”. Check the spelling or use a different word or phrase.</value>
+      <webElementGuid>8be2146d-b2d6-4e0e-a549-54c9962c0363</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopify-section-template--18610481070303__main&quot;)/div[@class=&quot;template-search template-search--empty section-template--18610481070303__main-padding&quot;]/div[@class=&quot;template-search__header page-width scroll-trigger animate--fade-in&quot;]/p[1]</value>
+      <webElementGuid>0f7719c4-becf-48cc-9fe3-9aac8689ab6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='shopify-section-template--18610481070303__main']/div/div/p</value>
+      <webElementGuid>ae4d818b-a025-4d47-927e-6720db497d9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::p[1]</value>
+      <webElementGuid>76a54bae-9cfa-4cbc-b347-1da74d3b316e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search results'])[1]/following::p[1]</value>
+      <webElementGuid>0d93144e-aae0-4b89-90e9-ead766bf93d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get exclusive offers'])[1]/preceding::p[1]</value>
+      <webElementGuid>4819fc3c-e6c8-402e-a7eb-3e1cedd841b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::p[1]</value>
+      <webElementGuid>5bef0421-d013-4d52-8183-52bd3d817475</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No results found for “Verify invalid search”. Check the spelling or use a different word or phrase.']/parent::*</value>
+      <webElementGuid>3f13cd00-e890-43bf-8530-07edf7f3ae66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>d8f31426-c1e9-4e99-a167-02ef6f561ed3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'No results found for “Verify invalid search”. Check the spelling or use a different word or phrase.' or . = 'No results found for “Verify invalid search”. Check the spelling or use a different word or phrase.')]</value>
+      <webElementGuid>c38dd285-6746-4587-be08-596c1ca6d579</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

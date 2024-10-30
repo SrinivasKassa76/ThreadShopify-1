@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ADIDAS  CLASSIC BACKPACK  LEGEND INK MULTICOLOUR</name>
+   <tag></tag>
+   <elementGuidId>a3dbab03-7383-49e0-956f-e731a657a12c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--18610480611551__featured_collection-8834482077919</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--18610480611551__featured_collection-8834482077919']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR Sale&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dc045700-d482-4253-8872-1b3649125071</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/adidas-classic-backpack-legend-ink-multicolour</value>
+      <webElementGuid>f5ed7179-f798-494d-8de8-69fbe4e430eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480611551__featured_collection-8834482077919</value>
+      <webElementGuid>857ce692-7974-400e-960b-f436999bf1e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>95414bc6-58bc-4511-b019-8ff268ccff62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480611551__featured_collection-8834482077919 Badge-template--18610480611551__featured_collection-8834482077919</value>
+      <webElementGuid>9606efab-4c9a-45d7-a126-c7dd743cee2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR
+            </value>
+      <webElementGuid>31f052a9-697b-427a-84a4-3a5caf70057c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--18610480611551__featured_collection-8834482077919&quot;)</value>
+      <webElementGuid>8990a927-ed53-44a5-be95-e7dacbd0b604</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--18610480611551__featured_collection-8834482077919']</value>
+      <webElementGuid>01df5f13-cbd3-478b-a2f6-a941bd53de70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--18610480611551__featured_collection-8834482077919']/a</value>
+      <webElementGuid>586102e4-e6ee-40f5-94df-b2da558467db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR')])[2]</value>
+      <webElementGuid>beb31170-a338-471c-9ef0-61c16c2abce6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[3]/following::a[1]</value>
+      <webElementGuid>de8a0295-262f-478b-afc0-062a4f98af45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR'])[1]/following::a[1]</value>
+      <webElementGuid>59d66ce1-9e36-4513-a5c8-086ed55ea398</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[3]/preceding::a[1]</value>
+      <webElementGuid>2d7f1c6c-3fdb-4130-af78-d8bd9da85bc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 40.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>248f7ad4-c674-4358-bc77-ff445e62f887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/adidas-classic-backpack-legend-ink-multicolour')])[2]</value>
+      <webElementGuid>fb079402-7e3f-4fb0-af86-670f80e34a5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>a2417e1e-8a41-4c5b-afa5-3bc4ba745138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/adidas-classic-backpack-legend-ink-multicolour' and @id = 'CardLink-template--18610480611551__featured_collection-8834482077919' and (text() = '
+              ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR
+            ' or . = '
+              ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR
+            ')]</value>
+      <webElementGuid>7a98c1fe-c06f-42ba-8494-d54ade0b1762</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

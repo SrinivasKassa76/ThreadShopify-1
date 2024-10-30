@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Bob Chen, Pursuit Software, abc apar_ab85f8</name>
+   <tag></tag>
+   <elementGuidId>6069abf8-fa40-4933-bacd-d1264e8e2a1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button._1m2hr9ge._1m2hr9gd._1fragemsq._1fragemlj._1fragemnk._1fragem2i._1fragems4._1fragemsg._1fragemsl._1fragemsa._1m2hr9g18._1m2hr9g15._1fragemsg._1fragemsl._1fragemry._1m2hr9g1c._1m2hr9g1a._1fragems6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;More actions for this address&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>06803ab4-e35f-4a85-b2a2-96a72f8fd84c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>15f8c98d-4a7d-4363-8e23-9db07b310828</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>More actions for this address</value>
+      <webElementGuid>c463cce9-1ead-412e-b692-3e726b50e346</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1m2hr9ge _1m2hr9gd _1fragemsq _1fragemlj _1fragemnk _1fragem2i _1fragems4 _1fragemsg _1fragemsl _1fragemsa _1m2hr9g18 _1m2hr9g15 _1fragemsg _1fragemsl _1fragemry _1m2hr9g1c _1m2hr9g1a _1fragems6</value>
+      <webElementGuid>b89491bc-40af-4a98-8a4b-d854a5051ff5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cf4bbb11-b4be-4098-bb03-4aae2d6ceeda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>Overlay4</value>
+      <webElementGuid>5f922888-1fe0-430c-bba4-c2e1f5531844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shippingAddress&quot;)/div[@class=&quot;yyi4nye yyi4nyf yyi4nyh&quot;]/div[@class=&quot;_1mrl40q0 _1fragemlj _1fragem4v _1fragem6o _1fragemma _1fragemmf _1fragem2s _1fragemly _16s97g7f _16s97g7p _16s97g71j _16s97g71t&quot;]/div[@class=&quot;yyi4nyj yyi4nym yyi4nyn yyi4nys yyi4nyr yyi4nyp _1fragemnb _1fragemsy&quot;]/div[@class=&quot;yyi4nyy yyi4nyx _1fragemlj _1fragem2s _1fragem5k yyi4ny11 _1fragemnk yyi4ny12 yyi4ny15 yyi4ny13 yyi4ny14 _1fragemnc _1fragemsy yyi4ny1j&quot;]/div[1]/h2[@class=&quot;yyi4ny1a&quot;]/div[@class=&quot;_1fragem1y _1fragemlj Is9PW&quot;]/button[@class=&quot;_1m2hr9ge _1m2hr9gd _1fragemsq _1fragemlj _1fragemnk _1fragem2i _1fragems4 _1fragemsg _1fragemsl _1fragemsa _1m2hr9g18 _1m2hr9g15 _1fragemsg _1fragemsl _1fragemry _1m2hr9g1c _1m2hr9g1a _1fragems6&quot;]</value>
+      <webElementGuid>8518cb6c-1524-489d-a9b4-f59cd6d9a356</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>fb073fd1-695c-44a1-b504-03c36b64cb4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shippingAddress']/div/div/div/div/div/h2/div/button</value>
+      <webElementGuid>5298a221-85e9-4821-aee8-78e15e5ee7b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bob Chen, Pursuit Software, abc apartment, xyz road, 700001 Kolkata WB, IN, 9999999999'])[1]/following::button[1]</value>
+      <webElementGuid>158adf4b-534f-496b-b525-a9865713eb87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ship to'])[1]/following::button[1]</value>
+      <webElementGuid>2abc5bce-ddf0-4f95-a449-36226a3996c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use a different address'])[1]/preceding::button[1]</value>
+      <webElementGuid>7f93040c-83b0-4ead-8d5c-353534a5744d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping method'])[1]/preceding::button[2]</value>
+      <webElementGuid>7611920b-d76b-497b-83a6-6c77342d038f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button</value>
+      <webElementGuid>f930f820-7e6d-4fc5-84c5-15e03da62668</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>1587fb1d-cd5d-4c45-aaba-4d1c766eb167</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

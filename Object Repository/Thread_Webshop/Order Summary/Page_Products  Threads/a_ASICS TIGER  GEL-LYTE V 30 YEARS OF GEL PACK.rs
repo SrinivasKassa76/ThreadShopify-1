@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK</name>
+   <tag></tag>
+   <elementGuidId>0131fe3c-1906-4b1f-b4d4-3ad4157e4418</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--18610480578783__product-grid-8834481160415</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--18610480578783__product-grid-8834481160415']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;ASICS TIGER | GEL-LYTE V '30 YEARS OF GEL' PACK&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5bf2c2af-22b6-4605-b71b-63ff60b1e3b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/asics-tiger-gel-lyte-v-30-years-of-gel-pack</value>
+      <webElementGuid>bec3da1d-15d1-4814-9ae7-fb23c7a0dd25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480578783__product-grid-8834481160415</value>
+      <webElementGuid>be1702ea-87a9-4d92-8a06-5b34d7d370b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>252a89fb-a5ed-44f5-a005-cd37c92b4c98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480578783__product-grid-8834481160415 Badge-template--18610480578783__product-grid-8834481160415</value>
+      <webElementGuid>b690cbf2-f509-4b58-9325-4a8eaf35bb72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              ASICS TIGER | GEL-LYTE V '30 YEARS OF GEL' PACK
+            </value>
+      <webElementGuid>69ca4df6-7084-461b-8a4c-9cc16a7f5196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--18610480578783__product-grid-8834481160415&quot;)</value>
+      <webElementGuid>eac0e59e-5792-4312-99fb-2d6e2f558611</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--18610480578783__product-grid-8834481160415']</value>
+      <webElementGuid>98c7f85a-87ac-477b-bf12-a6805de5d164</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--18610480578783__product-grid-8834481160415']/a</value>
+      <webElementGuid>607e7cbb-1c9b-4df8-a70d-2a5cebdb9318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[8]/following::a[2]</value>
+      <webElementGuid>af2bda03-844d-4b6a-bc98-de1e545ba462</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[9]/preceding::a[1]</value>
+      <webElementGuid>f47f0276-d57f-4366-9ea7-b345936f8e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 220.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>bd83d97a-3afd-492c-8612-86eb18468a55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/asics-tiger-gel-lyte-v-30-years-of-gel-pack')])[2]</value>
+      <webElementGuid>98dd1b91-6bb8-4cb4-ae4c-5cfa3b9309bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>13e9e1e4-a625-43a7-9ea1-0b2ec6a7f6d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/asics-tiger-gel-lyte-v-30-years-of-gel-pack' and @id = 'CardLink-template--18610480578783__product-grid-8834481160415' and (text() = concat(&quot;
+              ASICS TIGER | GEL-LYTE V &quot; , &quot;'&quot; , &quot;30 YEARS OF GEL&quot; , &quot;'&quot; , &quot; PACK
+            &quot;) or . = concat(&quot;
+              ASICS TIGER | GEL-LYTE V &quot; , &quot;'&quot; , &quot;30 YEARS OF GEL&quot; , &quot;'&quot; , &quot; PACK
+            &quot;))]</value>
+      <webElementGuid>f1443c0f-752d-49c9-8449-21c3b7c3b4bf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

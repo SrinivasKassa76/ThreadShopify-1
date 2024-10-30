@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_DR MARTENS  CAVENDISH 3-EYE SHOE BLACK</name>
+   <tag></tag>
+   <elementGuidId>ec895f3a-6ea1-4bdd-9db3-2070df5666f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink--8834481619167</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink--8834481619167']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;DR MARTENS | CAVENDISH 3-EYE SHOE BLACK&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a53b2ffc-66d9-4a7b-9c37-4bb54b8236f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/dr-martens-cavendish-3-eye-shoe-black?_pos=1&amp;_sid=f85a24b0a&amp;_ss=r</value>
+      <webElementGuid>52d765d6-ec62-4efe-91c7-c3816aae4a48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink--8834481619167</value>
+      <webElementGuid>07255d50-4b65-4ebc-acce-3a8fd4951cda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>db692d26-b096-4a4e-a1d1-c67df34f2e11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink--8834481619167 Badge--8834481619167</value>
+      <webElementGuid>9bac3148-468d-4d0c-9d2d-11785793ba77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              DR MARTENS | CAVENDISH 3-EYE SHOE BLACK
+            </value>
+      <webElementGuid>e2745009-d75f-4810-97b9-d5b0753b9485</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink--8834481619167&quot;)</value>
+      <webElementGuid>0d1ba92f-e0b3-4da8-b51f-6094bcb064bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink--8834481619167']</value>
+      <webElementGuid>91c852b8-1643-47b1-8f91-b00b00cc1d58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title--8834481619167']/a</value>
+      <webElementGuid>937a5934-bbda-4c94-9be4-d58b92de563f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'DR MARTENS | CAVENDISH 3-EYE SHOE BLACK')])[2]</value>
+      <webElementGuid>4e7c0eb2-72f7-440e-b149-6d5ce608529a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DR MARTENS | CAVENDISH 3-EYE SHOE BLACK'])[1]/following::a[1]</value>
+      <webElementGuid>7e68836c-1c54-484e-83fe-c5e683ade0dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove all'])[3]/following::a[2]</value>
+      <webElementGuid>515812ef-88a9-4d10-823d-5f9468bf50df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::a[1]</value>
+      <webElementGuid>1fd332d7-a3d4-457e-8186-48bb22ad589a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 229.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>99c57c26-f3bf-4fde-80c5-0df8ba349725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/dr-martens-cavendish-3-eye-shoe-black?_pos=1&amp;_sid=f85a24b0a&amp;_ss=r')])[2]</value>
+      <webElementGuid>f8434c29-c2a7-4cf6-8953-58885e47cbe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3/a</value>
+      <webElementGuid>140536b8-1393-4483-a246-2eba0eb7c8c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/dr-martens-cavendish-3-eye-shoe-black?_pos=1&amp;_sid=f85a24b0a&amp;_ss=r' and @id = 'CardLink--8834481619167' and (text() = '
+              DR MARTENS | CAVENDISH 3-EYE SHOE BLACK
+            ' or . = '
+              DR MARTENS | CAVENDISH 3-EYE SHOE BLACK
+            ')]</value>
+      <webElementGuid>868db61a-c812-4ea0-a583-82158822a723</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

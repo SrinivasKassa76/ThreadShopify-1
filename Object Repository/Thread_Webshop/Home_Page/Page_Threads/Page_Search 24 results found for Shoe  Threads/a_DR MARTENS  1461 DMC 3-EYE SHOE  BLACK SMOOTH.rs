@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_DR MARTENS  1461 DMC 3-EYE SHOE  BLACK SMOOTH</name>
+   <tag></tag>
+   <elementGuidId>28590ea1-5672-4022-9cdb-02edc01fdd11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink--8834481586399</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink--8834481586399']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;DR MARTENS | 1461 DMC 3-EYE SHOE | BLACK SMOOTH&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4b28f8db-6fbe-4502-98aa-3a10fa2b5de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/dr-martens-1461-dmc-3-eye-shoe-black-smooth?_pos=2&amp;_sid=f85a24b0a&amp;_ss=r</value>
+      <webElementGuid>cd76849b-8aff-4b90-9c00-e0687082bb33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink--8834481586399</value>
+      <webElementGuid>d7229ac3-4e52-470c-95c5-99902d695cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>70deab13-1e57-49b2-90b4-bd676237daff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink--8834481586399 Badge--8834481586399</value>
+      <webElementGuid>2451ad9c-b912-4046-bb9f-e129569a038c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              DR MARTENS | 1461 DMC 3-EYE SHOE | BLACK SMOOTH
+            </value>
+      <webElementGuid>f7a46f6f-5db1-4abd-83f0-622aeeda1ffa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink--8834481586399&quot;)</value>
+      <webElementGuid>4bf470e7-3d20-4abb-bae3-43d11bef2ef5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink--8834481586399']</value>
+      <webElementGuid>6417dda3-9b4d-4056-9074-2158cc351314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title--8834481586399']/a</value>
+      <webElementGuid>c45450c4-c169-4ee6-91d3-0e2695ad2456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'DR MARTENS | 1461 DMC 3-EYE SHOE | BLACK SMOOTH')])[2]</value>
+      <webElementGuid>ba5670a7-5617-408f-bb91-baa2bc3afbaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DR MARTENS | 1461 DMC 3-EYE SHOE | BLACK SMOOTH'])[1]/following::a[1]</value>
+      <webElementGuid>a5c8a05f-268c-4ded-a7a7-3db40658e6b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[3]/preceding::a[1]</value>
+      <webElementGuid>c2951205-a15d-452c-add1-704b3ceec0c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 229.00'])[3]/preceding::a[1]</value>
+      <webElementGuid>96203fbc-f87f-4aac-a822-40421ecc450f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/dr-martens-1461-dmc-3-eye-shoe-black-smooth?_pos=2&amp;_sid=f85a24b0a&amp;_ss=r')])[2]</value>
+      <webElementGuid>c13168c7-4a3c-4de5-8dae-159500abaacc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>5b1932d1-4b84-40e7-9d6e-0b438e2feda2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/dr-martens-1461-dmc-3-eye-shoe-black-smooth?_pos=2&amp;_sid=f85a24b0a&amp;_ss=r' and @id = 'CardLink--8834481586399' and (text() = '
+              DR MARTENS | 1461 DMC 3-EYE SHOE | BLACK SMOOTH
+            ' or . = '
+              DR MARTENS | 1461 DMC 3-EYE SHOE | BLACK SMOOTH
+            ')]</value>
+      <webElementGuid>0b198f49-285a-42ec-99e4-bbf6704ab410</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

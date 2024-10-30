@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Delivery</name>
+   <tag></tag>
+   <elementGuidId>3c182f61-5090-41a9-b7d2-fb05c91bc8d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div._1ip0g651._1ip0g650._1fragemlj._1fragem3c._1fragem55._1fragem2s > h2.n8k95w1.n8k95w0._1fragemlj.n8k95w2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='Form1']/div/div[3]/div/section/div/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Delivery&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>d1d9aeef-8d7d-4b19-bf9a-d51e8a23cf41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n8k95w1 n8k95w0 _1fragemlj n8k95w2</value>
+      <webElementGuid>734fe30c-bbaa-40b4-adc5-56bf5d238428</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delivery</value>
+      <webElementGuid>a42d3c72-2058-4f6d-9f44-cc7f8e9eab2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Form1&quot;)/div[@class=&quot;km09ry1 _1fragemlj&quot;]/div[3]/div[1]/section[@class=&quot;_197l2ofi _197l2ofg _1fragemna _197l2ofp _197l2ofk _1fragemn6 _1fragemsy _1fragem1y _1fragemf0 _1fragemg0 _1fragemh3 _1fragemht _1fragemd7 _1frageme7 _1fragemiw _1fragemjm _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem3w _1fragem5p _1fragem2s&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem3c _1fragem55 _1fragem2s&quot;]/h2[@class=&quot;n8k95w1 n8k95w0 _1fragemlj n8k95w2&quot;]</value>
+      <webElementGuid>fc3de9ad-630c-420a-8520-65a12affb804</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='Form1']/div/div[3]/div/section/div/div/h2</value>
+      <webElementGuid>969e2667-39fc-4cd0-8859-b0aa1dd5d36d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of service'])[1]/following::h2[1]</value>
+      <webElementGuid>7b50b2e7-34e9-4bfa-8b29-b03f95a85a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy policy'])[1]/following::h2[1]</value>
+      <webElementGuid>1aa88ea8-82b2-40dd-a1ad-c2dcc0c2311f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a delivery method'])[1]/preceding::h2[1]</value>
+      <webElementGuid>87c7f513-afde-4b54-be5f-135545c34270</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country/Region'])[1]/preceding::h2[1]</value>
+      <webElementGuid>dc0afc03-8981-4de3-ad2b-b070f031df9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delivery']/parent::*</value>
+      <webElementGuid>49c5881b-624c-4e9d-bc45-5953bc431c2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/h2</value>
+      <webElementGuid>6876ea80-4205-4b10-af21-3ecbae58ebbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Delivery' or . = 'Delivery')]</value>
+      <webElementGuid>16fd6504-b229-4d44-b5fc-e3ce40beb9c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
