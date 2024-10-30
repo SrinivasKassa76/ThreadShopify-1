@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_See details</name>
+   <tag></tag>
+   <elementGuidId>92d2bffd-b41e-4431-983b-3defee5c8dc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sls-description-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='product-form-template--18610481004767__main']/div/div/div[2]/div[3]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;See details&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7a8bced9-706c-4920-82a8-afc592ea9b66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sls-description-button</value>
+      <webElementGuid>be519a1f-3c7e-40c0-9a7d-b4e98533f2e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b095ad18-2586-4996-b819-e1ff7eaa60ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See details</value>
+      <webElementGuid>4cc8fd98-80e6-462b-aab5-b16bdaf3e376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-form-template--18610481004767__main&quot;)/div[@class=&quot;sealsubs-target-element sealsubs-full&quot;]/div[@class=&quot;sealsubs-container&quot;]/div[@class=&quot;sls-option-container seal-table sls-active&quot;]/div[@class=&quot;sls-description seal-row&quot;]/div[@class=&quot;sls-description-container seal-col&quot;]/div[@class=&quot;sls-description-button&quot;]</value>
+      <webElementGuid>4c8d71c1-70f5-4c8c-9b95-e8b4de48afc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-form-template--18610481004767__main']/div/div/div[2]/div[3]/div[2]/div</value>
+      <webElementGuid>96402855-3201-4680-b6ca-983daf99084b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You will get a 5% discount on every recurring order.'])[1]/following::div[4]</value>
+      <webElementGuid>6aede16a-f4a3-4c86-940c-893c2f5d2923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to cart'])[1]/preceding::div[11]</value>
+      <webElementGuid>6221126f-6eae-4da9-bfc9-1a1b2cf247d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See details']/parent::*</value>
+      <webElementGuid>bb4f19a8-4d39-4313-aae8-44cd1ebe2108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div</value>
+      <webElementGuid>3d0acefa-51cd-422b-8cfe-8191beb31a28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'See details' or . = 'See details')]</value>
+      <webElementGuid>c7ad816e-4672-4c56-9366-997131b70aec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
