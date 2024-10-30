@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mens Shirt</name>
+   <tag></tag>
+   <elementGuidId>68c27724-9945-4ca7-bea3-b1b0db702073</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink--8670368694440</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink--8670368694440']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Men's Shirt Sale&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>10878841-3da7-4da8-9c20-bef20a215d7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/mens-shirt?_pos=1&amp;_sid=936860c1e&amp;_ss=r</value>
+      <webElementGuid>aa0a1990-196d-4344-ab7a-f5af7f313494</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink--8670368694440</value>
+      <webElementGuid>813a3d62-3b9c-4e90-bf86-c2939ad2b938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>83868168-5f6a-4745-842b-28c4369ba036</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink--8670368694440 Badge--8670368694440</value>
+      <webElementGuid>5288451d-b29f-4efe-a26a-0f9347e8eed1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              Men's Shirt
+            </value>
+      <webElementGuid>2f54ef40-ecee-4f73-884a-fd5fec566b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink--8670368694440&quot;)</value>
+      <webElementGuid>36e84629-a5bc-49a5-a666-c4aa1ce3e667</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink--8670368694440']</value>
+      <webElementGuid>ab8675a1-8851-47cc-9f99-6cd5f0220d85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title--8670368694440']/a</value>
+      <webElementGuid>878de603-0689-4277-a5f3-de61fc589112</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[1]/following::a[1]</value>
+      <webElementGuid>c8dd605c-51f6-4433-a76e-02cb8e45226f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::a[1]</value>
+      <webElementGuid>08728276-84cd-4408-98fd-2c62d1ae3069</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 999.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>04451924-d7a5-473d-9644-917f15334780</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/mens-shirt?_pos=1&amp;_sid=936860c1e&amp;_ss=r')])[2]</value>
+      <webElementGuid>f2a0dc85-75ed-47ec-a4f9-2294c2d541db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3/a</value>
+      <webElementGuid>0c9587a3-c333-4b4b-a815-ccec59d46118</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/mens-shirt?_pos=1&amp;_sid=936860c1e&amp;_ss=r' and @id = 'CardLink--8670368694440' and (text() = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Shirt
+            &quot;) or . = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Shirt
+            &quot;))]</value>
+      <webElementGuid>79413365-2601-450a-8ed2-8050faa12c6b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

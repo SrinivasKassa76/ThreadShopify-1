@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mens Blazers</name>
+   <tag></tag>
+   <elementGuidId>b6ca27ad-5b3b-489b-be05-9a96f45df9c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--17877713813672__product-grid-8670417223848</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--17877713813672__product-grid-8670417223848']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Men's Blazers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9ce20479-564e-4a97-b17c-f27e4fc416b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/mens-blazers</value>
+      <webElementGuid>f45f875c-3852-4848-8d91-d0d2ac3bc0cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--17877713813672__product-grid-8670417223848</value>
+      <webElementGuid>ad546a28-8511-490d-bfea-1ab27691299a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>c96dd660-0969-486f-945a-89cfc4ce3241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--17877713813672__product-grid-8670417223848 Badge-template--17877713813672__product-grid-8670417223848</value>
+      <webElementGuid>e9ffd93d-13c7-4f89-94a5-10469691c26b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              Men's Blazers
+            </value>
+      <webElementGuid>0f17f20f-c9a7-4f85-ba67-f0040401ec1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--17877713813672__product-grid-8670417223848&quot;)</value>
+      <webElementGuid>bd0a16c2-e3d3-4bdd-b813-86491771831e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--17877713813672__product-grid-8670417223848']</value>
+      <webElementGuid>87f381d6-3abe-4a81-94d8-b69082c30199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--17877713813672__product-grid-8670417223848']/a</value>
+      <webElementGuid>f10233b8-488d-43ac-aade-bcfcaac518c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove all'])[3]/following::a[2]</value>
+      <webElementGuid>434096f0-0671-4125-9edf-06bd5becd8f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::a[1]</value>
+      <webElementGuid>03242dcf-0764-483c-af6f-cf135cbdba44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 2,099.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>58742779-a0e2-4ef4-8d8e-61193791ea1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/mens-blazers')])[2]</value>
+      <webElementGuid>81fe10d7-6d34-405c-b7b0-21c12ec09038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3/a</value>
+      <webElementGuid>7d50f739-6b7b-4079-8e6d-6fcbb51ddaa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/mens-blazers' and @id = 'CardLink-template--17877713813672__product-grid-8670417223848' and (text() = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Blazers
+            &quot;) or . = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Blazers
+            &quot;))]</value>
+      <webElementGuid>ca272523-36b9-434d-ae35-b54a1fc9de60</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

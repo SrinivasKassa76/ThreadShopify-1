@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>0fd9fc88-18a0-401c-b1d3-e622f875f289</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>svg.icon.icon-search > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#shopify-section-sections--17877714337960__header >> internal:role=button[name=&quot;Search&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>86f6092c-2f77-481a-b4a9-971ad0c1cbce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>b5082762-972b-41a7-a9f0-764d5f3d9d93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>1818635f-1f6e-4eb6-8ff3-b4ff67a60da4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.03 11.68A5.784 5.784 0 1 1 2.85 3.5a5.784 5.784 0 0 1 8.18 8.18m.26 1.12a6.78 6.78 0 1 1 .72-.7l5.4 5.4a.5.5 0 1 1-.71.7z</value>
+      <webElementGuid>501c489d-921f-4812-9982-22671266fad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>e440d160-0a78-45be-861d-bc7884aea5a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopify-section-sections--17877714337960__header&quot;)/sticky-header[@class=&quot;header-wrapper color-scheme-1 gradient header-wrapper--border-bottom&quot;]/header[@class=&quot;header header--middle-left header--mobile-center page-width header--has-menu header--has-social header--has-account&quot;]/div[@class=&quot;header__icons header__icons--localization header-localization&quot;]/details-modal[@class=&quot;header__search&quot;]/details[1]/summary[@class=&quot;header__icon header__icon--search header__icon--summary link focus-inset modal__toggle&quot;]/span[1]/span[@class=&quot;svg-wrapper&quot;]/svg[@class=&quot;icon icon-search&quot;]/path[1]</value>
+      <webElementGuid>503ce42f-fa08-4aaa-9848-00206aef2366</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ADIDAS  KIDS STAN SMITH</name>
+   <tag></tag>
+   <elementGuidId>f8460ac2-827c-4207-9e23-2d2f945cd926</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--18610480578783__product-grid-8834481881311</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--18610480578783__product-grid-8834481881311']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;ADIDAS | KID'S STAN SMITH Sale&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dfec3f6e-6eea-41ef-be20-6027e847da26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/adidas-kids-stan-smith</value>
+      <webElementGuid>ed0635f1-0e3e-4f47-a325-4c2f1a1e3b12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480578783__product-grid-8834481881311</value>
+      <webElementGuid>b13158b5-c4e7-4867-adc5-396d54f77473</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>1b6c4edb-3b75-42bb-ad4b-85bedc85978c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480578783__product-grid-8834481881311 Badge-template--18610480578783__product-grid-8834481881311</value>
+      <webElementGuid>cc26ac5a-ac0e-47b6-bf8e-378cd63c05f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              ADIDAS | KID'S STAN SMITH
+            </value>
+      <webElementGuid>3846f65e-2ff1-45a4-9fc0-175d9b6ec078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--18610480578783__product-grid-8834481881311&quot;)</value>
+      <webElementGuid>20d479f9-08bb-4f2b-8241-cb6c5e661c1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--18610480578783__product-grid-8834481881311']</value>
+      <webElementGuid>8be16687-7657-4495-bf92-fb06b969ee1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--18610480578783__product-grid-8834481881311']/a</value>
+      <webElementGuid>56cd2cf7-798b-42b5-ad06-57d0b681524a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[5]/following::a[1]</value>
+      <webElementGuid>3a3f8694-2bd6-4bd0-868a-a348fe6176d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[5]/preceding::a[1]</value>
+      <webElementGuid>d0a468d2-5c64-48cf-aeeb-5bd367ea805b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 72.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>fa565851-90ee-4545-9361-1f60783119e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/adidas-kids-stan-smith')])[2]</value>
+      <webElementGuid>b02fcbde-7fe8-4d9a-9321-f889b2195360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>5ab98b6c-4d67-47ce-8874-db2b8426b89e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/adidas-kids-stan-smith' and @id = 'CardLink-template--18610480578783__product-grid-8834481881311' and (text() = concat(&quot;
+              ADIDAS | KID&quot; , &quot;'&quot; , &quot;S STAN SMITH
+            &quot;) or . = concat(&quot;
+              ADIDAS | KID&quot; , &quot;'&quot; , &quot;S STAN SMITH
+            &quot;))]</value>
+      <webElementGuid>ec175e4a-d1dc-4845-a4f9-f8f1763f5737</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

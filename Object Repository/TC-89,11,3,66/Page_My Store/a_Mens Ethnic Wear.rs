@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mens Ethnic Wear</name>
+   <tag></tag>
+   <elementGuidId>915a4177-d7d0-49cb-961c-4efd50a7b87c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--17877713846440__featured_collection-8670404247720</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--17877713846440__featured_collection-8670404247720']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Men's Ethnic Wear Sale&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d7c6f8a2-9076-4cc8-ac6e-2b9579da4809</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/mens-ethnic-wear</value>
+      <webElementGuid>d10117ec-1882-4e1a-8335-4ad116061c22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--17877713846440__featured_collection-8670404247720</value>
+      <webElementGuid>89625918-ecc3-4e2f-bbe6-dfcb5aea62d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>569a1b38-6fa8-45eb-8a05-c2ea1df15b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--17877713846440__featured_collection-8670404247720 Badge-template--17877713846440__featured_collection-8670404247720</value>
+      <webElementGuid>042e665e-e950-4eb0-b3ef-685f1d8a741d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              Men's Ethnic Wear
+            </value>
+      <webElementGuid>372921c6-ee0d-474e-a7bd-e30904bb578a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--17877713846440__featured_collection-8670404247720&quot;)</value>
+      <webElementGuid>2a39f6bb-fa5b-4db2-b4fb-b9587ef43fb8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--17877713846440__featured_collection-8670404247720']</value>
+      <webElementGuid>b4632a0f-5842-4658-a53b-8a6451541aaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--17877713846440__featured_collection-8670404247720']/a</value>
+      <webElementGuid>b0bedd4c-deec-4774-82d6-29754a233f15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[1]/following::a[1]</value>
+      <webElementGuid>44eca66f-3470-4ff6-b80d-f6053614d04d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[3]/preceding::a[1]</value>
+      <webElementGuid>eab12120-1508-48b7-9c38-1275a5c446b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 1,599.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>f09f4bca-a9b2-49ac-8410-230dfb8494a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/mens-ethnic-wear')])[2]</value>
+      <webElementGuid>707fba73-8e66-4320-9bcd-e80a108b9946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>02b3a5f1-ef0f-413a-b914-73d983afc3b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/mens-ethnic-wear' and @id = 'CardLink-template--17877713846440__featured_collection-8670404247720' and (text() = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Ethnic Wear
+            &quot;) or . = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Ethnic Wear
+            &quot;))]</value>
+      <webElementGuid>e8b85d66-8d87-4df6-b10f-6aa505ca506b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

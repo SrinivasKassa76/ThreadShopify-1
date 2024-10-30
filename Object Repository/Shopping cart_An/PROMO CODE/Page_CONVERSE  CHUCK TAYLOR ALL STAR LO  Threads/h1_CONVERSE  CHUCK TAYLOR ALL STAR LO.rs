@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_CONVERSE  CHUCK TAYLOR ALL STAR LO</name>
+   <tag></tag>
+   <elementGuidId>f51ffe43-d638-4c4e-8b9f-faa24a5b143b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='ProductInfo-template--18610481004767__main']/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;CONVERSE | CHUCK TAYLOR ALL STAR LO&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>42ec22b4-ff3f-4ab0-bafd-a0b7c9b0538f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CONVERSE | CHUCK TAYLOR ALL STAR LO</value>
+      <webElementGuid>227ee51f-d057-4999-9477-4971c7d2dcbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ProductInfo-template--18610481004767__main&quot;)/div[@class=&quot;product__title&quot;]/h1[1]</value>
+      <webElementGuid>114d372a-8e0b-43af-834a-f29a0615974a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='ProductInfo-template--18610481004767__main']/div/h1</value>
+      <webElementGuid>f8000eac-cd7d-4907-9d51-cf083186e96b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Infinity'])[1]/following::h1[1]</value>
+      <webElementGuid>79e9c3ab-32cc-4b7a-8840-f005441e804a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of'])[1]/following::h1[1]</value>
+      <webElementGuid>716250c8-0f4e-4350-9308-82f34d035944</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONVERSE | CHUCK TAYLOR ALL STAR LO'])[2]/preceding::h1[1]</value>
+      <webElementGuid>f9387606-38a0-4eb1-837c-bfd1af3b5a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::h1[1]</value>
+      <webElementGuid>edc374a0-aa6e-4c34-a29a-d4bba78030da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CONVERSE | CHUCK TAYLOR ALL STAR LO']/parent::*</value>
+      <webElementGuid>74340559-0de3-4e3e-970a-7ac39ddb283b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>ffced9fd-81d8-43ec-b7f8-065412beb5cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'CONVERSE | CHUCK TAYLOR ALL STAR LO' or . = 'CONVERSE | CHUCK TAYLOR ALL STAR LO')]</value>
+      <webElementGuid>a252851e-3826-4ba7-a497-69e17a2f33e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ADIDAS  CLASSIC BACKPACK - OS  black ha_7c7ea2</name>
+   <tag></tag>
+   <elementGuidId>a5f07dd4-fa7f-418f-9062-b4e36b375bcb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.swym-details</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swym-component-container']/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Close Notification Powered by SWYM&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5049a6c5-b520-4c44-abd9-1fa2a6fd0ccc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swym-details</value>
+      <webElementGuid>4132eda0-fb09-4cc2-8a69-dde3ce97f389</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>37c59f6b-a0c1-40b0-b68e-f44642a71387</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADIDAS | CLASSIC BACKPACK - OS / black has been added to 1 list successfully.</value>
+      <webElementGuid>c92338e8-e693-494d-b985-142e19ae3e5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swym-component-container&quot;)/div[@class=&quot;swym-wishlist-notifications-container swym-ui-component swym-is-safari&quot;]/div[@class=&quot;swym-notifications-container swym-showing swymTopLeft&quot;]/div[@class=&quot;swym-notification-wishlist swym-clickable&quot;]/div[@class=&quot;swym-product-tile&quot;]/div[@class=&quot;swym-details-container&quot;]/div[@class=&quot;swym-details&quot;]</value>
+      <webElementGuid>e91749c0-d37f-40a5-b73a-ba0f34a27860</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='swym-component-container']/div/div/div/div/div/div</value>
+      <webElementGuid>504af45c-f9d1-421d-8bac-c66b1aef7d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Wishlist'])[1]/following::div[7]</value>
+      <webElementGuid>6b251325-5a2a-4f62-acce-4487cf97b122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opens in a new window.'])[1]/following::div[18]</value>
+      <webElementGuid>06333fa4-13a6-4cf8-84c7-994230eb3754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by SWYM'])[1]/preceding::div[1]</value>
+      <webElementGuid>33e7eb96-69a9-4e0e-b04e-22ddfb644486</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='has been added to']/parent::*</value>
+      <webElementGuid>b7a30980-90b6-4212-bf4f-6897027bdd71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>85053642-9c2f-4777-b941-58e12a79577a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ADIDAS | CLASSIC BACKPACK - OS / black has been added to 1 list successfully.' or . = 'ADIDAS | CLASSIC BACKPACK - OS / black has been added to 1 list successfully.')]</value>
+      <webElementGuid>e665802c-c10b-45b9-9b19-2b3fefade357</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_ADIDAS  SUPERSTAR 80S</name>
+   <tag></tag>
+   <elementGuidId>7f2b48fa-1fd0-4b36-b505-b3ae99ec70bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='ProductInfo-template--18610481004767__main']/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;ADIDAS | SUPERSTAR 80S&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>3daf7b87-f4d1-4407-8fe8-49e7e697b538</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADIDAS | SUPERSTAR 80S</value>
+      <webElementGuid>f468d391-355e-49ca-80e5-cf977aa4e781</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ProductInfo-template--18610481004767__main&quot;)/div[@class=&quot;product__title&quot;]/h1[1]</value>
+      <webElementGuid>09c25286-e450-45a1-b1e5-194edeb77595</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='ProductInfo-template--18610481004767__main']/div/h1</value>
+      <webElementGuid>cb9683e1-ff61-4a7f-ba4a-cb9c3c883f72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Infinity'])[1]/following::h1[1]</value>
+      <webElementGuid>526cf77f-a277-4cce-a7a3-f14bd072789e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of'])[1]/following::h1[1]</value>
+      <webElementGuid>05a3878c-3d43-424d-ae0f-9a4d279e6eb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADIDAS | SUPERSTAR 80S'])[2]/preceding::h1[1]</value>
+      <webElementGuid>81ab0776-6983-4fa2-8ad0-9ed045f7d843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::h1[1]</value>
+      <webElementGuid>1c01d125-1c4e-49bb-8741-04bca75572a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ADIDAS | SUPERSTAR 80S']/parent::*</value>
+      <webElementGuid>174f06b0-a569-4b38-8408-4cd27f7914cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>64f9156b-427c-4755-a5c4-2ad161330f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'ADIDAS | SUPERSTAR 80S' or . = 'ADIDAS | SUPERSTAR 80S')]</value>
+      <webElementGuid>49b7fc11-379e-4b7d-b9df-32f4a717539c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

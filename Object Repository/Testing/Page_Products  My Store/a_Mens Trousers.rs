@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mens Trousers</name>
+   <tag></tag>
+   <elementGuidId>08e3d949-386e-4ed1-89db-ed569b81002e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--17877713813672__product-grid-8670401724584']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--17877713813672__product-grid-8670401724584</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Men's Trousers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3183173a-6631-472b-8f27-c2a34cc40ae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/mens-trousers?_pos=2&amp;_fid=4526ca640&amp;_ss=c</value>
+      <webElementGuid>1035b46e-5f8c-4118-b1b0-9006dd17d883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--17877713813672__product-grid-8670401724584</value>
+      <webElementGuid>e5de2241-5db5-4511-896e-35ba1a8b02a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>acfd5355-4111-4f55-9303-860d649a698f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--17877713813672__product-grid-8670401724584 Badge-template--17877713813672__product-grid-8670401724584</value>
+      <webElementGuid>7293420a-450c-4b7d-a5da-4b7ad0235786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              Men's Trousers
+            </value>
+      <webElementGuid>05e016ea-3552-4491-bd98-a17f86515818</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--17877713813672__product-grid-8670401724584&quot;)</value>
+      <webElementGuid>5b46a99c-4f43-419e-8fcd-65473d6bf6d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--17877713813672__product-grid-8670401724584']</value>
+      <webElementGuid>b606cd62-d558-4ba0-a32c-23ffe1547746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--17877713813672__product-grid-8670401724584']/a</value>
+      <webElementGuid>cd6d1433-4cfa-42b4-9491-53165f910d3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[2]/following::a[2]</value>
+      <webElementGuid>ef4ed6b2-ee17-4bf6-b884-85c522ab147d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[3]/preceding::a[1]</value>
+      <webElementGuid>4f4ea0ba-edd8-4e9e-8d2f-f6f4caf0ff2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 999.00'])[3]/preceding::a[1]</value>
+      <webElementGuid>b051c782-bf48-4290-883e-f6f9a9e1268d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/mens-trousers?_pos=2&amp;_fid=4526ca640&amp;_ss=c')])[2]</value>
+      <webElementGuid>ee6839d8-420d-47b3-ba5d-d04c5e3b2325</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>53619b21-e974-44b5-854a-ea35d58d4974</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/mens-trousers?_pos=2&amp;_fid=4526ca640&amp;_ss=c' and @id = 'CardLink-template--17877713813672__product-grid-8670401724584' and (text() = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Trousers
+            &quot;) or . = concat(&quot;
+              Men&quot; , &quot;'&quot; , &quot;s Trousers
+            &quot;))]</value>
+      <webElementGuid>d95786ac-04ec-4b29-afc5-34a773c1e8de</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

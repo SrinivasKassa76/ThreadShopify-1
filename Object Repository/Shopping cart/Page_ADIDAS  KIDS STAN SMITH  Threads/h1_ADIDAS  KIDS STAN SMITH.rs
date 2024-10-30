@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_ADIDAS  KIDS STAN SMITH</name>
+   <tag></tag>
+   <elementGuidId>22ca98f6-9059-496c-ba40-95913dac07c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='ProductInfo-template--18610481004767__main']/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;ADIDAS | KID'S STAN SMITH&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>0287b0f9-fc67-41a7-99b9-ef74a1763dc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ADIDAS | KID'S STAN SMITH</value>
+      <webElementGuid>57902440-09e4-4edc-8c61-ace6894d2dfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ProductInfo-template--18610481004767__main&quot;)/div[@class=&quot;product__title&quot;]/h1[1]</value>
+      <webElementGuid>a2c1adbd-a956-44cd-b96c-5ba44f660c88</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='ProductInfo-template--18610481004767__main']/div/h1</value>
+      <webElementGuid>ad610144-3e3d-45e5-a0df-6c3c3ffcfc3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Infinity'])[1]/following::h1[1]</value>
+      <webElementGuid>cf0cf6d8-dbf6-41b9-9c7b-614811e9ab7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='of'])[1]/following::h1[1]</value>
+      <webElementGuid>2d4c3415-5e75-49b8-978b-dfb186fb0045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::h1[1]</value>
+      <webElementGuid>837958ae-d3c3-4bd7-96e1-f775590a7ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>0bbdb689-7d56-4fb9-a883-ca3d2a9d2efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = concat(&quot;ADIDAS | KID&quot; , &quot;'&quot; , &quot;S STAN SMITH&quot;) or . = concat(&quot;ADIDAS | KID&quot; , &quot;'&quot; , &quot;S STAN SMITH&quot;))]</value>
+      <webElementGuid>11265e59-437f-4cb9-8170-6874f1c9601a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

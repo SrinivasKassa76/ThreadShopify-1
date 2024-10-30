@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_My Wishlist</name>
+   <tag></tag>
+   <elementGuidId>fd9d901b-89ac-4d8a-b14d-b359fcdbaedd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.swym-wishlist-main-title.swym-heading.swym-heading-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swym-wishlist-render-container']/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;My Wishlist&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dbc8de4f-e835-4de9-8f78-2f2c7461f4fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swym-wishlist-main-title swym-heading swym-heading-1</value>
+      <webElementGuid>8f89cf49-cd81-4d55-8e07-bc942d2d9a3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>heading</value>
+      <webElementGuid>0bc2e12f-6ee5-4c49-a2a6-c5db640fceb5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-level</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>af65991e-4493-4f39-8c0a-24bb5e232206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Wishlist</value>
+      <webElementGuid>b5e7d7c4-c45a-4da1-8147-2252fc407770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swym-wishlist-render-container&quot;)/div[@class=&quot;swym-ui-component swym-wishlist-page swym-simple-wishlist-page swym-is-safari&quot;]/div[@class=&quot;swym-simple-wishlist-container&quot;]/div[@class=&quot;swym-wishlist-container-title-bar swym-bg-1 swym-bg-2 swym-color-4&quot;]/div[@class=&quot;swym-wishlist-main-title swym-heading swym-heading-1&quot;]</value>
+      <webElementGuid>0de55f5c-2da6-4962-999e-241c822c0c31</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='swym-wishlist-render-container']/div/div/div/div</value>
+      <webElementGuid>4907f6b2-9a31-4e5e-83b6-fb91fffbf962</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue shopping'])[1]/following::div[5]</value>
+      <webElementGuid>1a874ac2-2984-4fc1-90aa-c078ca19b082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check out'])[1]/following::div[5]</value>
+      <webElementGuid>531b19c7-c74a-4fca-a416-8d7e31bf64fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guest Shopper'])[1]/preceding::div[1]</value>
+      <webElementGuid>6b6b916a-f1be-4706-b87a-e2a409132747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Wishlist'])[2]/preceding::div[1]</value>
+      <webElementGuid>1377c8d3-8a15-4a44-b56e-080715edd4f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Wishlist']/parent::*</value>
+      <webElementGuid>8d92982a-6a37-4c45-97b8-612256dd0092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/div/div/div/div</value>
+      <webElementGuid>09e9352c-5f86-48b0-b739-a3f40fac682e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'My Wishlist' or . = 'My Wishlist')]</value>
+      <webElementGuid>5c583ee0-2968-4805-a23b-c61fd46220a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

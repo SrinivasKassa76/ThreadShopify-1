@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Blazers</name>
+   <tag></tag>
+   <elementGuidId>31751d05-7d31-44ae-80b1-1a7c74045866</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Slide-template--17877713846440__collection_list_irfbW7-4 > div.card-wrapper.animate-arrow.collection-card-wrapper > div.card.card--standard.card--media > div.card__content > div.card__information > h3.card__heading > a.full-unstyled-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Slide-template--17877713846440__collection_list_irfbW7-4']/div/div/div[2]/div/h3/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Blazers&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>28eb00c8-2fdf-4381-8f33-48c2de0dcf2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/collections/blazers</value>
+      <webElementGuid>18c64a22-0646-47d9-bb8c-4a45686fceed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>192d3c8c-025a-404d-a298-720db6f70171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Blazers
+
+            </value>
+      <webElementGuid>e9683f26-1fa4-49bd-8e5b-93940c0a0b83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Slide-template--17877713846440__collection_list_irfbW7-4&quot;)/div[@class=&quot;card-wrapper animate-arrow collection-card-wrapper&quot;]/div[@class=&quot;card
+      card--standard
+       card--media&quot;]/div[@class=&quot;card__content&quot;]/div[@class=&quot;card__information&quot;]/h3[@class=&quot;card__heading&quot;]/a[@class=&quot;full-unstyled-link&quot;]</value>
+      <webElementGuid>513fa194-824f-43cf-b526-61c7df0afcdc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Slide-template--17877713846440__collection_list_irfbW7-4']/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>c5e99b20-db4a-4f4a-8356-e1fa1cf0d685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Blazers')])[4]</value>
+      <webElementGuid>e0d4c2d7-edbb-4013-adb3-6c188a095fac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blazers'])[1]/following::a[1]</value>
+      <webElementGuid>c56223dc-8baa-4d45-8545-946c75bec0d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trousers'])[2]/following::a[2]</value>
+      <webElementGuid>3f2a1150-fa4f-4f7c-bfbf-a2dfb14ace84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethnic Wear'])[1]/preceding::a[1]</value>
+      <webElementGuid>2b8fa5b3-ba42-4f77-bf96-a2aa2ef18eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethnic Wear'])[2]/preceding::a[2]</value>
+      <webElementGuid>a2e47c34-3902-45c9-8b5e-556b6eac2045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/collections/blazers')])[2]</value>
+      <webElementGuid>ea05e574-7d2f-4bd7-a884-c321b8c842c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div/div/slider-component/ul/li[4]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>f6b423f6-13b1-4530-acd7-d45c3ccd98d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/collections/blazers' and (text() = 'Blazers
+
+            ' or . = 'Blazers
+
+            ')]</value>
+      <webElementGuid>159567ca-e5c7-4aac-aeb9-563a9dd9034f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

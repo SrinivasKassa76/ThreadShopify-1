@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Shirts</name>
+   <tag></tag>
+   <elementGuidId>dfc8444e-4c0b-44bd-b7a5-f8fc56904a3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Slide-template--17877713846440__collection_list_irfbW7-2 > div.card-wrapper.animate-arrow.collection-card-wrapper > div.card.card--standard.card--media > div.card__content > div.card__information > h3.card__heading > a.full-unstyled-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Slide-template--17877713846440__collection_list_irfbW7-2']/div/div/div[2]/div/h3/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Shirts&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6e863051-75cc-4646-928d-813e4862dece</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/collections/shirts</value>
+      <webElementGuid>433ef53a-80d6-4c85-ade4-d0e331f9cf12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>6b1ded4b-f9ef-4bb8-b77b-e13c80900740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shirts
+
+            </value>
+      <webElementGuid>1525c89e-d22b-4301-a0ba-6c189aced47d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Slide-template--17877713846440__collection_list_irfbW7-2&quot;)/div[@class=&quot;card-wrapper animate-arrow collection-card-wrapper&quot;]/div[@class=&quot;card
+      card--standard
+       card--media&quot;]/div[@class=&quot;card__content&quot;]/div[@class=&quot;card__information&quot;]/h3[@class=&quot;card__heading&quot;]/a[@class=&quot;full-unstyled-link&quot;]</value>
+      <webElementGuid>ed89dfb8-8673-41a6-80f8-cc2ce31aa38a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Slide-template--17877713846440__collection_list_irfbW7-2']/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>e940f332-9c62-402c-977d-45e2e40dc3d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Shirts')])[4]</value>
+      <webElementGuid>19e5011a-07af-4933-a8c0-bc9e43b63cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shirts'])[1]/following::a[1]</value>
+      <webElementGuid>af5c8f0d-1a79-4ce2-913f-0b7ff9aac408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T-Shirts'])[2]/following::a[2]</value>
+      <webElementGuid>ed5c5e31-080e-4702-90b6-f39ed6bd8b5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trousers'])[1]/preceding::a[1]</value>
+      <webElementGuid>a4942ade-26d5-437a-be6a-322d1633c84f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trousers'])[2]/preceding::a[2]</value>
+      <webElementGuid>4dba9a2f-2eb1-4167-b979-bc4b395d0002</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/collections/shirts')])[2]</value>
+      <webElementGuid>c9cedef3-98fd-42b7-85c5-0d69325447b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div/div/slider-component/ul/li[2]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>18808e71-50da-4c5d-bfda-437492765122</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/collections/shirts' and (text() = 'Shirts
+
+            ' or . = 'Shirts
+
+            ')]</value>
+      <webElementGuid>217b3306-40ec-4aa9-90f0-aefe28713005</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Shipping method</name>
+   <tag></tag>
+   <elementGuidId>94eccde9-18f3-4bd2-ab87-63624cd8f1b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h3[@id='shipping-methods']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#shipping-methods</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Shipping method&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>26ecadb9-bbf7-441c-9fc4-f0721df9a713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>shipping-methods</value>
+      <webElementGuid>e730d34b-5f5f-48ae-9f25-101345363db8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>n8k95w1 n8k95w0 _1fragemlj n8k95w3</value>
+      <webElementGuid>502f8003-1211-4c04-8fe7-f1b3d2a5bfdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shipping method</value>
+      <webElementGuid>ab2be44b-e8f5-4b1e-b258-23c0e071dd27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shipping-methods&quot;)</value>
+      <webElementGuid>fa5c749d-7e47-4b04-9e01-b5f910948c20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h3[@id='shipping-methods']</value>
+      <webElementGuid>6c041476-6aa6-4fcb-a385-3d7e298d4fb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='Form0']/div/div[3]/div/section/div/div[2]/section/div/div/div[2]/h3</value>
+      <webElementGuid>7f5e082f-76f6-46ea-950f-f17fb09765e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save this information for next time'])[1]/following::h3[1]</value>
+      <webElementGuid>65a79295-e4d5-439e-8e33-ad530e1b29e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN code'])[1]/following::h3[1]</value>
+      <webElementGuid>65c5d73a-49bb-4250-9971-b7084fd31dc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment'])[1]/preceding::h3[1]</value>
+      <webElementGuid>bebf81df-7166-404d-a9f3-2b7cf9058635</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay now'])[1]/preceding::h3[1]</value>
+      <webElementGuid>95459bf4-a81c-42c9-97c7-98e63ceaa595</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shipping method']/parent::*</value>
+      <webElementGuid>14b73a38-af8f-439f-b699-d453a1e10acc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>cd8fe621-626d-47f3-8103-66bd3f42e06b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[@id = 'shipping-methods' and (text() = 'Shipping method' or . = 'Shipping method')]</value>
+      <webElementGuid>72b0484a-5f2b-47e9-8c87-4790563eb9dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

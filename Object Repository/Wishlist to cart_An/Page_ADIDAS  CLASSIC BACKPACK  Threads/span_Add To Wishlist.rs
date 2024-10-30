@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add To Wishlist</name>
+   <tag></tag>
+   <elementGuidId>021bf6b0-a637-473a-b13d-44347c63fc54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.swym-wishlist-cta</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='product-form-template--18610481004767__main']/div/div[3]/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Add To Wishlist&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>18493a59-5e13-47d5-aca6-48cfe22618f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swym-wishlist-cta</value>
+      <webElementGuid>d0ab06f5-d7a8-409a-9487-666ca9567bf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add To Wishlist</value>
+      <webElementGuid>86d00ae5-26ba-43cf-9282-a2243b0ad076</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-form-template--18610481004767__main&quot;)/div[@class=&quot;product-form__buttons&quot;]/div[@class=&quot;swym-button-bar swym-wishlist-button-bar swym-inject&quot;]/div[@class=&quot;swym-btn-container swym-inject&quot;]/button[@class=&quot;swym-button swym-add-to-wishlist swym-inject swym-iconbtnlink swym-heart swym-loaded&quot;]/span[@class=&quot;swym-wishlist-cta&quot;]</value>
+      <webElementGuid>215b1e03-9728-4887-9ed9-aaf7549f02f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-form-template--18610481004767__main']/div/div[3]/div/button/span</value>
+      <webElementGuid>55fa37a7-85bf-4e62-b468-1a67d48d9628</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cancellation policy'])[1]/following::span[1]</value>
+      <webElementGuid>0f73e0d9-ae96-4632-a43b-c1b62e1e2eb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buy it now'])[1]/following::span[2]</value>
+      <webElementGuid>2784e00e-51da-4c04-b862-ccec6b662cbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add To Wishlist']/parent::*</value>
+      <webElementGuid>be92a3f7-1ee1-432c-a0b9-a1244d43eb56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button/span</value>
+      <webElementGuid>b2a72c72-b85e-4641-94d9-8b8a7a875615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add To Wishlist' or . = 'Add To Wishlist')]</value>
+      <webElementGuid>5d1be17a-90a7-4dda-92dd-30d73600cba9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

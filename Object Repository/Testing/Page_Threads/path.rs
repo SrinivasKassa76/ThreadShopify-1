@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>d57dee26-5248-4e60-94e7-0af2d9b8d613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.list-unstyled.list-social.footer__list-social > li.list-social__item > a.link.list-social__link > span.svg-wrapper > svg.icon.icon-facebook > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Facebook&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>83976ad6-bd87-4134-afb9-7b02de8f8600</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>632b426c-0abd-4de8-8ee6-d1fd03895536</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M18 10.049C18 5.603 14.419 2 10 2s-8 3.603-8 8.049C2 14.067 4.925 17.396 8.75 18v-5.624H6.719v-2.328h2.03V8.275c0-2.017 1.195-3.132 3.023-3.132.874 0 1.79.158 1.79.158v1.98h-1.009c-.994 0-1.303.621-1.303 1.258v1.51h2.219l-.355 2.326H11.25V18c3.825-.604 6.75-3.933 6.75-7.951</value>
+      <webElementGuid>604a1a7f-72bd-496e-b55e-dfd2876e4f25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shopify-section-sections--18610481660127__footer&quot;)/footer[@class=&quot;footer color-scheme-1 gradient section-sections--18610481660127__footer-padding&quot;]/div[@class=&quot;footer__content-top page-width&quot;]/div[@class=&quot;footer-block--newsletter scroll-trigger animate--slide-in&quot;]/ul[@class=&quot;list-unstyled list-social footer__list-social&quot;]/li[@class=&quot;list-social__item&quot;]/a[@class=&quot;link list-social__link&quot;]/span[@class=&quot;svg-wrapper&quot;]/svg[@class=&quot;icon icon-facebook&quot;]/path[1]</value>
+      <webElementGuid>c981be2e-820e-48a9-8b6a-9300dfb02f12</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Trousers</name>
+   <tag></tag>
+   <elementGuidId>6c6d8143-a216-47d1-8b85-3ef4c584da4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Slide-template--17877713846440__collection_list_irfbW7-3 > div.card-wrapper.animate-arrow.collection-card-wrapper > div.card.card--standard.card--media > div.card__content > div.card__information > h3.card__heading > a.full-unstyled-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Slide-template--17877713846440__collection_list_irfbW7-3']/div/div/div[2]/div/h3/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Trousers&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>43ddd1cf-110c-4542-bbc6-a4f96f2752ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/collections/trousers</value>
+      <webElementGuid>26ab433c-802e-4535-87a8-efac0d7fabec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>3ad19df3-7aa2-4f00-bdeb-9a4e5c6ad93d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Trousers
+
+            </value>
+      <webElementGuid>ec391d0a-e9de-4308-9f99-ddb931a15c22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Slide-template--17877713846440__collection_list_irfbW7-3&quot;)/div[@class=&quot;card-wrapper animate-arrow collection-card-wrapper&quot;]/div[@class=&quot;card
+      card--standard
+       card--media&quot;]/div[@class=&quot;card__content&quot;]/div[@class=&quot;card__information&quot;]/h3[@class=&quot;card__heading&quot;]/a[@class=&quot;full-unstyled-link&quot;]</value>
+      <webElementGuid>3e85194e-2029-40d7-b675-06a345fa6106</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Slide-template--17877713846440__collection_list_irfbW7-3']/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>e649f0b3-81a3-40ac-8fc9-2b85de3b1cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Trousers')])[4]</value>
+      <webElementGuid>6965d939-70bd-44f3-9fd7-23ab441a68d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trousers'])[1]/following::a[1]</value>
+      <webElementGuid>3840be6b-fa00-4f8e-b611-21e16c1f7d16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shirts'])[2]/following::a[2]</value>
+      <webElementGuid>f31e462e-5972-4ad0-b302-6ca04cac7615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blazers'])[1]/preceding::a[1]</value>
+      <webElementGuid>a13a86ab-b80d-4156-8799-ce8bf21c3608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blazers'])[2]/preceding::a[2]</value>
+      <webElementGuid>33169e5e-50ec-4ce0-9d1a-f20212f79e81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/collections/trousers')])[2]</value>
+      <webElementGuid>0c3e3b84-0bc1-4530-8576-b2c35b8e482c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div/div/slider-component/ul/li[3]/div/div/div[2]/div/h3/a</value>
+      <webElementGuid>33b24893-33bc-40da-90af-f6d5581baf39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/collections/trousers' and (text() = 'Trousers
+
+            ' or . = 'Trousers
+
+            ')]</value>
+      <webElementGuid>0a33220d-2e86-4630-b76c-a53e6f5d02d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

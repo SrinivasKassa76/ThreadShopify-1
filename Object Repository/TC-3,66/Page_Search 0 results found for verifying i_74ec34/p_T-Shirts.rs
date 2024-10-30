@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_T-Shirts</name>
+   <tag></tag>
+   <elementGuidId>698ce583-2d91-401b-a063-0963ac9cfe3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#predictive-search-option-collection-2 > a.predictive-search__item.link.link--text > div.predictive-search__item-content.predictive-search__item-content--centered > p.predictive-search__item-heading.h5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='predictive-search-option-collection-2']/a/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;T-Shirts&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a01d7a21-ac47-432a-8838-9b9a8b48637b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>predictive-search__item-heading h5</value>
+      <webElementGuid>483e1cea-8270-4f05-892f-af9026955b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>T-Shirts</value>
+      <webElementGuid>c5a64ea7-1842-4cf9-8adf-08f0eb610f71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;predictive-search-option-collection-2&quot;)/a[@class=&quot;predictive-search__item link link--text&quot;]/div[@class=&quot;predictive-search__item-content predictive-search__item-content--centered&quot;]/p[@class=&quot;predictive-search__item-heading h5&quot;]</value>
+      <webElementGuid>fc7cf05d-111d-4277-adc0-355e9e65c764</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='predictive-search-option-collection-2']/a/div/p</value>
+      <webElementGuid>ff311ac9-74b8-4cb2-a12a-ba4e89d9772a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shirt'])[1]/following::p[2]</value>
+      <webElementGuid>da342183-bc99-4611-99b8-8f6bf2f259df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggestions'])[1]/following::p[3]</value>
+      <webElementGuid>4461fecc-1c95-4e83-9414-43916591755c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Products'])[1]/preceding::p[1]</value>
+      <webElementGuid>8fb896e4-1222-44f9-981a-d09f9d63d126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for “Shirt”'])[1]/preceding::p[3]</value>
+      <webElementGuid>c97c5f1c-6069-4665-82af-58a630cee095</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='T-Shirts']/parent::*</value>
+      <webElementGuid>d8805ad5-2134-4911-a734-a43511809623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/div/p</value>
+      <webElementGuid>d3f3598b-29b1-464e-b4fa-69f72e14d4d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'T-Shirts' or . = 'T-Shirts')]</value>
+      <webElementGuid>2f5c7719-95f4-4d06-af73-bc19768b5a7d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
