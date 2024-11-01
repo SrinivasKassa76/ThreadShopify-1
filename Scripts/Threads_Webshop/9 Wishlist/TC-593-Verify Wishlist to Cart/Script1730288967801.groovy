@@ -16,43 +16,59 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
- 
-WebUI.openBrowser('')
- 
-WebUI.maximizeWindow()
- 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
- 
-WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Threads/div_Enter using password'))
- 
- 
-WebUI.setEncryptedText(findTestObject('Object Repository/Wishlist to cart_An/Page_Threads/input_Enter store using password_password'),
-    'gnzTAVlujIw+lTr0To6+Cg==')
- 
-WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Threads/button_Enter'))
- 
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+
+// Generate a unique folder path using the current timestamp
+String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
+String screenshotFolder = "screenshots/wishlist_" + timestamp + "/"
+
+// Call the reusable test case for entering the password
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
+
+// Take and save a screenshot of the homepage after logging in
+WebUI.takeScreenshot(screenshotFolder + 'home.png')
+
+// Navigate to the catalog section
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Threads/span_Catalog'))
- 
+
+// Take a screenshot of the catalog page
+WebUI.takeScreenshot(screenshotFolder + 'catalog.png')
+
+// Select the "ADIDAS CLASSIC BACKPACK" product
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK'))
- 
+
+// Add the product to the wishlist
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/span_Add To Wishlist'))
- 
+
+// Capture a screenshot showing the item added to the wishlist
+WebUI.takeScreenshot(screenshotFolder + 'wishlist.png')
+
+// Verify that the "ADDED TO WISHLIST" confirmation message appears
 WebUI.verifyTextPresent('ADDED TO WISHLIST', false)
- 
+
+// Navigate back to the wishlist
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg'))
- 
+
+// Add the item to the cart from the wishlist
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Wishlist  Threads/button_Add To Cart'))
- 
-//WebUI.verifyTextPresent('ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR has been added to your cart successfully.', false)
- 
+
+// Verify that the item was successfully added to the cart
 WebUI.verifyTextPresent('ADDED TO CART', false)
- 
+
+// Take a screenshot of the cart confirmation
+WebUI.takeScreenshot(screenshotFolder + 'addCart.png')
+
+// Open the cart to view its contents
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Wishlist  Threads/div_22 items'))
- 
+
+// Confirm "Your cart" page is displayed and take a screenshot
 WebUI.verifyTextPresent('Your cart', false)
- 
-WebUI.verifyTextPresent('', false)
- 
+WebUI.takeScreenshot(screenshotFolder + 'cart.png')
+
+// Select an item in the cart to verify details and capture the checkout page
 WebUI.click(findTestObject('Object Repository/Wishlist to cart_An/Page_Your Shopping Cart  Threads/div_Rs. 56.00'))
- 
+WebUI.takeScreenshot(screenshotFolder + 'checkout.png')
+
+// Close the browser after the test completes
 WebUI.closeBrowser()

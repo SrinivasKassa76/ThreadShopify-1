@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
+// Generate a unique folder path with a timestamp for screenshots
+String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
+String screenshotFolder = "screenshots/my_account_" + timestamp + "/"
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://threads0.myshopify.com/password')
@@ -34,10 +38,10 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Threads/svg_Search_icon icon-account'))
 
-//Verify login page
+// Verify login page
 WebUI.verifyTextPresent('Login', false)
 
-//Enter login details
+// Enter login details
 WebUI.setText(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/input_Login_customeremail'), 
     'cenaalice1234@mailinator.com')
 
@@ -46,29 +50,37 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/My Conta
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/button_Sign in'))
 
-//Verify my Account
+// Verify my Account
 WebUI.verifyTextPresent('Account', false)
+
+// Take a screenshot of the account page
+WebUI.takeScreenshot(screenshotFolder + 'account.png')
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/a_View addresses (1)'))
 
-//Verify Address Page
+// Verify Address Page
 WebUI.verifyTextPresent('Addresses', false)
-
 WebUI.verifyTextPresent('Default', false)
 
-//Click on edit
+// Take a screenshot of the address page
+WebUI.takeScreenshot(screenshotFolder + 'address.png')
+
+// Click on edit
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/button_Edit'))
 
-//Changing the address
+// Take a screenshot of the edit page
+WebUI.takeScreenshot(screenshotFolder + 'edit.png')
+
+// Changing the address
 WebUI.setText(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/input_Company_addressaddress1'), 
     'abc apartment, xyz road')
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/button_Update address'))
 
-//Verify new address
+// Verify new address and take a screenshot
 WebUI.verifyTextPresent('abc apartment, xyz road', false)
+WebUI.takeScreenshot(screenshotFolder + 'address_after.png')
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/span_Home'))
 
 WebUI.closeBrowser()
-

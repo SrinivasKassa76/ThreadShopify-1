@@ -16,45 +16,58 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
-WebUI.openBrowser('')
+// Generate unique folder name using timestamp
+String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
+String screenshotFolder = "screenshots/order_" + timestamp
 
-WebUI.maximizeWindow()
+// Open the browser and navigate to login page using reusable test case
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+// Take initial screenshot
+WebUI.takeScreenshot(screenshotFolder + "/home.png")
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Threads/div_Enter using password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Threads/input_Enter store using password_password'), 
-    'gnzTAVlujIw+lTr0To6+Cg==')
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Threads/button_Enter'))
-
+// Navigate to the shop's main page
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Threads/a_Explore Threads'))
 
+// Select the product "ADIDAS SUPERSTAR 80S"
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Products  Threads/a_ADIDAS  SUPERSTAR 80S'))
 
+// Take screenshot of the item page
+WebUI.takeScreenshot(screenshotFolder + "/item.png")
+
+// Select "One-time purchase" option
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/span_One-time purchase_sls-custom-radio'))
 
+// Choose a subscription plan with a 3-month interval
 WebUI.selectOptionByValue(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/select_month3 months'), 
     '3 month', true)
 
-//WebUI.delay(2)
-//WebUI.verifyTextPresent('You will get a 5 discount on every recurring order.', false)
-//WebUI.waitForTextPresent('You will get a 5 discount on every recurring order.', 10)
-not_run: WebUI.verifyTextPresent('You will get a 5 discount on every recurring order.', false)
-
+// Click to view details of the subscription
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/div_See details'))
 
+// Verify message indicating a manual payment link will be sent
 WebUI.verifyTextPresent('You will receive a payment link and won\'t be charged automatically', false)
 
+// Add the product to the cart
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/button_Add to cart'))
 
+// Take screenshot of the checkout page
+WebUI.takeScreenshot(screenshotFolder + "/checkout.png")
+
+// View the shopping cart
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/a_View cart (1)'))
 
+// Proceed to checkout
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Your Shopping Cart  Threads/button_Check out'))
 
+// Finalize purchase by clicking "Pay now" on the checkout page
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Checkout - Threads/button_Pay now'))
 
-WebUI.closeBrowser()
+// Take screenshot of the subscription confirmation
+WebUI.takeScreenshot(screenshotFolder + "/subscription.png")
 
+// Close the browser after completing the purchase
+WebUI.closeBrowser()
