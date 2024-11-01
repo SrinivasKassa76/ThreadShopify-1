@@ -17,3 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+
+WebUI.click(findTestObject('Object Repository/Page_Threads/div_Enter using password'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Threads/input_Enter store using password_password'), 'gnzTAVlujIw+lTr0To6+Cg==')
+
+WebUI.click(findTestObject('Object Repository/Page_Threads/button_Enter'))
+
+WebUI.maximizeWindow()
+
+//Scroll to bottom
+WebUI.scrollToPosition(0, 10000)
+
+//Verify Facebook icon
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Threads/a_Facebook'))
+
+//Verify Instagram icon
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Threads/a_Instagram'))
+
+//Verify Youtube icon
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Threads/a_YouTube'))
+
+//Verify twitter icon
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Threads/a_X (Twitter)'))
+
+WebUI.closeBrowser()
+
