@@ -223,7 +223,7 @@
       <guid>e36c9253-4e96-437b-8205-e34b81433f96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/Subscription/subscription</testCaseId>
+      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/Product Subscription/Product Subscription</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -237,7 +237,7 @@
       <guid>0cd60651-b49d-482c-81bd-ead7ab0f508a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/9 Wishlist/TC-588 TC-65 TC-605</testCaseId>
+      <testCaseId>Test Cases/Threads_Webshop/9 Wishlist/TC-588 TC-65 TC-605 Add item to Wishlist</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
