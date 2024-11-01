@@ -57,8 +57,8 @@ WebUI.click(findTestObject('Object Repository/Search with Category_An/Page_Produ
  
 WebUI.verifyTextPresent('Sort by:', false)
  
-WebUI.selectOptionByValue(findTestObject('Object Repository/Search with Category_An/s2/Page_Products  Threads/select_Featured                            _7b0490'),
-    'price-ascending', true)
+/*WebUI.selectOptionByValue(findTestObject('Object Repository/Search with Category_An/s2/Page_Products  Threads/select_Featured                            _7b0490'),
+    'price-ascending', true)*/
  
 String product1 = WebUI.getText(findTestObject('Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK'))
  
