@@ -16,46 +16,44 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
+// Generate a unique folder path based on the current date and time
+LocalDateTime currentDateTime = LocalDateTime.now()
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern('yyyyMMdd_HHmmss')
+String dateTimeString = currentDateTime.format(formatter)
+
+// Define the screenshot folder path with a unique timestamp
+String screenshotFolderPath = 'screenshots/checkout_' + dateTimeString + '/'
+
+// Ensure the folder is created before taking screenshots
+new File(screenshotFolderPath).mkdirs()
 //Open Browser
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), [('validemail') : 'cenaalice1234@mailinator.com'
+        , ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+WebUI.takeScreenshot(screenshotFolderPath + 'home.png')
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/div_Enter using password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/input_Enter store using password_password'), 
-    'gnzTAVlujIw+lTr0To6+Cg==')
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/button_Enter'))
-
-//Login with an account
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/path'))
-
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/input_Login_customeremail'), 
-    'cenaalice1234@mailinator.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/input_Email_customerpassword'), 
-    'UDMlkmqWREzH+mr49N5wRw==')
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/button_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/span_Home'))
-
-WebUI.verifyTextPresent('', false)
-
+//choosing an item
 WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK'))
+
+WebUI.takeScreenshot(screenshotFolderPath + 'item.png')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now'))
 
+WebUI.takeScreenshot(screenshotFolderPath + 'checkout.png')
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path'))
 
 //Choose shipping method
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods'))
+
+WebUI.takeScreenshot(screenshotFolderPath + 'shipping_method1.png')
 
 String product1 = WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_56.00'))
 
@@ -108,6 +106,9 @@ if (priceTotal1 == totalPrice1) {
 
 //Change the shipping method
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods'))
+
+WebUI.takeScreenshot(screenshotFolderPath + 'shipping_method2.png')
+
 
 String product2 = WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_56.00'))
 

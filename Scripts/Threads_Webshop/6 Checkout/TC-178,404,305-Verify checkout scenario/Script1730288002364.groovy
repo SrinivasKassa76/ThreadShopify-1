@@ -16,49 +16,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-WebUI.openBrowser('')
+// Generate a unique folder path based on the current date and time
+LocalDateTime currentDateTime = LocalDateTime.now()
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern('yyyyMMdd_HHmmss')
+String dateTimeString = currentDateTime.format(formatter)
 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+// Define the screenshot folder path with a unique timestamp
+String screenshotFolderPath = 'screenshots/checkout_' + dateTimeString + '/'
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/div_Enter using password'))
+// Ensure the folder is created before taking screenshots
+new File(screenshotFolderPath).mkdirs()
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/input_Enter store using password_password'), 
-    'gnzTAVlujIw+lTr0To6+Cg==')
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/button_Enter'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/svg_Search_icon icon-account'))
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/svg_Search_icon icon-account'))
-
-//Click on login and provide valid id password from local variable
-WebUI.verifyTextPresent('Login', false)
-
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/input_Login_customeremail'), 
-    validemail)
-
-//WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/input_Email_customerpassword'), 
-//    'UDMlkmqWREzH+mr49N5wRw==')
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/input_Email_customerpassword'), 
-    validpass)
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/button_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/button_Sign in'))
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Account  Threads/span_Home'))
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), [('validemail') : 'cenaalice1234@mailinator.com'
+        , ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Home', false)
+
+WebUI.takeScreenshot(screenshotFolderPath + 'home.png')
 
 //Select a product and Checkout
 WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK'))
 
+WebUI.takeScreenshot(screenshotFolderPath + 'item.png')
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now'))
 
 WebUI.verifyTextPresent('Threads', false)
+
+WebUI.takeScreenshot(screenshotFolderPath + 'checkout_screen.png')
 
 //Storing Product Price
 String productText = WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_56.00'))
@@ -110,16 +100,20 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Check
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/button_Bob Chen, Pursuit Software, abc apar_ab85f8'))
 
+WebUI.takeScreenshot(screenshotFolderPath + 'information_before.png')
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/button_Edit'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Address_address1'))
 
 WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Apartment, suite, etc. (optional)_address2'), 
     'abc')
+WebUI.takeScreenshot(screenshotFolderPath + 'changed.png')
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/button_Save'))
+
+WebUI.takeScreenshot(screenshotFolderPath + 'information_after.png')
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/a_Threads'))
 
 WebUI.closeBrowser()
-
