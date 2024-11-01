@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[3]/div/div/div/strong[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TOTAL SAVINGS\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241101_155553/Threads/Threads_Suits/20241101_155554/Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dbutton[name\u003d\"Shipping method Standard · ₹10.00\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20241101_155553/Threads/Threads_Suits/20241101_155554/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-8065b300762b4a82452fb156c5f860bb\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241101_155553/Threads/Threads_Suits/20241101_155554/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-e1ddef4ea339ac02339348a2a08e6f6c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241101_155553/Threads/Threads_Suits/20241101_155554/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/span_Add To Wishlist",
+      "brokenLocator": "//form[@id\u003d\u0027product-form-template--18610481004767__main\u0027]/div/div[3]/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027cancellation policy\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241101_155553/Threads/Threads_Suits/20241101_155554/Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/span_Add To Wishlist_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg",
+      "brokenLocator": "/html/body/div[2]/sticky-header/header/div/a[2]/span[1]/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Log in\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241101_155553/Threads/Threads_Suits/20241101_155554/Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg_neighbor.png"
+    }
+  ]
+}

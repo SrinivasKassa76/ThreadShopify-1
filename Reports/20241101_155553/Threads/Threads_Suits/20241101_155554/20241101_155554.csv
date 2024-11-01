@@ -1,0 +1,503 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Threads_Suits,Chrome 130.0.0.0,,,01-11-2024 15:55:57,01-11-2024 16:10:15,14m - 17.498s,PASSED
+,,,,,,,
+"Test Cases/Threads_Webshop/1 Registration/TC-73,31-Verify the registration",Chrome 130.0.0.0,"Verify Registraion with Blank, Invalid and valid scenario",,01-11-2024 15:55:57,01-11-2024 15:57:00,1m - 2.740s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.010s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMddHHmmss"")",Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.007s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.006s,PASSED
+"uniqueEmail = ""tester_"" + dateTimeString + ""@mailinator.com""",Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.007s,PASSED
+"println(""Generated unique email: "" + uniqueEmail)",Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.007s,PASSED
+"screenshotFolderPath = ""screenshots/regestration_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.003s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:55:58,0.003s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 15:55:58,01-11-2024 15:56:21,22.729s,PASSED
+"takeScreenshot(screenshotFolderPath + ""enter_password.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:21,01-11-2024 15:56:22,1.419s,PASSED
+"click(findTestObject(""Object Repository/Page_Threads/button_Enter""))",Chrome 130.0.0.0,,,01-11-2024 15:56:22,01-11-2024 15:56:23,0.909s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 15:56:23,01-11-2024 15:56:23,0.275s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home_page.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:23,01-11-2024 15:56:24,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 15:56:24,01-11-2024 15:56:27,3.253s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Account  Threads/a_Create account""))",Chrome 130.0.0.0,,,01-11-2024 15:56:27,01-11-2024 15:56:28,0.866s,PASSED
+"takeScreenshot(screenshotFolderPath + ""create_account_page.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:28,01-11-2024 15:56:28,0.306s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Account  Threads/a_Create account""))",Chrome 130.0.0.0,,,01-11-2024 15:56:28,01-11-2024 15:56:29,1.049s,PASSED
+"takeScreenshot(screenshotFolderPath + ""account_page.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:29,01-11-2024 15:56:30,0.957s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/button_Create""))",Chrome 130.0.0.0,,,01-11-2024 15:56:30,01-11-2024 15:56:30,0.266s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/button_Create""))",Chrome 130.0.0.0,,,01-11-2024 15:56:30,01-11-2024 15:56:32,1.760s,PASSED
+"verifyTextPresent(error_msg1, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:32,01-11-2024 15:56:33,0.896s,PASSED
+"verifyTextPresent(error_msg2, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:33,01-11-2024 15:56:33,0.257s,PASSED
+"verifyTextPresent(error_msg3, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:33,01-11-2024 15:56:34,0.263s,PASSED
+"takeScreenshot(screenshotFolderPath + ""blank_fields.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:34,01-11-2024 15:56:34,0.315s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Create account_customerfirst_name""), f_name)",Chrome 130.0.0.0,,,01-11-2024 15:56:34,01-11-2024 15:56:35,0.984s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_First name_customerlast_name""), l_name)",Chrome 130.0.0.0,,,01-11-2024 15:56:35,01-11-2024 15:56:35,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Last name_customeremail""), uniqueEmail)",Chrome 130.0.0.0,,,01-11-2024 15:56:35,01-11-2024 15:56:36,0.640s,PASSED
+"takeScreenshot(screenshotFolderPath + ""without_passwordBefore.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:36,01-11-2024 15:56:36,0.324s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/button_Create""))",Chrome 130.0.0.0,,,01-11-2024 15:56:36,01-11-2024 15:56:38,1.649s,PASSED
+"verifyTextPresent(error_msg1, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:38,01-11-2024 15:56:39,1.279s,PASSED
+"verifyTextPresent(error_msg2, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:39,01-11-2024 15:56:40,0.253s,PASSED
+"takeScreenshot(screenshotFolderPath + ""without_passwordAfter.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:40,01-11-2024 15:56:40,0.304s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Create account_customerfirst_name""), f_name)",Chrome 130.0.0.0,,,01-11-2024 15:56:40,01-11-2024 15:56:41,0.860s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_First name_customerlast_name""), l_name)",Chrome 130.0.0.0,,,01-11-2024 15:56:41,01-11-2024 15:56:41,0.554s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Last name_customeremail""), ""tester1234mailinator.com"")",Chrome 130.0.0.0,,,01-11-2024 15:56:41,01-11-2024 15:56:42,0.604s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Email_customerpassword""), ""UDMlkmqWREzH+mr49N5wRw=="")",Chrome 130.0.0.0,,,01-11-2024 15:56:42,01-11-2024 15:56:42,0.350s,PASSED
+"takeScreenshot(screenshotFolderPath + ""wrong_emailBefore.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:42,01-11-2024 15:56:43,0.331s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/button_Create""))",Chrome 130.0.0.0,,,01-11-2024 15:56:43,01-11-2024 15:56:45,2.099s,PASSED
+"verifyTextPresent(error_msg1, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:45,01-11-2024 15:56:46,0.872s,PASSED
+"verifyTextPresent(error_msg4, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:46,01-11-2024 15:56:46,0.255s,PASSED
+"takeScreenshot(screenshotFolderPath + ""wrong_emailAfter.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:46,01-11-2024 15:56:46,0.310s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Create account_customerfirst_name""), l_name)",Chrome 130.0.0.0,,,01-11-2024 15:56:46,01-11-2024 15:56:47,0.946s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_First name_customerlast_name""), ""Sing"")",Chrome 130.0.0.0,,,01-11-2024 15:56:47,01-11-2024 15:56:48,0.538s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Last name_customeremail""), uniqueEmail)",Chrome 130.0.0.0,,,01-11-2024 15:56:48,01-11-2024 15:56:48,0.610s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/input_Email_customerpassword""), ""UDMlkmqWREzH+mr49N5wRw=="")",Chrome 130.0.0.0,,,01-11-2024 15:56:48,01-11-2024 15:56:49,0.325s,PASSED
+"takeScreenshot(screenshotFolderPath + ""correctBefore.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:49,01-11-2024 15:56:49,0.320s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Create Account  Threads/button_Create""))",Chrome 130.0.0.0,,,01-11-2024 15:56:49,01-11-2024 15:56:51,2.568s,PASSED
+"takeScreenshot(screenshotFolderPath + ""correctAfter.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:51,01-11-2024 15:56:53,1.451s,PASSED
+"verifyTextPresent(verify_home_page, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:53,01-11-2024 15:56:53,0.292s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home_page_post_login.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:53,01-11-2024 15:56:54,1.028s,PASSED
+"click(findTestObject(""Object Repository/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 15:56:54,01-11-2024 15:56:56,1.348s,PASSED
+"takeScreenshot(screenshotFolderPath + ""logout.png"")",Chrome 130.0.0.0,,,01-11-2024 15:56:56,01-11-2024 15:56:56,0.911s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Register_/Page_Account  Threads/a_Log out""))",Chrome 130.0.0.0,,,01-11-2024 15:56:56,01-11-2024 15:56:59,2.075s,PASSED
+"verifyTextPresent(verify_home_page, false)",Chrome 130.0.0.0,,,01-11-2024 15:56:59,01-11-2024 15:56:59,0.911s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 15:56:59,01-11-2024 15:57:00,0.646s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/2 Login/Verify Login,Chrome 130.0.0.0,,,01-11-2024 15:57:00,01-11-2024 15:57:49,48.488s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 15:57:01,01-11-2024 15:57:01,0.002s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMddHHmmss"")",Chrome 130.0.0.0,,,01-11-2024 15:57:01,01-11-2024 15:57:01,0.003s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 15:57:01,01-11-2024 15:57:01,0.003s,PASSED
+"screenshotFolderPath = ""screenshots/login_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 15:57:01,01-11-2024 15:57:01,0.001s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 15:57:01,01-11-2024 15:57:01,0.002s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 15:57:01,01-11-2024 15:57:08,7.587s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 15:57:08,01-11-2024 15:57:17,8.729s,PASSED
+"verifyTextPresent(login_page, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:17,01-11-2024 15:57:18,0.991s,PASSED
+"takeScreenshot(screenshotFolderPath + ""login_page.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:18,01-11-2024 15:57:18,0.323s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/button_Sign in""))",Chrome 130.0.0.0,,,01-11-2024 15:57:18,01-11-2024 15:57:20,1.756s,PASSED
+"takeScreenshot(screenshotFolderPath + ""login_page_after.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:20,01-11-2024 15:57:21,0.938s,PASSED
+"verifyTextPresent(error_msg1, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:21,01-11-2024 15:57:25,4.286s,PASSED
+"verifyTextPresent(error_msg2, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:25,01-11-2024 15:57:25,0.257s,PASSED
+"setText(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/input_Login_customeremail""), invalidemail)",Chrome 130.0.0.0,,,01-11-2024 15:57:25,01-11-2024 15:57:26,0.569s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/input_Email_customerpassword""), validpassword)",Chrome 130.0.0.0,,,01-11-2024 15:57:26,01-11-2024 15:57:26,0.336s,PASSED
+"takeScreenshot(screenshotFolderPath + ""invalid_email_before.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:26,01-11-2024 15:57:27,0.348s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/button_Sign in""))",Chrome 130.0.0.0,,,01-11-2024 15:57:27,01-11-2024 15:57:28,1.702s,PASSED
+"verifyTextPresent(error_msg1, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:28,01-11-2024 15:57:29,0.861s,PASSED
+"verifyTextPresent(error_msg2, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:29,01-11-2024 15:57:29,0.251s,PASSED
+"takeScreenshot(screenshotFolderPath + ""invalid_email_after.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:29,01-11-2024 15:57:30,0.300s,PASSED
+"setText(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/input_Login_customeremail""), validemail)",Chrome 130.0.0.0,,,01-11-2024 15:57:30,01-11-2024 15:57:30,0.584s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/input_Email_customerpassword""), invalidpass)",Chrome 130.0.0.0,,,01-11-2024 15:57:30,01-11-2024 15:57:31,0.503s,PASSED
+"takeScreenshot(screenshotFolderPath + ""invalid_password_before.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:31,01-11-2024 15:57:31,0.320s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/button_Sign in""))",Chrome 130.0.0.0,,,01-11-2024 15:57:31,01-11-2024 15:57:33,2.119s,PASSED
+"verifyTextPresent(error_msg1, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:33,01-11-2024 15:57:34,0.871s,PASSED
+"verifyTextPresent(error_msg2, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:34,01-11-2024 15:57:34,0.255s,PASSED
+"takeScreenshot(screenshotFolderPath + ""invalid_password_after.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:34,01-11-2024 15:57:35,0.330s,PASSED
+"setText(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/input_Login_customeremail""), validemail)",Chrome 130.0.0.0,,,01-11-2024 15:57:35,01-11-2024 15:57:36,1.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/input_Email_customerpassword""), validpassword)",Chrome 130.0.0.0,,,01-11-2024 15:57:36,01-11-2024 15:57:36,0.313s,PASSED
+"takeScreenshot(screenshotFolderPath + ""valid_before.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:36,01-11-2024 15:57:36,0.307s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/button_Sign in""))",Chrome 130.0.0.0,,,01-11-2024 15:57:36,01-11-2024 15:57:38,2.061s,PASSED
+"takeScreenshot(screenshotFolderPath + ""valid_after.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:38,01-11-2024 15:57:39,0.926s,PASSED
+"verifyTextPresent(account_page, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:39,01-11-2024 15:57:40,0.263s,PASSED
+"verifyTextPresent(name, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:40,01-11-2024 15:57:40,0.262s,PASSED
+"takeScreenshot(screenshotFolderPath + ""account_page.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:40,01-11-2024 15:57:40,0.318s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/span_Home""))",Chrome 130.0.0.0,,,01-11-2024 15:57:40,01-11-2024 15:57:41,1.126s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 15:57:41,01-11-2024 15:57:43,1.733s,PASSED
+"takeScreenshot(screenshotFolderPath + ""logout_page.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:43,01-11-2024 15:57:44,0.923s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Account  Threads/a_Log out""))",Chrome 130.0.0.0,,,01-11-2024 15:57:44,01-11-2024 15:57:45,1.476s,PASSED
+"click(findTestObject(""Object Repository/Login_An/Login with Invalid Credentials/Page_Threads/span_Search_svg-wrapper""))",Chrome 130.0.0.0,,,01-11-2024 15:57:45,01-11-2024 15:57:47,1.342s,PASSED
+"takeScreenshot(screenshotFolderPath + ""login_page_after_logout.png"")",Chrome 130.0.0.0,,,01-11-2024 15:57:47,01-11-2024 15:57:48,0.918s,PASSED
+"verifyTextPresent(login_page, false)",Chrome 130.0.0.0,,,01-11-2024 15:57:48,01-11-2024 15:57:48,0.259s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 15:57:48,01-11-2024 15:57:49,0.631s,PASSED
+,,,,,,,
+"Test Cases/Threads_Webshop/3 Homepage/TC-3,66-Verify Seach Bar",Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:58:32,43.118s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:57:49,0.002s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:57:49,0.002s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:57:49,0.002s,PASSED
+"screenshotFolderPath = ""screenshots/home_page_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:57:49,0.003s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:57:49,0.002s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 15:57:49,01-11-2024 15:58:10,21.542s,PASSED
+"verifyTextPresent(home_page, false)",Chrome 130.0.0.0,,,01-11-2024 15:58:10,01-11-2024 15:58:11,0.894s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:11,01-11-2024 15:58:12,0.689s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/svg_Contact_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:12,01-11-2024 15:58:12,0.248s,PASSED
+"click(findTestObject(""Object Repository/Page_Threads/svg_Contact_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:12,01-11-2024 15:58:13,0.585s,PASSED
+"takeScreenshot(screenshotFolderPath + ""open_search_bar.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:13,01-11-2024 15:58:14,0.739s,PASSED
+"verifyTextPresent("""", false)",Chrome 130.0.0.0,,,01-11-2024 15:58:14,01-11-2024 15:58:14,0.331s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/svg_Search_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:14,01-11-2024 15:58:14,0.255s,PASSED
+"click(findTestObject(""Object Repository/Page_Threads/svg_Search_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:14,01-11-2024 15:58:14,0.265s,PASSED
+"takeScreenshot(screenshotFolderPath + ""blank_bar.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:14,01-11-2024 15:58:15,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Page_Threads/input_Contact_q""), invalid_search)",Chrome 130.0.0.0,,,01-11-2024 15:58:15,01-11-2024 15:58:16,0.577s,PASSED
+"takeScreenshot(screenshotFolderPath + ""invalid_before.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:16,01-11-2024 15:58:16,0.741s,PASSED
+"click(findTestObject(""Object Repository/Page_Threads/svg_Search_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:16,01-11-2024 15:58:18,1.661s,PASSED
+"verifyTextPresent(search_result, false)",Chrome 130.0.0.0,,,01-11-2024 15:58:18,01-11-2024 15:58:19,0.878s,PASSED
+"verifyTextPresent(no_result, false)",Chrome 130.0.0.0,,,01-11-2024 15:58:19,01-11-2024 15:58:19,0.256s,PASSED
+"takeScreenshot(screenshotFolderPath + ""invalid_after.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:19,01-11-2024 15:58:20,0.316s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/svg_Contact_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:20,01-11-2024 15:58:20,0.280s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/input_Contact_q""), search_item)",Chrome 130.0.0.0,,,01-11-2024 15:58:20,01-11-2024 15:58:21,0.969s,PASSED
+"takeScreenshot(screenshotFolderPath + ""search_item_before.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:21,01-11-2024 15:58:21,0.314s,PASSED
+delay(3),Chrome 130.0.0.0,,,01-11-2024 15:58:21,01-11-2024 15:58:24,3.026s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/p_DR MARTENS  CAVENDISH 3-EYE SHOE BLACK""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:24,01-11-2024 15:58:24,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/p_DR MARTENS  1461 DMC 3-EYE SHOE  BLACK SMOOTH""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:24,01-11-2024 15:58:25,0.243s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/p_DR MARTENS  1460Z DMC 8-EYE BOOT  CHERRY SMOOTH""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:25,01-11-2024 15:58:25,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/p_TIMBERLAND  MENS 6 INCH PREMIUM BOOT""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:25,01-11-2024 15:58:25,0.252s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 0 results found for Verify inva_0640af/svg_Search_icon icon-search""))",Chrome 130.0.0.0,,,01-11-2024 15:58:25,01-11-2024 15:58:26,1.081s,PASSED
+"takeScreenshot(screenshotFolderPath + ""search_item_after.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:26,01-11-2024 15:58:27,0.877s,PASSED
+"verifyTextPresent(search_result, false)",Chrome 130.0.0.0,,,01-11-2024 15:58:27,01-11-2024 15:58:27,0.325s,PASSED
+"scrollToPosition(500, 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:27,01-11-2024 15:58:27,0.029s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 24 results found for Shoe  Threads/a_DR MARTENS  CAVENDISH 3-EYE SHOE BLACK""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:27,01-11-2024 15:58:28,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 24 results found for Shoe  Threads/a_DR MARTENS  1461 DMC 3-EYE SHOE  BLACK SMOOTH""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:28,01-11-2024 15:58:28,0.235s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 24 results found for Shoe  Threads/a_ADIDAS  SUPERSTAR 80S""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:28,01-11-2024 15:58:29,0.648s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 24 results found for Shoe  Threads/a_NIKE  TODDLER ROSHE ONE""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:58:29,01-11-2024 15:58:29,0.239s,PASSED
+"takeScreenshot(screenshotFolderPath + ""search_result.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:29,01-11-2024 15:58:29,0.315s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/Page_Search 24 results found for Shoe  Threads/span_Home""))",Chrome 130.0.0.0,,,01-11-2024 15:58:29,01-11-2024 15:58:30,0.639s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home_final.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:30,01-11-2024 15:58:31,1.353s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 15:58:31,01-11-2024 15:58:32,0.565s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/3 Homepage/TC-672-Verify the Social media button,Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:51,18.948s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:32,0.002s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:32,0.001s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:32,0.001s,PASSED
+"screenshotFolderPath = ""screenshots/home_page_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:32,0.000s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:32,0.001s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 15:58:32,01-11-2024 15:58:46,14.335s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,01-11-2024 15:58:46,01-11-2024 15:58:46,0.011s,PASSED
+"scrollToPosition(0, 10000)",Chrome 130.0.0.0,,,01-11-2024 15:58:46,01-11-2024 15:58:46,0.016s,PASSED
+"takeScreenshot(screenshotFolderPath + ""social_media_icon.png"")",Chrome 130.0.0.0,,,01-11-2024 15:58:46,01-11-2024 15:58:49,2.543s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/a_Facebook""))",Chrome 130.0.0.0,,,01-11-2024 15:58:49,01-11-2024 15:58:49,0.237s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/a_Instagram""))",Chrome 130.0.0.0,,,01-11-2024 15:58:49,01-11-2024 15:58:49,0.237s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/a_YouTube""))",Chrome 130.0.0.0,,,01-11-2024 15:58:49,01-11-2024 15:58:50,0.640s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Threads/a_X (Twitter)""))",Chrome 130.0.0.0,,,01-11-2024 15:58:50,01-11-2024 15:58:50,0.236s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 15:58:50,01-11-2024 15:58:51,0.554s,PASSED
+,,,,,,,
+"Test Cases/Threads_Webshop/3 Homepage/TC-89,11-Verify Home page elements",Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:59:17,26.764s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:58:51,0.001s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:58:51,0.002s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:58:51,0.001s,PASSED
+"screenshotFolderPath = ""screenshots/home_page_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:58:51,0.001s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:58:51,0.002s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 15:58:51,01-11-2024 15:59:06,15.328s,PASSED
+"verifyTextPresent(""Home"", false)",Chrome 130.0.0.0,,,01-11-2024 15:59:06,01-11-2024 15:59:07,1.020s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:07,01-11-2024 15:59:08,0.670s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Thread_Webshop/Home_Page/Page_Threads/div_Uncover your wardrobe essentials       _66e2bc""), 0)",Chrome 130.0.0.0,,,01-11-2024 15:59:08,01-11-2024 15:59:10,1.749s,PASSED
+"takeScreenshot(screenshotFolderPath + ""banner.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:10,01-11-2024 15:59:10,0.680s,PASSED
+"verifyTextPresent(""Uncover your wardrobe essentials"", false)",Chrome 130.0.0.0,,,01-11-2024 15:59:10,01-11-2024 15:59:13,2.894s,PASSED
+"isFeaturedPresent = verifyTextPresent(""Featured"", false, OPTIONAL)",Chrome 130.0.0.0,,,01-11-2024 15:59:13,01-11-2024 15:59:14,0.281s,PASSED
+if (isFeaturedPresent),Chrome 130.0.0.0,,,01-11-2024 15:59:14,01-11-2024 15:59:15,0.974s,PASSED
+"scrollToPosition(0, 1000)",Chrome 130.0.0.0,,,01-11-2024 15:59:15,01-11-2024 15:59:15,0.012s,PASSED
+delay(2),Chrome 130.0.0.0,,,01-11-2024 15:59:15,01-11-2024 15:59:17,2.004s,PASSED
+"takeScreenshot(screenshotFolderPath + ""featured.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:17,01-11-2024 15:59:17,0.394s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 15:59:17,01-11-2024 15:59:17,0.526s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/5 Shopping Cart/TC-157 Verify the cart,Chrome 130.0.0.0,,,01-11-2024 15:59:17,01-11-2024 16:00:00,42.695s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 15:59:18,01-11-2024 15:59:18,0.004s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 15:59:18,01-11-2024 15:59:18,0.001s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 15:59:18,01-11-2024 15:59:18,0.003s,PASSED
+"screenshotFolderPath = ""screenshots/shopping_cart_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 15:59:18,01-11-2024 15:59:18,0.002s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 15:59:18,01-11-2024 15:59:18,0.002s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 15:59:18,01-11-2024 15:59:28,10.262s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:28,01-11-2024 15:59:29,1.360s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Threads/span_Catalog""))",Chrome 130.0.0.0,,,01-11-2024 15:59:29,01-11-2024 15:59:30,1.093s,PASSED
+"takeScreenshot(screenshotFolderPath + ""catalog.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:30,01-11-2024 15:59:31,1.021s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 15:59:31,01-11-2024 15:59:32,0.866s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Add to cart""))",Chrome 130.0.0.0,,,01-11-2024 15:59:32,01-11-2024 15:59:33,1.099s,PASSED
+delay(2),Chrome 130.0.0.0,,,01-11-2024 15:59:33,01-11-2024 15:59:35,2.003s,PASSED
+"takeScreenshot(screenshotFolderPath + ""addToCart1.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:35,01-11-2024 15:59:36,0.384s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Continue shopping""))",Chrome 130.0.0.0,,,01-11-2024 15:59:36,01-11-2024 15:59:36,0.268s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  Threads/span_Catalog""))",Chrome 130.0.0.0,,,01-11-2024 15:59:36,01-11-2024 15:59:39,2.970s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK  LEGEND INK MULTICOLOUR""))",Chrome 130.0.0.0,,,01-11-2024 15:59:39,01-11-2024 15:59:41,1.992s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  LEGEND INK M_ff53f1/button_Add to cart""))",Chrome 130.0.0.0,,,01-11-2024 15:59:41,01-11-2024 15:59:42,0.884s,PASSED
+delay(2),Chrome 130.0.0.0,,,01-11-2024 15:59:42,01-11-2024 15:59:44,2.004s,PASSED
+"takeScreenshot(screenshotFolderPath + ""addToCart2.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:44,01-11-2024 15:59:44,0.501s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  LEGEND INK M_ff53f1/button_Continue shopping""))",Chrome 130.0.0.0,,,01-11-2024 15:59:44,01-11-2024 15:59:45,0.259s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  LEGEND INK M_ff53f1/span_Catalog""))",Chrome 130.0.0.0,,,01-11-2024 15:59:45,01-11-2024 15:59:48,2.995s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Products  Threads/a_CONVERSE  CHUCK TAYLOR ALL STAR II HI""))",Chrome 130.0.0.0,,,01-11-2024 15:59:48,01-11-2024 15:59:49,1.812s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/button_Add to cart""))",Chrome 130.0.0.0,,,01-11-2024 15:59:49,01-11-2024 15:59:50,0.899s,PASSED
+delay(2),Chrome 130.0.0.0,,,01-11-2024 15:59:50,01-11-2024 15:59:52,2.006s,PASSED
+"takeScreenshot(screenshotFolderPath + ""addToCart3.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:52,01-11-2024 15:59:53,0.375s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/button_Continue shopping""))",Chrome 130.0.0.0,,,01-11-2024 15:59:53,01-11-2024 15:59:53,0.253s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/span_Home""))",Chrome 130.0.0.0,,,01-11-2024 15:59:53,01-11-2024 15:59:56,2.869s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Threads/svg_Log in_icon icon-cart""))",Chrome 130.0.0.0,,,01-11-2024 15:59:56,01-11-2024 15:59:57,1.331s,PASSED
+"scrollToPosition(0, 150)",Chrome 130.0.0.0,,,01-11-2024 15:59:57,01-11-2024 15:59:57,0.015s,PASSED
+"takeScreenshot(screenshotFolderPath + ""verify_cart.png"")",Chrome 130.0.0.0,,,01-11-2024 15:59:57,01-11-2024 15:59:58,0.929s,PASSED
+"abbText = getText(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Your Shopping Cart  Threads/span_Rs. 140.00""))",Chrome 130.0.0.0,,,01-11-2024 15:59:58,01-11-2024 15:59:58,0.251s,PASSED
+abbPrice = parsePrice(abbText),Chrome 130.0.0.0,,,01-11-2024 15:59:58,01-11-2024 15:59:58,0.002s,PASSED
+"cleanText = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 15:59:58,01-11-2024 15:59:58,0.005s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 15:59:58,01-11-2024 15:59:58,0.008s,PASSED
+println($abbPrice),Chrome 130.0.0.0,,,01-11-2024 15:59:58,01-11-2024 15:59:58,0.029s,PASSED
+"ambText = getText(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Your Shopping Cart  Threads/span_Rs. 40.00""))",Chrome 130.0.0.0,,,01-11-2024 15:59:58,01-11-2024 15:59:59,0.243s,PASSED
+ambPrice = parsePrice(ambText),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.001s,PASSED
+"cleanText = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.000s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.001s,PASSED
+println($ambPrice),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.001s,PASSED
+"shoeText = getText(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Your Shopping Cart  Threads/span_Rs. 56.00""))",Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.241s,PASSED
+shoePrice = parsePrice(shoeText),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.000s,PASSED
+"cleanText = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.002s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.000s,PASSED
+println($shoePrice),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.001s,PASSED
+"totalText = getText(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Page_Your Shopping Cart  Threads/p_Rs. 236.00""))",Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.540s,PASSED
+totalPrice = parsePrice(totalText),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.000s,PASSED
+"cleanText = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.000s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.001s,PASSED
+println(Total Price: $totalPrice),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.000s,PASSED
+total = abbPrice + ambPrice + shoePrice,Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.026s,PASSED
+println(Calculated Total: $total),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.001s,PASSED
+if (total == totalPrice),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 15:59:59,0.002s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 15:59:59,01-11-2024 16:00:00,0.677s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/5 Shopping Cart/TC-309-Verify Promo code,Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:01:19,1m - 18.427s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:00:00,0.001s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:00:00,0.002s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:00:00,0.001s,PASSED
+"screenshotFolderPath = ""screenshots/shopping_cart_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:00:00,0.002s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:00:00,0.004s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 16:00:00,01-11-2024 16:00:07,6.631s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 16:00:07,01-11-2024 16:00:15,7.591s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Threads/span_Catalog""))",Chrome 130.0.0.0,,,01-11-2024 16:00:15,01-11-2024 16:00:15,0.682s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Products  Threads/a_CONVERSE  CHUCK TAYLOR ALL STAR LO""))",Chrome 130.0.0.0,,,01-11-2024 16:00:15,01-11-2024 16:00:17,1.663s,PASSED
+"takeScreenshot(screenshotFolderPath + ""item.png"")",Chrome 130.0.0.0,,,01-11-2024 16:00:17,01-11-2024 16:00:22,5.071s,PASSED
+delay(2),Chrome 130.0.0.0,,,01-11-2024 16:00:22,01-11-2024 16:00:24,2.004s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_CONVERSE  CHUCK TAYLOR ALL STAR LO  Threads/label_4Variant sold out or unavailable""))",Chrome 130.0.0.0,,,01-11-2024 16:00:24,01-11-2024 16:00:25,0.675s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_CONVERSE  CHUCK TAYLOR ALL STAR LO  Threads/button_Add to cart""))",Chrome 130.0.0.0,,,01-11-2024 16:00:25,01-11-2024 16:00:25,0.796s,PASSED
+"takeScreenshot(screenshotFolderPath + ""verify_cart.png"")",Chrome 130.0.0.0,,,01-11-2024 16:00:25,01-11-2024 16:00:28,2.378s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_CONVERSE  CHUCK TAYLOR ALL STAR LO  Threads/a_View cart (1)""))",Chrome 130.0.0.0,,,01-11-2024 16:00:28,01-11-2024 16:00:29,0.854s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Your Shopping Cart  Threads/button_Check out""))",Chrome 130.0.0.0,,,01-11-2024 16:00:29,01-11-2024 16:00:37,8.023s,PASSED
+"takeScreenshot(screenshotFolderPath + ""checkout.png"")",Chrome 130.0.0.0,,,01-11-2024 16:00:37,01-11-2024 16:00:38,1.567s,PASSED
+"setText(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/input_Discount code_reductions""), ""WINTER10"")",Chrome 130.0.0.0,,,01-11-2024 16:00:38,01-11-2024 16:00:39,0.687s,PASSED
+delay(3),Chrome 130.0.0.0,,,01-11-2024 16:00:39,01-11-2024 16:00:42,3.005s,PASSED
+"takeScreenshot(screenshotFolderPath + ""promo.png"")",Chrome 130.0.0.0,,,01-11-2024 16:00:42,01-11-2024 16:00:42,0.331s,PASSED
+"click(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/button_Apply""))",Chrome 130.0.0.0,,,01-11-2024 16:00:42,01-11-2024 16:00:43,0.294s,PASSED
+"prodPrice = getText(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/span_100.00""))",Chrome 130.0.0.0,,,01-11-2024 16:00:43,01-11-2024 16:00:44,1.678s,PASSED
+originalPrice = parsePrice(prodPrice),Chrome 130.0.0.0,,,01-11-2024 16:00:44,01-11-2024 16:00:44,0.001s,PASSED
+"cleanText = ]"", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:00:44,01-11-2024 16:00:44,0.006s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 16:00:44,01-11-2024 16:00:44,0.002s,PASSED
+println(Original Price: $originalPrice),Chrome 130.0.0.0,,,01-11-2024 16:00:44,01-11-2024 16:00:44,0.001s,PASSED
+discountedPrice = originalPrice / 100 * 10,Chrome 130.0.0.0,,,01-11-2024 16:00:44,01-11-2024 16:00:44,0.007s,PASSED
+"discount = parseDisc(getText(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/span_10.00"")))",Chrome 130.0.0.0,,,01-11-2024 16:00:44,01-11-2024 16:00:45,0.544s,PASSED
+"cleanText = -]"", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.001s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.001s,PASSED
+if (discount == discountedPrice),Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.002s,PASSED
+"taxAmt = parsePrice(getText(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/span_8.10"")))",Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.239s,PASSED
+"cleanText = ]"", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.000s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.001s,PASSED
+totalPrice = originalPrice - discount + taxAmt,Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.001s,PASSED
+"finalPriceStr = getText(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_98.10""))",Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.238s,PASSED
+finalPrice = parsePrice(finalPriceStr),Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.001s,PASSED
+"cleanText = ]"", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.000s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.000s,PASSED
+if (totalPrice == finalPrice),Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:45,0.003s,PASSED
+"verifyTextPresent(""TOTAL SAVINGS"", false)",Chrome 130.0.0.0,,,01-11-2024 16:00:45,01-11-2024 16:00:46,0.299s,PASSED
+"savings = parsePrice(getText(findTestObject(""Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00"")))",Chrome 130.0.0.0,,,01-11-2024 16:00:46,01-11-2024 16:01:18,32.011s,PASSED
+"cleanText = ]"", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:01:18,01-11-2024 16:01:18,0.001s,PASSED
+return java.lang.Float.parseFloat(cleanText),Chrome 130.0.0.0,,,01-11-2024 16:01:18,01-11-2024 16:01:18,0.000s,PASSED
+if (savings == discountedPrice),Chrome 130.0.0.0,,,01-11-2024 16:01:18,01-11-2024 16:01:18,0.002s,PASSED
+"takeScreenshot(screenshotFolderPath + ""verify_price.png"")",Chrome 130.0.0.0,,,01-11-2024 16:01:18,01-11-2024 16:01:18,0.306s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:01:18,01-11-2024 16:01:19,0.645s,PASSED
+,,,,,,,
+"Test Cases/Threads_Webshop/6 Checkout/TC-178,404,305-Verify checkout scenario",Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:02:18,59.459s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:01:19,0.000s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:01:19,0.001s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:01:19,0.001s,PASSED
+"screenshotFolderPath = ""screenshots/checkout_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:01:19,0.000s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:01:19,0.002s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Login to an Account""), [""validemail"":""cenaalice1234@mailinator.com"", ""password"":""UDMlkmqWREzH+mr49N5wRw==""], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 16:01:19,01-11-2024 16:01:47,27.911s,PASSED
+"verifyTextPresent(""Home"", false)",Chrome 130.0.0.0,,,01-11-2024 16:01:47,01-11-2024 16:01:48,0.939s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 16:01:48,01-11-2024 16:01:48,0.777s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:01:48,01-11-2024 16:01:49,0.641s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:01:49,01-11-2024 16:02:00,11.446s,PASSED
+"takeScreenshot(screenshotFolderPath + ""item.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:00,01-11-2024 16:02:01,0.968s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now""))",Chrome 130.0.0.0,,,01-11-2024 16:02:01,01-11-2024 16:02:02,0.265s,PASSED
+"verifyTextPresent(""Threads"", false)",Chrome 130.0.0.0,,,01-11-2024 16:02:02,01-11-2024 16:02:08,6.228s,PASSED
+"takeScreenshot(screenshotFolderPath + ""checkout_screen.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:08,01-11-2024 16:02:08,0.329s,PASSED
+"productText = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_56.00""))",Chrome 130.0.0.0,,,01-11-2024 16:02:08,01-11-2024 16:02:09,0.858s,PASSED
+"clothWithoutDollar = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.001s,PASSED
+productPrice = Float.parseFloat(clothWithoutDollar),Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.001s,PASSED
+println($productPrice),Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.001s,PASSED
+"shippinfText = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_10.00""))",Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.235s,PASSED
+"ShippinfTextW$ = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.001s,PASSED
+shippingPrice = Float.parseFloat(ShippinfTextW$),Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.001s,PASSED
+println($shippingPrice),Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:09,0.002s,PASSED
+"taxText = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_10.08""))",Chrome 130.0.0.0,,,01-11-2024 16:02:09,01-11-2024 16:02:10,0.234s,PASSED
+"taxText$ = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.001s,PASSED
+taxPrice = Float.parseFloat(taxText$),Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.001s,PASSED
+println($taxPrice),Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.002s,PASSED
+"totalText = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/strong_76.08""))",Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.236s,PASSED
+"totalText$ = replace("","", """").trim()",Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.001s,PASSED
+totalPrice = Float.parseFloat(totalText$),Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.000s,PASSED
+println(totalPrice),Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.002s,PASSED
+total = taxPrice + shippingPrice + productPrice,Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.000s,PASSED
+println($total),Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.000s,PASSED
+if (total == totalPrice),Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.002s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/div_Ship to__1fragemfz _1fragemeo _1fragemh_6626dd""))",Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:10,0.275s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/button_Bob Chen, Pursuit Software, abc apar_ab85f8""))",Chrome 130.0.0.0,,,01-11-2024 16:02:10,01-11-2024 16:02:11,0.471s,PASSED
+"takeScreenshot(screenshotFolderPath + ""information_before.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:11,01-11-2024 16:02:11,0.737s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/button_Edit""))",Chrome 130.0.0.0,,,01-11-2024 16:02:11,01-11-2024 16:02:12,0.286s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Address_address1""))",Chrome 130.0.0.0,,,01-11-2024 16:02:12,01-11-2024 16:02:12,0.808s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Apartment, suite, etc. (optional)_address2""), ""abc"")",Chrome 130.0.0.0,,,01-11-2024 16:02:12,01-11-2024 16:02:13,0.721s,PASSED
+"takeScreenshot(screenshotFolderPath + ""changed.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:13,01-11-2024 16:02:14,0.351s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/button_Save""))",Chrome 130.0.0.0,,,01-11-2024 16:02:14,01-11-2024 16:02:14,0.318s,PASSED
+"takeScreenshot(screenshotFolderPath + ""information_after.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:14,01-11-2024 16:02:16,2.346s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/a_Threads""))",Chrome 130.0.0.0,,,01-11-2024 16:02:16,01-11-2024 16:02:17,1.219s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:02:17,01-11-2024 16:02:18,0.653s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/6 Checkout/TC-Verify Shipping method,Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:04:43,2m - 25.023s,PASSED
+currentDateTime = LocalDateTime.now(),Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:02:18,0.001s,PASSED
+"formatter = DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss"")",Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:02:18,0.003s,PASSED
+dateTimeString = currentDateTime.format(formatter),Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:02:18,0.001s,PASSED
+"screenshotFolderPath = ""screenshots/checkout_"" + dateTimeString + ""/""",Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:02:18,0.001s,PASSED
+File(screenshotFolderPath).mkdirs(),Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:02:18,0.001s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Login to an Account""), [""validemail"":""cenaalice1234@mailinator.com"", ""password"":""UDMlkmqWREzH+mr49N5wRw==""], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 16:02:18,01-11-2024 16:02:50,31.793s,PASSED
+"takeScreenshot(screenshotFolderPath + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:50,01-11-2024 16:02:52,1.738s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:02:52,01-11-2024 16:02:52,0.253s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:02:52,01-11-2024 16:02:54,1.980s,PASSED
+"takeScreenshot(screenshotFolderPath + ""item.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:54,01-11-2024 16:02:56,2.192s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now""))",Chrome 130.0.0.0,,,01-11-2024 16:02:56,01-11-2024 16:02:56,0.239s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now""))",Chrome 130.0.0.0,,,01-11-2024 16:02:56,01-11-2024 16:02:57,0.560s,PASSED
+"takeScreenshot(screenshotFolderPath + ""checkout.png"")",Chrome 130.0.0.0,,,01-11-2024 16:02:57,01-11-2024 16:03:02,4.507s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path""))",Chrome 130.0.0.0,,,01-11-2024 16:03:02,01-11-2024 16:03:34,32.306s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods""))",Chrome 130.0.0.0,,,01-11-2024 16:03:34,01-11-2024 16:04:06,31.675s,PASSED
+"takeScreenshot(screenshotFolderPath + ""shipping_method1.png"")",Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.330s,PASSED
+"product1 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_56.00""))",Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.254s,PASSED
+println($product1),Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.001s,PASSED
+"product1 = product1.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.001s,PASSED
+productPrice1 = Float.parseFloat(product1),Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.001s,PASSED
+println($productPrice1),Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.002s,PASSED
+"shipping1 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_10.00""))",Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.239s,PASSED
+println($shipping1),Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.001s,PASSED
+"shipping1 = shipping1.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.001s,PASSED
+shippingPrice1 = Float.parseFloat(shipping1),Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.001s,PASSED
+println($shippingPrice1),Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:06,0.000s,PASSED
+"tax1 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_10.08""))",Chrome 130.0.0.0,,,01-11-2024 16:04:06,01-11-2024 16:04:07,0.240s,PASSED
+println($tax1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.001s,PASSED
+"tax1 = tax1.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.001s,PASSED
+taxPrice1 = Float.parseFloat(tax1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.001s,PASSED
+println($taxPrice1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.001s,PASSED
+priceTotal1 = productPrice1 + shippingPrice1 + taxPrice1,Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.002s,PASSED
+"total1 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/strong_76.08""))",Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.261s,PASSED
+println($total1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.000s,PASSED
+"total1 = total1.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.000s,PASSED
+totalPrice1 = Float.parseFloat(total1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.001s,PASSED
+println($totalPrice1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.001s,PASSED
+if (priceTotal1 == totalPrice1),Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:07,0.002s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods""))",Chrome 130.0.0.0,,,01-11-2024 16:04:07,01-11-2024 16:04:39,31.770s,PASSED
+"takeScreenshot(screenshotFolderPath + ""shipping_method2.png"")",Chrome 130.0.0.0,,,01-11-2024 16:04:39,01-11-2024 16:04:40,1.737s,PASSED
+"product2 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_56.00""))",Chrome 130.0.0.0,,,01-11-2024 16:04:40,01-11-2024 16:04:41,1.049s,PASSED
+println($product2),Chrome 130.0.0.0,,,01-11-2024 16:04:41,01-11-2024 16:04:41,0.001s,PASSED
+"product2 = product2.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:41,01-11-2024 16:04:41,0.001s,PASSED
+productPrice2 = Float.parseFloat(product2),Chrome 130.0.0.0,,,01-11-2024 16:04:41,01-11-2024 16:04:41,0.002s,PASSED
+println($productPrice2),Chrome 130.0.0.0,,,01-11-2024 16:04:41,01-11-2024 16:04:41,0.000s,PASSED
+"shipping2 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_25.00""))",Chrome 130.0.0.0,,,01-11-2024 16:04:41,01-11-2024 16:04:42,0.235s,PASSED
+println($shipping2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.002s,PASSED
+"shipping2 = shipping2.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+shippingPrice2 = Float.parseFloat(shipping2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.000s,PASSED
+println($shippingPrice2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.002s,PASSED
+"tax2 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/span_10.08""))",Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.534s,PASSED
+println($tax2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+"tax2 = tax2.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+taxPrice2 = Float.parseFloat(tax2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+println($taxPrice2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+priceTotal2 = productPrice2 + shippingPrice2 + taxPrice2,Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+"total2 = getText(findTestObject(""Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/strong_91.08""))",Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.233s,PASSED
+println($total2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+"total2 = total2.replace(""₹"", """")",Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.000s,PASSED
+totalPrice2 = Float.parseFloat(total2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+println($totalPrice2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+if (priceTotal2 == totalPrice2),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:42,0.001s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:04:42,01-11-2024 16:04:43,0.640s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/7 My Account/TC-165-Verify Edit Address,Chrome 130.0.0.0,,,01-11-2024 16:04:43,01-11-2024 16:05:08,24.550s,PASSED
+"timestamp = now().format(DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss""))",Chrome 130.0.0.0,,,01-11-2024 16:04:43,01-11-2024 16:04:43,0.003s,PASSED
+"screenshotFolder = ""screenshots/my_account_"" + timestamp + ""/""",Chrome 130.0.0.0,,,01-11-2024 16:04:43,01-11-2024 16:04:43,0.002s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,01-11-2024 16:04:43,01-11-2024 16:04:44,0.727s,PASSED
+"navigateToUrl(""https://threads0.myshopify.com/password"")",Chrome 130.0.0.0,,,01-11-2024 16:04:44,01-11-2024 16:04:46,1.944s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Threads/div_Enter using password""))",Chrome 130.0.0.0,,,01-11-2024 16:04:46,01-11-2024 16:04:49,3.322s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Threads/input_Enter store using password_password""), ""gnzTAVlujIw+lTr0To6+Cg=="")",Chrome 130.0.0.0,,,01-11-2024 16:04:49,01-11-2024 16:04:49,0.296s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Threads/button_Enter""))",Chrome 130.0.0.0,,,01-11-2024 16:04:49,01-11-2024 16:04:51,1.514s,PASSED
+maximizeWindow(),Chrome 130.0.0.0,,,01-11-2024 16:04:51,01-11-2024 16:04:51,0.067s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 16:04:51,01-11-2024 16:04:53,1.621s,PASSED
+"verifyTextPresent(""Login"", false)",Chrome 130.0.0.0,,,01-11-2024 16:04:53,01-11-2024 16:04:54,0.861s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/input_Login_customeremail""), ""cenaalice1234@mailinator.com"")",Chrome 130.0.0.0,,,01-11-2024 16:04:54,01-11-2024 16:04:54,0.567s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/input_Email_customerpassword""), ""UDMlkmqWREzH+mr49N5wRw=="")",Chrome 130.0.0.0,,,01-11-2024 16:04:54,01-11-2024 16:04:54,0.293s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/button_Sign in""))",Chrome 130.0.0.0,,,01-11-2024 16:04:54,01-11-2024 16:04:57,2.676s,PASSED
+"verifyTextPresent(""Account"", false)",Chrome 130.0.0.0,,,01-11-2024 16:04:57,01-11-2024 16:04:58,0.961s,PASSED
+"takeScreenshot(screenshotFolder + ""account.png"")",Chrome 130.0.0.0,,,01-11-2024 16:04:58,01-11-2024 16:04:58,0.306s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/a_View addresses (1)""))",Chrome 130.0.0.0,,,01-11-2024 16:04:58,01-11-2024 16:05:00,1.224s,PASSED
+"verifyTextPresent(""Addresses"", false)",Chrome 130.0.0.0,,,01-11-2024 16:05:00,01-11-2024 16:05:00,0.887s,PASSED
+"verifyTextPresent(""Default"", false)",Chrome 130.0.0.0,,,01-11-2024 16:05:00,01-11-2024 16:05:01,0.251s,PASSED
+"takeScreenshot(screenshotFolder + ""address.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:01,01-11-2024 16:05:01,0.297s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/button_Edit""))",Chrome 130.0.0.0,,,01-11-2024 16:05:01,01-11-2024 16:05:01,0.262s,PASSED
+"takeScreenshot(screenshotFolder + ""edit.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:01,01-11-2024 16:05:02,0.310s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/input_Company_addressaddress1""), ""abc apartment, xyz road"")",Chrome 130.0.0.0,,,01-11-2024 16:05:02,01-11-2024 16:05:02,0.740s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/button_Update address""))",Chrome 130.0.0.0,,,01-11-2024 16:05:02,01-11-2024 16:05:04,2.015s,PASSED
+"verifyTextPresent(""abc apartment, xyz road"", false)",Chrome 130.0.0.0,,,01-11-2024 16:05:04,01-11-2024 16:05:05,1.085s,PASSED
+"takeScreenshot(screenshotFolder + ""address_after.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:05,01-11-2024 16:05:06,0.310s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/My Contact/Page_Addresses  Threads/span_Home""))",Chrome 130.0.0.0,,,01-11-2024 16:05:06,01-11-2024 16:05:07,1.332s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:05:07,01-11-2024 16:05:08,0.573s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/8 Order Details/Subscription/subscription,Chrome 130.0.0.0,,,01-11-2024 16:05:08,01-11-2024 16:05:51,43.245s,PASSED
+"timestamp = now().format(DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss""))",Chrome 130.0.0.0,,,01-11-2024 16:05:08,01-11-2024 16:05:08,0.001s,PASSED
+"screenshotFolder = ""screenshots/order_"" + timestamp",Chrome 130.0.0.0,,,01-11-2024 16:05:08,01-11-2024 16:05:08,0.001s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 16:05:08,01-11-2024 16:05:17,9.346s,PASSED
+"takeScreenshot(screenshotFolder + ""/home.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:17,01-11-2024 16:05:19,1.656s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Threads/a_Explore Threads""))",Chrome 130.0.0.0,,,01-11-2024 16:05:19,01-11-2024 16:05:20,1.037s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Products  Threads/a_ADIDAS  SUPERSTAR 80S""))",Chrome 130.0.0.0,,,01-11-2024 16:05:20,01-11-2024 16:05:21,1.502s,PASSED
+"takeScreenshot(screenshotFolder + ""/item.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:21,01-11-2024 16:05:24,2.484s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/span_One-time purchase_sls-custom-radio""))",Chrome 130.0.0.0,,,01-11-2024 16:05:24,01-11-2024 16:05:24,0.284s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/select_month3 months""), ""3 month"", true)",Chrome 130.0.0.0,,,01-11-2024 16:05:24,01-11-2024 16:05:25,0.985s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/div_See details""))",Chrome 130.0.0.0,,,01-11-2024 16:05:25,01-11-2024 16:05:26,0.767s,PASSED
+"verifyTextPresent(""You will receive a payment link and won't be charged automatically"", false)",Chrome 130.0.0.0,,,01-11-2024 16:05:26,01-11-2024 16:05:26,0.308s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/button_Add to cart""))",Chrome 130.0.0.0,,,01-11-2024 16:05:26,01-11-2024 16:05:26,0.268s,PASSED
+"takeScreenshot(screenshotFolder + ""/checkout.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:26,01-11-2024 16:05:29,2.260s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_ADIDAS  SUPERSTAR 80S  Threads/a_View cart (1)""))",Chrome 130.0.0.0,,,01-11-2024 16:05:29,01-11-2024 16:05:29,0.790s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Your Shopping Cart  Threads/button_Check out""))",Chrome 130.0.0.0,,,01-11-2024 16:05:29,01-11-2024 16:05:48,18.647s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/Page_Checkout - Threads/button_Pay now""))",Chrome 130.0.0.0,,,01-11-2024 16:05:48,01-11-2024 16:05:50,1.580s,PASSED
+"takeScreenshot(screenshotFolder + ""/subscription.png"")",Chrome 130.0.0.0,,,01-11-2024 16:05:50,01-11-2024 16:05:50,0.531s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:05:50,01-11-2024 16:05:51,0.687s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/8 Order Details/TC-575 Verify Reorder Functionality/Reorder,Chrome 130.0.0.0,,,01-11-2024 16:05:51,01-11-2024 16:06:21,29.700s,PASSED
+"openBrowser("""")",Chrome 130.0.0.0,,,01-11-2024 16:05:51,01-11-2024 16:05:52,0.729s,PASSED
+"navigateToUrl(""https://threads0.myshopify.com/password"")",Chrome 130.0.0.0,,,01-11-2024 16:05:52,01-11-2024 16:05:56,3.870s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Threads/div_Enter using password""))",Chrome 130.0.0.0,,,01-11-2024 16:05:56,01-11-2024 16:05:57,0.975s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Threads/input_Enter store using password_password""), ""gnzTAVlujIw+lTr0To6+Cg=="")",Chrome 130.0.0.0,,,01-11-2024 16:05:57,01-11-2024 16:05:57,0.302s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Threads/button_Enter""))",Chrome 130.0.0.0,,,01-11-2024 16:05:57,01-11-2024 16:05:59,1.721s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Threads/svg_Search_icon icon-account""))",Chrome 130.0.0.0,,,01-11-2024 16:05:59,01-11-2024 16:06:08,8.945s,PASSED
+"setText(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/input_Login_customeremail""), ""cenaalice1234@mailinator.com"")",Chrome 130.0.0.0,,,01-11-2024 16:06:08,01-11-2024 16:06:09,1.387s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/input_Email_customerpassword""), ""UDMlkmqWREzH+mr49N5wRw=="")",Chrome 130.0.0.0,,,01-11-2024 16:06:09,01-11-2024 16:06:09,0.300s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/button_Sign in""))",Chrome 130.0.0.0,,,01-11-2024 16:06:09,01-11-2024 16:06:11,2.284s,PASSED
+"click(findTestObject(""Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/button_Reorder""))",Chrome 130.0.0.0,,,01-11-2024 16:06:11,01-11-2024 16:06:18,7.001s,PASSED
+"verifyTextPresent(""Payment"", false)",Chrome 130.0.0.0,,,01-11-2024 16:06:18,01-11-2024 16:06:20,1.602s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:06:20,01-11-2024 16:06:21,0.496s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/9 Wishlist/TC-588 TC-65 TC-605,Chrome 130.0.0.0,,,01-11-2024 16:06:21,01-11-2024 16:06:51,30.584s,PASSED
+"timestamp = now().format(DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss""))",Chrome 130.0.0.0,,,01-11-2024 16:06:21,01-11-2024 16:06:21,0.000s,PASSED
+"screenshotFolder = ""screenshots/wishlist_"" + timestamp + ""/""",Chrome 130.0.0.0,,,01-11-2024 16:06:21,01-11-2024 16:06:21,0.000s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 16:06:21,01-11-2024 16:06:27,6.201s,PASSED
+"takeScreenshot(screenshotFolder + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 16:06:27,01-11-2024 16:06:30,3.067s,PASSED
+"click(findTestObject(""Object Repository/Wishlist_An/Page_Threads/span_Catalog""))",Chrome 130.0.0.0,,,01-11-2024 16:06:30,01-11-2024 16:06:32,2.058s,PASSED
+"takeScreenshot(screenshotFolder + ""catalog.png"")",Chrome 130.0.0.0,,,01-11-2024 16:06:32,01-11-2024 16:06:35,2.516s,PASSED
+"click(findTestObject(""Object Repository/Wishlist_An/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:06:35,01-11-2024 16:06:37,2.968s,PASSED
+"takeScreenshot(screenshotFolder + ""item1.png"")",Chrome 130.0.0.0,,,01-11-2024 16:06:37,01-11-2024 16:06:40,2.808s,PASSED
+"prodname = getText(findTestObject(""Object Repository/Wishlist_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/h1_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:06:40,01-11-2024 16:06:41,0.443s,PASSED
+"price = getText(findTestObject(""Object Repository/Wishlist_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/span_Rs. 56.00""))",Chrome 130.0.0.0,,,01-11-2024 16:06:41,01-11-2024 16:06:41,0.545s,PASSED
+"click(findTestObject(""Object Repository/Wishlist_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Add To Wishlist""))",Chrome 130.0.0.0,,,01-11-2024 16:06:41,01-11-2024 16:06:42,0.489s,PASSED
+"takeScreenshot(screenshotFolder + ""wishlist.png"")",Chrome 130.0.0.0,,,01-11-2024 16:06:42,01-11-2024 16:06:43,1.169s,PASSED
+"click(findTestObject(""Object Repository/Wishlist_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/div_ADIDAS  CLASSIC BACKPACK - OS  black ha_7c7ea2""))",Chrome 130.0.0.0,,,01-11-2024 16:06:43,01-11-2024 16:06:45,1.975s,PASSED
+"verifyTextPresent(""My Wishlist"", false)",Chrome 130.0.0.0,,,01-11-2024 16:06:45,01-11-2024 16:06:46,1.077s,PASSED
+"click(findTestObject(""Object Repository/Wishlist_An/Page_Wishlist  Threads/h2_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:06:46,01-11-2024 16:06:50,3.591s,PASSED
+"takeScreenshot(screenshotFolder + ""checkout.png"")",Chrome 130.0.0.0,,,01-11-2024 16:06:50,01-11-2024 16:06:50,0.541s,PASSED
+"verifyTextPresent(prodname, false)",Chrome 130.0.0.0,,,01-11-2024 16:06:50,01-11-2024 16:06:50,0.351s,PASSED
+"verifyTextPresent(price, false)",Chrome 130.0.0.0,,,01-11-2024 16:06:50,01-11-2024 16:06:51,0.256s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:06:51,01-11-2024 16:06:51,0.450s,PASSED
+,,,,,,,
+Test Cases/Threads_Webshop/9 Wishlist/TC-593-Verify Wishlist to Cart,Chrome 130.0.0.0,,,01-11-2024 16:08:52,01-11-2024 16:10:15,1m - 22.540s,PASSED
+"timestamp = now().format(DateTimeFormatter.ofPattern(""yyyyMMdd_HHmmss""))",Chrome 130.0.0.0,,,01-11-2024 16:08:52,01-11-2024 16:08:52,0.000s,PASSED
+"screenshotFolder = ""screenshots/wishlist_"" + timestamp + ""/""",Chrome 130.0.0.0,,,01-11-2024 16:08:52,01-11-2024 16:08:52,0.000s,PASSED
+"callTestCase(findTestCase(""Threads_Webshop/ReUsable Testcases/Enter Password""), [:], STOP_ON_FAILURE)",Chrome 130.0.0.0,,,01-11-2024 16:08:52,01-11-2024 16:09:23,30.636s,PASSED
+"takeScreenshot(screenshotFolder + ""home.png"")",Chrome 130.0.0.0,,,01-11-2024 16:09:23,01-11-2024 16:09:27,3.998s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_Threads/span_Catalog""))",Chrome 130.0.0.0,,,01-11-2024 16:09:27,01-11-2024 16:09:29,2.532s,PASSED
+"takeScreenshot(screenshotFolder + ""catalog.png"")",Chrome 130.0.0.0,,,01-11-2024 16:09:29,01-11-2024 16:09:31,1.500s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK""))",Chrome 130.0.0.0,,,01-11-2024 16:09:31,01-11-2024 16:09:33,2.198s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/span_Add To Wishlist""))",Chrome 130.0.0.0,,,01-11-2024 16:09:33,01-11-2024 16:09:35,1.498s,PASSED
+"takeScreenshot(screenshotFolder + ""wishlist.png"")",Chrome 130.0.0.0,,,01-11-2024 16:09:35,01-11-2024 16:09:36,1.131s,PASSED
+"verifyTextPresent(""ADDED TO WISHLIST"", false)",Chrome 130.0.0.0,,,01-11-2024 16:09:36,01-11-2024 16:09:36,0.282s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg""))",Chrome 130.0.0.0,,,01-11-2024 16:09:36,01-11-2024 16:10:08,32.499s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_Wishlist  Threads/button_Add To Cart""))",Chrome 130.0.0.0,,,01-11-2024 16:10:08,01-11-2024 16:10:10,1.277s,PASSED
+"verifyTextPresent(""ADDED TO CART"", false)",Chrome 130.0.0.0,,,01-11-2024 16:10:10,01-11-2024 16:10:11,1.460s,PASSED
+"takeScreenshot(screenshotFolder + ""addCart.png"")",Chrome 130.0.0.0,,,01-11-2024 16:10:11,01-11-2024 16:10:12,0.331s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_Wishlist  Threads/div_22 items""))",Chrome 130.0.0.0,,,01-11-2024 16:10:12,01-11-2024 16:10:12,0.774s,PASSED
+"verifyTextPresent(""Your cart"", false)",Chrome 130.0.0.0,,,01-11-2024 16:10:12,01-11-2024 16:10:13,0.865s,PASSED
+"takeScreenshot(screenshotFolder + ""cart.png"")",Chrome 130.0.0.0,,,01-11-2024 16:10:13,01-11-2024 16:10:13,0.319s,PASSED
+"click(findTestObject(""Object Repository/Wishlist to cart_An/Page_Your Shopping Cart  Threads/div_Rs. 56.00""))",Chrome 130.0.0.0,,,01-11-2024 16:10:13,01-11-2024 16:10:14,0.259s,PASSED
+"takeScreenshot(screenshotFolder + ""checkout.png"")",Chrome 130.0.0.0,,,01-11-2024 16:10:14,01-11-2024 16:10:14,0.341s,PASSED
+closeBrowser(),Chrome 130.0.0.0,,,01-11-2024 16:10:14,01-11-2024 16:10:15,0.621s,PASSED
