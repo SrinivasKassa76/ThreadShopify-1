@@ -16,21 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-WebUI.openBrowser('')
+// Generate a unique folder path based on the current date and time
+LocalDateTime currentDateTime = LocalDateTime.now()
 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern('yyyyMMdd_HHmmss')
 
-WebUI.click(findTestObject('Object Repository/Page_Threads/div_Enter using password'))
+String dateTimeString = currentDateTime.format(formatter)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Threads/input_Enter store using password_password'), 'gnzTAVlujIw+lTr0To6+Cg==')
+// Define the screenshot folder path with a unique timestamp
+String screenshotFolderPath = ('screenshots/home_page_' + dateTimeString) + '/'
 
-WebUI.click(findTestObject('Object Repository/Page_Threads/button_Enter'))
+// Ensure the folder is created before taking screenshots
+new File(screenshotFolderPath).mkdirs()
+
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
 //Scroll to bottom
 WebUI.scrollToPosition(0, 10000)
+
+//Take screen shot
+WebUI.takeScreenshot(screenshotFolderPath + 'social_media_icon.png')
 
 //Verify Facebook icon
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Threads/a_Facebook'))

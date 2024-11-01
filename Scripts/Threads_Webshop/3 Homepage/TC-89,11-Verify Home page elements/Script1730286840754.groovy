@@ -16,26 +16,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-WebUI.openBrowser('')
+// Generate a unique folder path based on the current date and time
+LocalDateTime currentDateTime = LocalDateTime.now()
 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern('yyyyMMdd_HHmmss')
 
-WebUI.maximizeWindow()
+String dateTimeString = currentDateTime.format(formatter)
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Home_Page/Page_Threads/div_Enter using password'))
+// Define the screenshot folder path with a unique timestamp
+String screenshotFolderPath = ('screenshots/home_page_' + dateTimeString) + '/'
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Home_Page/Page_Threads/input_Enter store using password_password'), 
-    'gnzTAVlujIw+lTr0To6+Cg==')
+// Ensure the folder is created before taking screenshots
+new File(screenshotFolderPath).mkdirs()
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Home_Page/Page_Threads/button_Enter'))
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Verify the Home page
 WebUI.verifyTextPresent('Home', false)
 
+WebUI.takeScreenshot(screenshotFolderPath + 'home.png')
+
 //Verify the banner
 WebUI.verifyElementPresent(findTestObject('Object Repository/Thread_Webshop/Home_Page/Page_Threads/div_Uncover your wardrobe essentials       _66e2bc'), 
     0)
+
+WebUI.takeScreenshot(screenshotFolderPath + 'banner.png')
 
 //Verify the Text written on the Banner
 WebUI.verifyTextPresent('Uncover your wardrobe essentials', false)
@@ -53,6 +61,12 @@ if (isFeaturedPresent) {
 
     WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Home_Page/Page_Threads/a_ADIDAS  SUPERSTAR 80S'))
 }
+
+WebUI.scrollToPosition(0, 1000)
+
+WebUI.delay(2)
+
+WebUI.takeScreenshot(screenshotFolderPath + 'featured.png')
 
 WebUI.closeBrowser()
 
