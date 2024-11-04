@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 //Reset the value
 WebUI.openBrowser('')
 
@@ -50,14 +49,16 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/div_All products'))
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/span_Save (1)'))
+WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/span_Save (4)'))
 
+WebUI.delay(2)
 
 //Verify reset
-
 WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads/a_Explore Threads_1'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK'))
+
+WebUI.closeBrowser()
 
