@@ -38,5 +38,5 @@ WebUI.click(findTestObject('Object Repository/Page_ADIDAS  SUPERSTAR 80S  Thread
 
 WebUI.click(findTestObject('Object Repository/Page_Your Shopping Cart  Threads/div_Subscription interval                  _3bdc82'))
 
-WebUI.click(findTestObject('Object Repository/Page_Your Shopping Cart  Threads/div_Discount on next order                 _8fbb8b'))
+WebUI.verifyTextPresent('Discount on next order', false)
 
