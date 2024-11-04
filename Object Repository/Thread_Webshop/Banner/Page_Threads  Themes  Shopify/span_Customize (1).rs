@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Customize (1)</name>
+   <tag></tag>
+   <elementGuidId>2f43af75-6f3e-4b2f-a695-ffdb84963340</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.Polaris-Text--root.Polaris-Text--bodySm.Polaris-Text--semibold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div[2]/div[2]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Customize Dawn&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ed31ae80-43d7-45ef-9571-95c794d66d67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-Text--root Polaris-Text--bodySm Polaris-Text--semibold</value>
+      <webElementGuid>f623809e-a592-440d-b423-fef3c94d97e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customize</value>
+      <webElementGuid>0f45241f-6fa7-4d3d-bed5-2b1186584a93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;Online-Store-UI-AppProvider_gpbc5&quot;]/div[@class=&quot;UYl7w kbVb4&quot;]/div[@class=&quot;Polaris-Page&quot;]/div[2]/div[@class=&quot;Polaris-BlockStack&quot;]/div[@class=&quot;Polaris-LegacyStack Polaris-LegacyStack--distributionFill&quot;]/div[@class=&quot;Polaris-LegacyStack__Item&quot;]/div[@class=&quot;Polaris-Layout&quot;]/div[@class=&quot;Polaris-Layout__Section Polaris-Layout__Section--fullWidth&quot;]/div[@class=&quot;Polaris-ShadowBevel&quot;]/div[@class=&quot;Polaris-Box&quot;]/div[@class=&quot;Polaris-Box&quot;]/div[@class=&quot;tIlKz&quot;]/div[3]/div[@class=&quot;ra5dh wBFi_ XGsF9&quot;]/div[@class=&quot;Polaris-ButtonGroup&quot;]/div[@class=&quot;Polaris-ButtonGroup__Item&quot;]/a[@class=&quot;Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter&quot;]/span[@class=&quot;Polaris-Text--root Polaris-Text--bodySm Polaris-Text--semibold&quot;]</value>
+      <webElementGuid>9604dd8f-dbe3-48fb-8c1d-002ceb94cb52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/iframe_Online Store_5698d275-b1aa-46e9-b755_7a8405</value>
+      <webElementGuid>0f11c615-0fd6-4169-b6c2-fa8c3800ea6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div/div/div/div[3]/div/div[2]/div[2]/a/span</value>
+      <webElementGuid>6dc2dc42-d85f-46ed-8f40-638194f8c441</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current theme'])[1]/following::span[11]</value>
+      <webElementGuid>3e95943f-c864-4671-8181-391bf14432b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Theme library'])[1]/preceding::span[1]</value>
+      <webElementGuid>dfba9b91-7c66-4a07-848b-65bf61cf5c25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add theme'])[1]/preceding::span[1]</value>
+      <webElementGuid>8f737a93-c3a0-4bf7-b43a-5720facdbf50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customize']/parent::*</value>
+      <webElementGuid>64d041b1-ad74-4955-8a33-8a836deee6cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/span</value>
+      <webElementGuid>5444190a-03d9-4a77-84bc-6678fd01052a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Customize' or . = 'Customize')]</value>
+      <webElementGuid>318d5a7e-c53f-4873-8db4-5c09a907b7cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-688, Verify Banner title</name>
+   <name>Reset the Banner</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2c50ce0c-7d70-4ce1-87b4-bb3f488629d0</testCaseGuid>
+   <testCaseGuid>1ff04837-119c-4c28-a67a-1b933fd35684</testCaseGuid>
 </TestCaseEntity>

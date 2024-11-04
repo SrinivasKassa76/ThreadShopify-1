@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Card number_number</name>
+   <name>input_Email_accountemail</name>
    <tag></tag>
-   <elementGuidId>4f315583-72f3-4bb9-b887-5d6b44e37ffd</elementGuidId>
+   <elementGuidId>084d6402-3ce8-43f6-8ae7-a10f3ead246d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Form1&quot;]/div[1]/div[3]/div[1]/div/section/div/div[2]/div/div[1]/div/div/div/div/div[1]</value>
+         <key>CSS</key>
+         <value>#account_email</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#number</value>
+         <key>XPATH</key>
+         <value>//input[@id='account_email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Card number&quot;i]</value>
+         <value>internal:label=&quot;Email&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,126 +29,126 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f0b09de8-3243-4118-8d41-2f2d4e0352bb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>cc-number</value>
-      <webElementGuid>25173771-10fc-41c4-8ad8-5709f4770c81</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>number</value>
-      <webElementGuid>2efaeeae-ae94-4c9c-990a-41284c61ec51</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>number</value>
-      <webElementGuid>e97fb1ed-d4e6-42da-bffc-4908afea7411</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>54377fae-d1dc-44b3-93bd-7511881275ee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>inputmode</name>
-      <type>Main</type>
-      <value>numeric</value>
-      <webElementGuid>72e9c1b4-2f88-4fa1-a6d3-98f1165fe63a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>pattern</name>
-      <type>Main</type>
-      <value>[0-9]*</value>
-      <webElementGuid>4e18a334-4dd8-4387-8966-32fc4b2a00ec</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>error-for-number tooltip-for-number</value>
-      <webElementGuid>d8f33522-41d4-466d-ac7d-d46220f554f5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-current-field</name>
-      <type>Main</type>
-      <value>number</value>
-      <webElementGuid>89ad54d6-1053-454f-847e-aa55424ef749</webElementGuid>
+      <webElementGuid>aef4a120-a117-4e78-8988-21aa1ce31467</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input-placeholder-color--lvl-22</value>
-      <webElementGuid>09affe9b-978b-4115-bff3-13a5641bfe25</webElementGuid>
+      <value>next-input email-typo-input</value>
+      <webElementGuid>2d55fb09-1ab0-4bc8-9df8-9803eb81d5ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>type</name>
       <type>Main</type>
-      <value>Card number</value>
-      <webElementGuid>0cc19abb-3db2-4993-a071-e6e9f3db7de2</webElementGuid>
+      <value>email</value>
+      <webElementGuid>6c03f573-dd28-4060-965a-a836fcb473b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>d2e257fd-c054-4378-b584-8e7ef705b0e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>ef3e6704-edd8-4529-8db3-a8f1daae7af1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>58d56eaa-4697-4750-afce-6eaa0be1c4f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autofocus</name>
+      <type>Main</type>
+      <value>autofocus</value>
+      <webElementGuid>1701e217-49bf-4cb6-9ef9-3d3a747766d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>help-5f7f4a4c29b3b9a0ffb31598ca0686df</value>
+      <webElementGuid>3e2df903-2708-4ec0-9cfb-3c4e74618b01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>30</value>
+      <webElementGuid>21d851ae-8843-4fec-ae0c-d7e986b03b8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>account[email]</value>
+      <webElementGuid>b6480550-f514-4ef1-a4a3-611c811fe52a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>account_email</value>
+      <webElementGuid>c4c7b7a7-2dc4-422d-bd40-a1f54852e4d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;number&quot;)</value>
-      <webElementGuid>37b4efc7-c7ec-435d-a48b-baefdd293bc5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-sxwid_9f1b98</value>
-      <webElementGuid>645ec6bd-dae3-49ef-8368-1c1f79d062d3</webElementGuid>
+      <value>id(&quot;account_email&quot;)</value>
+      <webElementGuid>11c0e2b3-235f-4b2e-bc69-514dc5f4ecdc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='number']</value>
-      <webElementGuid>fd68f875-88c6-4c05-bbb3-32c1230c1799</webElementGuid>
+      <value>//input[@id='account_email']</value>
+      <webElementGuid>befd9c41-1504-42bd-a7f4-0664d2daca3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='account_lookup']/div/div/div/input</value>
+      <webElementGuid>cc746779-376b-4a5c-a02c-66972fd3d565</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>11f93dbb-0319-47e4-97c7-c479f6de79a5</webElementGuid>
+      <value>//form/div/div/div/input</value>
+      <webElementGuid>ac395115-0e60-4b63-9ad3-025da816023e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'number' and @name = 'number' and @type = 'text' and @placeholder = 'Card number']</value>
-      <webElementGuid>e5a02514-e9f6-4333-b80d-744f9bd93213</webElementGuid>
+      <value>//input[@type = 'email' and @name = 'account[email]' and @id = 'account_email']</value>
+      <webElementGuid>a45cc06a-537a-4419-8bbd-0d23b5fc52c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

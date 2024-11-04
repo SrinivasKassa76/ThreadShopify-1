@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Card number_number</name>
+   <name>input_First button label_TextSetting-Label1</name>
    <tag></tag>
-   <elementGuidId>4f315583-72f3-4bb9-b887-5d6b44e37ffd</elementGuidId>
+   <elementGuidId>02f30521-20b3-45ec-9d5d-5f81d567277c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;Form1&quot;]/div[1]/div[3]/div[1]/div/section/div/div[2]/div/div[1]/div/div/div/div/div[1]</value>
+         <key>CSS</key>
+         <value>#TextSetting-Label1</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#number</value>
+         <key>XPATH</key>
+         <value>//input[@id='TextSetting-Label1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Card number&quot;i]</value>
+         <value>internal:label=&quot;First button label&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,31 +29,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f0b09de8-3243-4118-8d41-2f2d4e0352bb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>cc-number</value>
-      <webElementGuid>25173771-10fc-41c4-8ad8-5709f4770c81</webElementGuid>
+      <webElementGuid>0058db68-1987-496f-9e13-d11024d93d23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>2efaeeae-ae94-4c9c-990a-41284c61ec51</webElementGuid>
+      <value>TextSetting-Label1</value>
+      <webElementGuid>3578d230-4fd5-4a38-86f1-393856d79ab0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>e97fb1ed-d4e6-42da-bffc-4908afea7411</webElementGuid>
+      <value>off</value>
+      <webElementGuid>c5758391-2a56-4e54-b2d5-a1a7fe1514c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-TextField__Input Polaris-TextField--compact</value>
+      <webElementGuid>0bbe7438-4ff7-478b-b102-cd4e71469499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,94 +61,102 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>54377fae-d1dc-44b3-93bd-7511881275ee</webElementGuid>
+      <webElementGuid>ffb3408d-fd4f-46c9-94c6-b696b5cd93ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>inputmode</name>
+      <name>aria-labelledby</name>
       <type>Main</type>
-      <value>numeric</value>
-      <webElementGuid>72e9c1b4-2f88-4fa1-a6d3-98f1165fe63a</webElementGuid>
+      <value>TextSetting-Label1Label</value>
+      <webElementGuid>e982b312-7078-429b-a706-59455d6d7386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>pattern</name>
+      <name>aria-invalid</name>
       <type>Main</type>
-      <value>[0-9]*</value>
-      <webElementGuid>4e18a334-4dd8-4387-8966-32fc4b2a00ec</webElementGuid>
+      <value>false</value>
+      <webElementGuid>889f5b01-a9b5-425f-bef8-b976edc48521</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>data-1p-ignore</name>
       <type>Main</type>
-      <value>error-for-number tooltip-for-number</value>
-      <webElementGuid>d8f33522-41d4-466d-ac7d-d46220f554f5</webElementGuid>
+      <value>true</value>
+      <webElementGuid>48e9e520-5459-4e39-9c88-416505e0553b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-current-field</name>
+      <name>data-lpignore</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>89ad54d6-1053-454f-847e-aa55424ef749</webElementGuid>
+      <value>true</value>
+      <webElementGuid>3b43dd8e-da6f-4b46-9de1-bcd3429d3a50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-form-type</name>
       <type>Main</type>
-      <value>input-placeholder-color--lvl-22</value>
-      <webElementGuid>09affe9b-978b-4115-bff3-13a5641bfe25</webElementGuid>
+      <value>other</value>
+      <webElementGuid>a82bfb0c-8cef-46cf-8290-4ac080f99362</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>value</name>
       <type>Main</type>
-      <value>Card number</value>
-      <webElementGuid>0cc19abb-3db2-4993-a071-e6e9f3db7de2</webElementGuid>
+      <value>Explore Threads</value>
+      <webElementGuid>317e4ee4-ebcd-4dbb-b7d0-795193b5eb4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;number&quot;)</value>
-      <webElementGuid>37b4efc7-c7ec-435d-a48b-baefdd293bc5</webElementGuid>
+      <value>id(&quot;TextSetting-Label1&quot;)</value>
+      <webElementGuid>4d404684-d844-4e56-9772-ab05b8509210</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-sxwid_9f1b98</value>
-      <webElementGuid>645ec6bd-dae3-49ef-8368-1c1f79d062d3</webElementGuid>
+      <value>Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_a99f666a-be2e-4590-8_37dbfe</value>
+      <webElementGuid>453989d0-3f75-4c67-bd7e-670b2fc10088</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='number']</value>
-      <webElementGuid>fd68f875-88c6-4c05-bbb3-32c1230c1799</webElementGuid>
+      <value>//input[@id='TextSetting-Label1']</value>
+      <webElementGuid>c37a2e7f-07e9-42b9-af3c-4a0d3dd94854</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/aside/div/div[4]/div/div/section[2]/div/div/div/div/div[2]/div/div/div/input</value>
+      <webElementGuid>8de82a01-611a-43cb-a37e-a4f2d3794c8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>11f93dbb-0319-47e4-97c7-c479f6de79a5</webElementGuid>
+      <value>//div[2]/div/div/div/input</value>
+      <webElementGuid>7e951ba1-7b79-44e3-9f71-900b5adbb3a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'number' and @name = 'number' and @type = 'text' and @placeholder = 'Card number']</value>
-      <webElementGuid>e5a02514-e9f6-4333-b80d-744f9bd93213</webElementGuid>
+      <value>//input[@id = 'TextSetting-Label1' and @type = 'text']</value>
+      <webElementGuid>283458b0-22e9-4bb2-aae7-edea56d121b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

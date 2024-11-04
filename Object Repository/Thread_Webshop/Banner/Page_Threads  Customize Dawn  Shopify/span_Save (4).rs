@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Save (4)</name>
+   <tag></tag>
+   <elementGuidId>01c65305-2e81-4db2-8d04-51a73baad5eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.Polaris-Text--root.Polaris-Text--bodySm.Polaris-Text--semibold</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/header/div[2]/div[3]/div[2]/div/span/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Save&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7b4748c3-6197-4f20-8c1c-9d074969b6a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-Text--root Polaris-Text--bodySm Polaris-Text--semibold</value>
+      <webElementGuid>6465bdb8-b274-4b1f-9413-076239d120e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>d1f716af-029e-4451-8224-b24c18743787</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;Online-Store-UI-AppProvider_gpbc5&quot;]/div[@class=&quot;Online-Store-UI-Frame_ty03x&quot;]/header[@class=&quot;Online-Store-UI-Frame-HeaderArea_n7ivb&quot;]/div[@class=&quot;Online-Store-UI-TopBar_3tnbt Online-Store-UI-TopBar--usesBottomSheet_qvlkc&quot;]/div[@class=&quot;Online-Store-UI-TopBar-LayoutGroup_1txj6 Online-Store-UI-TopBar-LayoutGroup--spacingBase_l0815 Online-Store-UI-TopBar-LayoutGroup--paddedRight_175mb Online-Store-UI-TopBar-LayoutGroup--usesBottomSheet_16ooh&quot;]/div[@class=&quot;Online-Store-UI-TopBar-LayoutGroup_1txj6 Online-Store-UI-TopBar-LayoutGroup--spacingTight_1lm6d Online-Store-UI-TopBar-LayoutGroup--usesBottomSheet_16ooh&quot;]/div[@class=&quot;Online-Store-UI-LayoutGroup-Item_cqdv4&quot;]/span[1]/button[@class=&quot;Polaris-Button Polaris-Button--pressable Polaris-Button--variantPrimary Polaris-Button--sizeMedium Polaris-Button--textAlignCenter&quot;]/span[@class=&quot;Polaris-Text--root Polaris-Text--bodySm Polaris-Text--semibold&quot;]</value>
+      <webElementGuid>abd893d9-2fe4-4e58-98f0-f9b281ac8d55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_fe56d741-3ec3-491d-b_5f461d</value>
+      <webElementGuid>7f5296fa-f953-40bc-bb0e-1a953aaa14e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/header/div[2]/div[3]/div[2]/div/span/button/span</value>
+      <webElementGuid>7961995a-43e5-4025-83fc-7b6ef56cddf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable fullscreen preview mode'])[1]/following::span[6]</value>
+      <webElementGuid>8eba0f44-605e-48a8-b434-f7e514b2ec19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable mobile preview mode'])[1]/following::span[10]</value>
+      <webElementGuid>8baaebdc-29a8-480d-b569-45f8ba79eed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home page'])[1]/preceding::span[13]</value>
+      <webElementGuid>cd51c4e4-ee99-40d5-9bf4-c476777c8038</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Header'])[1]/preceding::span[13]</value>
+      <webElementGuid>c88be4be-a031-4520-a4ff-a4273659af8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>5afce92e-7cb3-4939-8da7-3c21db3099e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span/button/span</value>
+      <webElementGuid>a744492e-c799-4a89-9d85-6ec0c7eccb86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>802527e3-86b4-4431-a70a-bdac097b92f2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

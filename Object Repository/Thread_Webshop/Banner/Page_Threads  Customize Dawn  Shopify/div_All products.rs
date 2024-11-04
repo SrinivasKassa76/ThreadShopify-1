@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_All products</name>
+   <tag></tag>
+   <elementGuidId>72314fe8-c54c-4eae-93b3-c6a97ddc9290</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.Online-Store-UI-UrlPickerList-UrlPickerItem__Text_192hg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':r2q:']/div/div/ul/li/button/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;All products&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d14ab7f3-3b57-4638-af40-f6ff587292bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Online-Store-UI-UrlPickerList-UrlPickerItem__Text_192hg</value>
+      <webElementGuid>06944bde-fb43-4faa-ae13-a79ba95f8ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All products</value>
+      <webElementGuid>b839fc98-7a11-4fb8-bcf6-82f6f43ab463</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r2q:&quot;)/div[@class=&quot;Polaris-Popover__Pane Polaris-Scrollable Polaris-Scrollable--vertical Polaris-Scrollable--horizontal Polaris-Scrollable--hasBottomShadow Polaris-Scrollable--scrollbarWidthThin&quot;]/div[@class=&quot;Online-Store-UI-UrlPicker-UrlPickerList__UrlPickerListWrapper_1bvas&quot;]/ul[@class=&quot;Online-Store-UI-UrlPicker-UrlPickerList_11ii8&quot;]/li[1]/button[@class=&quot;Online-Store-UI-UrlPickerList-UrlPickerItem__Action_1eb2u&quot;]/div[@class=&quot;Online-Store-UI-UrlPickerList-UrlPickerItem__Content_82q7g&quot;]/div[@class=&quot;Online-Store-UI-UrlPickerList-UrlPickerItem__Text_192hg&quot;]</value>
+      <webElementGuid>6cb8b89c-cd4b-4707-9fbe-fa85456413be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_9cc54c77-f6ce-460d-a_b95ee9</value>
+      <webElementGuid>fdf65d8e-4a1b-4b89-8291-06cebcb32843</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':r2q:']/div/div/ul/li/button/div/div[2]</value>
+      <webElementGuid>a0d902d9-f329-43e4-8124-1f9479d543cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::div[4]</value>
+      <webElementGuid>508597e5-b7ea-44e8-9e90-133c487aa553</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove block'])[1]/following::div[73]</value>
+      <webElementGuid>55318222-95c7-43d0-a846-7fd74d35629c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADIDAS | CLASSIC BACKPACK'])[1]/preceding::div[2]</value>
+      <webElementGuid>e0cbee16-3d24-4f21-a316-f2e79b42dc30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR'])[1]/preceding::div[5]</value>
+      <webElementGuid>9f3098e3-b686-4b4d-8f1e-74e0f33c2510</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All products']/parent::*</value>
+      <webElementGuid>0f0c0b27-9a72-4db2-9f2b-fbe1896bb3b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/ul/li/button/div/div[2]</value>
+      <webElementGuid>6a5f7055-9863-4164-9404-cc4e0916679e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'All products' or . = 'All products')]</value>
+      <webElementGuid>9dec14fd-11af-487d-9f34-98ced1be716c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

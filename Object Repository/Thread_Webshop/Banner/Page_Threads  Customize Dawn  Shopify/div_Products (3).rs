@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Products (3)</name>
+   <tag></tag>
+   <elementGuidId>b8c79821-09e8-4c94-b927-2375cf13abb7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > button.Online-Store-UI-UrlPickerList-UrlPickerItem__Action_1eb2u > div.Online-Store-UI-UrlPickerList-UrlPickerItem__Content_82q7g > div.Online-Store-UI-UrlPickerList-UrlPickerItem__Text_192hg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=':r2q:']/div/div/ul/li[2]/button/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Products&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4849f36c-a03d-4a94-bfb1-b9890d3a5993</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Online-Store-UI-UrlPickerList-UrlPickerItem__Text_192hg</value>
+      <webElementGuid>fc991d50-8d7d-467a-ae86-158206c6092a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Products</value>
+      <webElementGuid>1796e690-03e0-4cfe-955d-0edc9e412847</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:r2q:&quot;)/div[@class=&quot;Polaris-Popover__Pane Polaris-Scrollable Polaris-Scrollable--vertical Polaris-Scrollable--horizontal Polaris-Scrollable--scrollbarWidthThin&quot;]/div[@class=&quot;Online-Store-UI-UrlPicker-UrlPickerList__UrlPickerListWrapper_1bvas&quot;]/ul[@class=&quot;Online-Store-UI-UrlPicker-UrlPickerList_11ii8&quot;]/li[2]/button[@class=&quot;Online-Store-UI-UrlPickerList-UrlPickerItem__Action_1eb2u&quot;]/div[@class=&quot;Online-Store-UI-UrlPickerList-UrlPickerItem__Content_82q7g&quot;]/div[@class=&quot;Online-Store-UI-UrlPickerList-UrlPickerItem__Text_192hg&quot;]</value>
+      <webElementGuid>b5215301-17ab-44f8-a845-6eadddac1f79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_5698d275-b1aa-46e9-b_f1a7ce</value>
+      <webElementGuid>23f10343-ce10-4c24-96ec-13cfa7ae0f56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id=':r2q:']/div/div/ul/li[2]/button/div/div[2]</value>
+      <webElementGuid>223e7af2-2925-4b59-9eac-a0f5d6e42ef6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collections'])[1]/following::div[3]</value>
+      <webElementGuid>08b20abe-404f-493c-8c47-aa981a74e232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove block'])[1]/following::div[81]</value>
+      <webElementGuid>1f8b2c70-b96f-4a6b-8166-ceeae7437f9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pages'])[1]/preceding::div[2]</value>
+      <webElementGuid>76c6100b-b619-4861-91d2-1bc626ac1c01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blogs'])[1]/preceding::div[5]</value>
+      <webElementGuid>8cd2eecd-088a-4951-a01a-ba8b88148bcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Products']/parent::*</value>
+      <webElementGuid>a116f0b2-2ebc-401f-a0f2-520352822e08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/ul/li[2]/button/div/div[2]</value>
+      <webElementGuid>4831e80c-d7b4-420d-9b81-14a3c8c55991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Products' or . = 'Products')]</value>
+      <webElementGuid>cc367d54-d7be-41f0-927b-6cf2de64ae95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

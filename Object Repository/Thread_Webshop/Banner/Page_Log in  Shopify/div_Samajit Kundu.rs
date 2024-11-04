@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Samajit Kundu</name>
+   <tag></tag>
+   <elementGuidId>3b9b48e2-a939-47cb-98d4-06a81ecb9e2d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.user-card__name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='body-content']/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/a/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;SK Samajit Kundu samajit_k@pursuitsoftware.com&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1e64e9b5-724a-49e0-a447-e7cdf9ef396f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user-card__name</value>
+      <webElementGuid>15eb46fb-b196-4d8e-9596-9eeea596ac74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Samajit Kundu</value>
+      <webElementGuid>12c056c4-42e4-4948-b338-9fd6eddd1ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;body-content&quot;)/div[2]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-main&quot;]/div[@class=&quot;page-content with-shadow&quot;]/div[@class=&quot;main-content&quot;]/div[@class=&quot;login-card&quot;]/div[@class=&quot;login-card__content&quot;]/div[@class=&quot;main-card-section&quot;]/div[@class=&quot;content-stack account-picker choose-account-cards content-stack--spacing-tight&quot;]/a[@class=&quot;ui-button ui-button--full-width ui-button--size-large account-picker__item choose-account-card&quot;]/div[@class=&quot;account-picker__item-content choose-account-card__content&quot;]/div[@class=&quot;user-card&quot;]/div[@class=&quot;user-card__content&quot;]/div[@class=&quot;user-card__name&quot;]</value>
+      <webElementGuid>84b13b60-a1b9-416a-aef1-1e92370512dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='body-content']/div[2]/div/div[2]/div/div/div/div[2]/div/div[3]/a/div/div/div[2]/div</value>
+      <webElementGuid>33e9724e-eb7a-40e2-a8c9-9475f8499590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SK'])[1]/following::div[2]</value>
+      <webElementGuid>e2fa0648-cfc7-480f-994f-04c60f838feb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='to continue to Shopify'])[1]/following::div[12]</value>
+      <webElementGuid>5a417632-60c6-456c-98ae-29faf16f1d8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='samajit_k@pursuitsoftware.com'])[1]/preceding::div[1]</value>
+      <webElementGuid>603a289c-9fc9-43de-80df-e0b848ae2f17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add account'])[1]/preceding::div[4]</value>
+      <webElementGuid>2294eebc-f577-43cb-84c5-90ae6c54cd10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Samajit Kundu']/parent::*</value>
+      <webElementGuid>b2da7420-d7e6-41a0-81a9-e78f8430613a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div/div[2]/div</value>
+      <webElementGuid>1d20301c-4794-4a41-bb99-79fb597247bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Samajit Kundu' or . = 'Samajit Kundu')]</value>
+      <webElementGuid>19635cc9-c582-43ec-b2f7-0ff06282c140</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

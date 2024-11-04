@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>72f7081b-124c-4cd9-8a7e-4981c82dda16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>path:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Show password&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>40e87dc2-edf1-4f11-a727-a41b139f0424</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>6de33a75-6d26-4bfd-92bd-160e7cca6efd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+      <webElementGuid>9eee4d4a-e4ba-4118-9b4c-a2a821a0bb1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M10 4C7.52353 4 5.65153 5.22977 4.42264 6.53216C3.80748 7.18413 3.34017 7.86704 3.02329 8.45447C2.86488 8.74811 2.73973 9.02591 2.65225 9.27169C2.57143 9.49874 2.5 9.76019 2.5 10C2.5 10.2398 2.57143 10.5013 2.65225 10.7283C2.73973 10.9741 2.86488 11.2519 3.02329 11.5455C3.34017 12.133 3.80748 12.8159 4.42264 13.4678C5.65153 14.7702 7.52353 16 10 16C12.4765 16 14.3485 14.7702 15.5774 13.4678C16.1925 12.8159 16.6598 12.133 16.9767 11.5455C17.1351 11.2519 17.2603 10.9741 17.3478 10.7283C17.4286 10.5013 17.5 10.2398 17.5 10C17.5 9.76019 17.4286 9.49874 17.3478 9.27169C17.2603 9.02591 17.1351 8.74811 16.9767 8.45447C16.6598 7.86704 16.1925 7.18413 15.5774 6.53216C14.3485 5.22977 12.4765 4 10 4ZM4.00141 10.0021L4.00103 10L4.00141 9.99793C4.00509 9.97812 4.01827 9.90708 4.0654 9.77469C4.12269 9.61374 4.21422 9.40618 4.34345 9.16663C4.60183 8.68764 4.9936 8.11275 5.51365 7.56159C6.55519 6.45773 8.05819 5.5 10 5.5C11.9418 5.5 13.4448 6.45773 14.4864 7.56159C15.0064 8.11275 15.3982 8.68764 15.6566 9.16663C15.7858 9.40618 15.8773 9.61374 15.9346 9.77469C15.9817 9.90708 15.9949 9.97813 15.9986 9.99793L15.999 10L15.9986 10.0021C15.9949 10.0219 15.9817 10.0929 15.9346 10.2253C15.8773 10.3863 15.7858 10.5938 15.6566 10.8334C15.3982 11.3124 15.0064 11.8873 14.4864 12.4384C13.4448 13.5423 11.9418 14.5 10 14.5C8.05819 14.5 6.55519 13.5423 5.51365 12.4384C4.9936 11.8873 4.60183 11.3124 4.34345 10.8334C4.21422 10.5938 4.12269 10.3863 4.0654 10.2253C4.01827 10.0929 4.00509 10.0219 4.00141 10.0021Z</value>
+      <webElementGuid>6becafc5-9366-412d-9601-3bbf7fb0965b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>c9b29173-cc4d-41cb-b851-705c03c6da0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login_form&quot;)/div[@class=&quot;ui-form__group login-buttons-group&quot;]/div[@class=&quot;password-wrapper polaris-uplift-input-wrapper&quot;]/div[@class=&quot;next-input-wrapper&quot;]/div[@class=&quot;next-field__connected-wrapper ui-password next-input--stylized next-input--is-focused ui-password--has-focus next-input--has-content&quot;]/button[@class=&quot;ui-button ui-button--transparent ui-password__button js-password-button&quot;]/span[1]/svg[1]/path[2]</value>
+      <webElementGuid>a0a06572-e803-4d25-85d0-8aed1d4a02c7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
