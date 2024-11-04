@@ -220,21 +220,40 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e36c9253-4e96-437b-8205-e34b81433f96</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/Product Subscription/Product Subscription</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>0508b135-16db-48f7-9adc-142bfd191fea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/TC-575 Verify Reorder Functionality/Reorder</testCaseId>
+      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/TC-575, Verify Reorder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0cd60651-b49d-482c-81bd-ead7ab0f508a</guid>
+      <guid>bde497bd-46ec-4511-a3a7-d939971d8df0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Threads_Webshop/9 Wishlist/TC-593-Verify Wishlist to Cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c3479a0d-2e51-45d6-9e52-3622da704b54</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Threads_Webshop/4 Search/TC-112, 169, 143-Verify Search Scenario</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c172dbf5-b4dd-4c99-bebe-1fcb8359210f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3d08b3b5-da25-47c2-adec-cb196143192e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1aa3f42c-3bba-408b-93d2-cd387795f6ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Threads_Webshop/9 Wishlist/TC-588 TC-65 TC-605 Add item to Wishlist</testCaseId>
@@ -253,10 +272,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bde497bd-46ec-4511-a3a7-d939971d8df0</guid>
+      <guid>daa9e060-d51e-499e-b2a4-4ed968c8d5bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/9 Wishlist/TC-593-Verify Wishlist to Cart</testCaseId>
+      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/Product Subscription</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

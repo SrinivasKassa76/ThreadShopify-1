@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ADIDAS  CLASSIC BACKPACK</name>
+   <tag></tag>
+   <elementGuidId>06dcdfae-8961-4926-8b06-7167d811f6e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#CardLink-template--18610480611551__featured_collection-8834482045151</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='CardLink-template--18610480611551__featured_collection-8834482045151']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;ADIDAS | CLASSIC BACKPACK Sold out&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>65ef4230-b6b8-4bd1-839b-d3d60c1b629f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/products/adidas-classic-backpack</value>
+      <webElementGuid>e7ae6f99-fefd-46bc-8521-c52d1a22a9f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480611551__featured_collection-8834482045151</value>
+      <webElementGuid>649eccb6-b72b-4a39-b19d-758f9f2ada45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-unstyled-link</value>
+      <webElementGuid>81ffdb24-2d5c-47c9-a087-e4040f0ae19c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>CardLink-template--18610480611551__featured_collection-8834482045151 Badge-template--18610480611551__featured_collection-8834482045151</value>
+      <webElementGuid>eeb1d4e1-299e-4134-8870-6cc7c903f848</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              ADIDAS | CLASSIC BACKPACK
+            </value>
+      <webElementGuid>df7d0ce9-e9e7-4c58-8c8e-b2f102507b7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardLink-template--18610480611551__featured_collection-8834482045151&quot;)</value>
+      <webElementGuid>c52026af-6170-410e-8448-aaee6cf71b4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='CardLink-template--18610480611551__featured_collection-8834482045151']</value>
+      <webElementGuid>4b2e594b-b413-468f-b96f-3794279bb98e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//h3[@id='title-template--18610480611551__featured_collection-8834482045151']/a</value>
+      <webElementGuid>c0088344-b7db-4e19-9c09-f4504e7d606e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'ADIDAS | CLASSIC BACKPACK')])[2]</value>
+      <webElementGuid>3b05e58b-ce1f-4101-996e-773d5e2e49d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sold out'])[1]/following::a[1]</value>
+      <webElementGuid>b4866ce7-193e-4b29-93f6-73c38f3a8ae8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADIDAS | CLASSIC BACKPACK'])[1]/following::a[1]</value>
+      <webElementGuid>7702be25-199a-4c38-b2f7-e76cd660f866</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[1]/preceding::a[1]</value>
+      <webElementGuid>1f800caf-4331-4230-99f7-0e9e5d0920c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 56.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>1158840b-4ce7-4367-b5a5-347339f8fc96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/products/adidas-classic-backpack')])[2]</value>
+      <webElementGuid>b4c91995-bda9-4951-8487-23e0f0764509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3/a</value>
+      <webElementGuid>ac7e0b09-7629-4551-912d-19a69880bd51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/products/adidas-classic-backpack' and @id = 'CardLink-template--18610480611551__featured_collection-8834482045151' and (text() = '
+              ADIDAS | CLASSIC BACKPACK
+            ' or . = '
+              ADIDAS | CLASSIC BACKPACK
+            ')]</value>
+      <webElementGuid>2158e9c7-0a25-43af-ac0a-538fbcac878a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

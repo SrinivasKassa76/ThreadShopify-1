@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-444, Verify Summary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f47c3ba6-70d0-4d45-bb48-38a78ff1c1a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e7a1134-165c-45f7-8727-f576ca604365</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d2cfe091-e0b0-4300-b6b5-81b57446cd0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account'</defaultValue>
+      <description></description>
+      <id>7e7a1134-165c-45f7-8727-f576ca604365</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'Order history'</defaultValue>
+      <description></description>
+      <id>d2cfe091-e0b0-4300-b6b5-81b57446cd0e</id>
+      <masked>false</masked>
+      <name>order_history</name>
+   </variable>
+</TestCaseEntity>

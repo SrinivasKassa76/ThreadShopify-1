@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-570, Verify Cancle Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1e693905-f93f-4cf5-94cc-5b84fb8b6ef4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81281e27-3af6-4b2d-82a8-2c33b422959b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90f2a417-2628-47f6-8543-1921fc4ac2cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account'</defaultValue>
+      <description></description>
+      <id>81281e27-3af6-4b2d-82a8-2c33b422959b</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+   <variable>
+      <defaultValue>'Order history'</defaultValue>
+      <description></description>
+      <id>90f2a417-2628-47f6-8543-1921fc4ac2cb</id>
+      <masked>false</masked>
+      <name>summary</name>
+   </variable>
+</TestCaseEntity>
