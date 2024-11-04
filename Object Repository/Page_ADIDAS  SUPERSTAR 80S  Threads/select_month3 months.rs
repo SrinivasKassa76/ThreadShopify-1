@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Enter</name>
+   <name>select_month3 months</name>
    <tag></tag>
-   <elementGuidId>a482b2b3-73b8-461a-8e28-15e28d2f893e</elementGuidId>
+   <elementGuidId>7c4ec7ba-9458-4463-85ea-d7cf2bcf9154</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button[name=&quot;commit&quot;]</value>
+         <value>select[name=&quot;subs_interval&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@name='commit']</value>
+         <value>//select[@name='subs_interval']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Enter&quot;s]</value>
+         <value>internal:role=combobox</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,109 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>dee619f1-e590-42f1-9bc9-c316d37cc2dc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>commit</value>
-      <webElementGuid>fed266fb-38d6-48de-b8cd-d2f63849ddb1</webElementGuid>
+      <value>select</value>
+      <webElementGuid>f07dc4f4-962a-452b-97fd-7606a642977d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>password-button button button--outline</value>
-      <webElementGuid>8d4ab27c-55ed-41a0-83f5-a7feb0ab0f8b</webElementGuid>
+      <value>sls-select seal-tight</value>
+      <webElementGuid>a93f5cf7-da8b-4949-80bd-51e60bfaf27e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>subs_interval</value>
+      <webElementGuid>d23733ae-10fd-4e1e-bfda-56bfb463aabc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                Enter
-              </value>
-      <webElementGuid>77a9841a-dd83-41f0-bd47-7b5e86d2ed56</webElementGuid>
+      <value>month3 months</value>
+      <webElementGuid>93d6a402-09b4-4797-b98e-3b468d75b9ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login_form&quot;)/button[@class=&quot;password-button button button--outline&quot;]</value>
-      <webElementGuid>c42ff4e2-225d-47d6-a778-3c913926bfd7</webElementGuid>
+      <value>id(&quot;product-form-template--18610481004767__main&quot;)/div[@class=&quot;sealsubs-target-element sealsubs-full&quot;]/div[@class=&quot;sealsubs-container&quot;]/div[@class=&quot;sls-option-container seal-table sls-active&quot;]/div[@class=&quot;seal-row&quot;]/div[@class=&quot;sls-label-container  seal-col&quot;]/div[@class=&quot;sls-select-container&quot;]/select[@class=&quot;sls-select seal-tight&quot;]</value>
+      <webElementGuid>509939cd-fcff-432e-ad95-be4bb8ecb40c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@name='commit']</value>
-      <webElementGuid>14227728-2314-4dc7-b91f-6f5290367e71</webElementGuid>
+      <value>//select[@name='subs_interval']</value>
+      <webElementGuid>565a3f10-9fa1-42a7-a7d9-4aeae10b2faf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login_form']/button</value>
-      <webElementGuid>64cceee2-2fa3-4d3e-aa75-f7b5df6507d5</webElementGuid>
+      <value>//form[@id='product-form-template--18610481004767__main']/div/div/div[2]/div/div[2]/div/select</value>
+      <webElementGuid>bc9bb668-6694-4221-b4d2-7137d3e470cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your password'])[1]/following::button[1]</value>
-      <webElementGuid>65dd2ea5-d372-40a4-8839-42459c68aa7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='One-time purchase'])[1]/following::select[1]</value>
+      <webElementGuid>d184fa81-47ba-4fe8-b7e8-f52b2cea6cfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter store using password:'])[1]/following::button[1]</value>
-      <webElementGuid>51a7b51d-e241-4712-a9e1-ce31e9393cd2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You will get a 5% discount on every recurring order.'])[1]/preceding::select[1]</value>
+      <webElementGuid>5fa7e1a7-9b20-48a2-b59e-3df426ac1f04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in here'])[1]/preceding::button[1]</value>
-      <webElementGuid>37471e0f-3cfd-4776-ae3e-1c7b9da0c28c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter']/parent::*</value>
-      <webElementGuid>1a923b4f-e71e-48b1-836f-c62008d61128</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See details'])[1]/preceding::select[1]</value>
+      <webElementGuid>82ccec7d-c1f2-464e-a6d9-062e5fd21247</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/button</value>
-      <webElementGuid>de0285d8-9cac-4a27-ac11-8f4b6b8507cd</webElementGuid>
+      <value>//select</value>
+      <webElementGuid>9ad1abb6-18b5-47fb-b808-2f60cdf29f79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@name = 'commit' and (text() = '
-                Enter
-              ' or . = '
-                Enter
-              ')]</value>
-      <webElementGuid>25d48517-8d94-49d2-9e77-3382953c031e</webElementGuid>
+      <value>//select[@name = 'subs_interval' and (text() = 'month3 months' or . = 'month3 months')]</value>
+      <webElementGuid>1f308459-5608-4dcd-8a6d-df20a47f9157</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

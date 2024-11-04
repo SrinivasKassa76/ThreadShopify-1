@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_One-time purchase_sls-custom-radio</name>
+   <tag></tag>
+   <elementGuidId>51041e21-e805-4228-bb00-ceb5df35a992</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='product-form-template--18610481004767__main']/div/div/div[2]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#product-form-template--18610481004767__main span >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>35c7b171-2dc4-43a9-ab34-ebbe7d3b2242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sls-custom-radio</value>
+      <webElementGuid>e4d268c0-3913-493e-abcd-e0752b786821</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-form-template--18610481004767__main&quot;)/div[@class=&quot;sealsubs-target-element sealsubs-full&quot;]/div[@class=&quot;sealsubs-container&quot;]/div[@class=&quot;sls-option-container seal-table&quot;]/div[@class=&quot;seal-row&quot;]/div[@class=&quot;seal-col seal-col-radio&quot;]/span[@class=&quot;sls-custom-radio&quot;]</value>
+      <webElementGuid>d47a87d4-1c25-4bd2-9a79-7c8a7f7ca871</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-form-template--18610481004767__main']/div/div/div[2]/div/div/span</value>
+      <webElementGuid>873fdb33-5aae-4d90-a2f2-802765c6f0f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>a4883892-6bd0-4cad-b31f-9d6c2c6d2987</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

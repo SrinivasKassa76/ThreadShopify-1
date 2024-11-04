@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Enter</name>
+   <name>h1_Your cart</name>
    <tag></tag>
-   <elementGuidId>a482b2b3-73b8-461a-8e28-15e28d2f893e</elementGuidId>
+   <elementGuidId>bcb8b458-7af8-4491-839b-15648958641f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button[name=&quot;commit&quot;]</value>
+         <value>h1.title.title--primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@name='commit']</value>
+         <value>//div[@id='shopify-section-template--18610480480479__cart-items']/cart-items/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Enter&quot;s]</value>
+         <value>internal:role=heading[name=&quot;Your cart&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,109 +28,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>dee619f1-e590-42f1-9bc9-c316d37cc2dc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>commit</value>
-      <webElementGuid>fed266fb-38d6-48de-b8cd-d2f63849ddb1</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>bb1378a8-12de-4c46-8b34-91696636182e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>password-button button button--outline</value>
-      <webElementGuid>8d4ab27c-55ed-41a0-83f5-a7feb0ab0f8b</webElementGuid>
+      <value>title title--primary</value>
+      <webElementGuid>58b83d83-5892-4710-912f-fd6a0766327d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                Enter
-              </value>
-      <webElementGuid>77a9841a-dd83-41f0-bd47-7b5e86d2ed56</webElementGuid>
+      <value>Your cart</value>
+      <webElementGuid>fe8c1868-1a7e-425e-8b09-357d6fac3400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login_form&quot;)/button[@class=&quot;password-button button button--outline&quot;]</value>
-      <webElementGuid>c42ff4e2-225d-47d6-a778-3c913926bfd7</webElementGuid>
+      <value>id(&quot;shopify-section-template--18610480480479__cart-items&quot;)/cart-items[@class=&quot;gradient color-scheme-1 isolate section-template--18610480480479__cart-items-padding&quot;]/div[@class=&quot;page-width&quot;]/div[@class=&quot;title-wrapper-with-link&quot;]/h1[@class=&quot;title title--primary&quot;]</value>
+      <webElementGuid>ea24dcb5-04a6-4678-ac65-29aa860f5f84</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@name='commit']</value>
-      <webElementGuid>14227728-2314-4dc7-b91f-6f5290367e71</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='login_form']/button</value>
-      <webElementGuid>64cceee2-2fa3-4d3e-aa75-f7b5df6507d5</webElementGuid>
+      <value>//div[@id='shopify-section-template--18610480480479__cart-items']/cart-items/div/div/h1</value>
+      <webElementGuid>d8c6f3ba-3bc3-4afc-ba9d-d97c8f040963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your password'])[1]/following::button[1]</value>
-      <webElementGuid>65dd2ea5-d372-40a4-8839-42459c68aa7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue shopping'])[1]/following::h1[1]</value>
+      <webElementGuid>dae437e7-71e9-4af3-bc2c-02610060199b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter store using password:'])[1]/following::button[1]</value>
-      <webElementGuid>51a7b51d-e241-4712-a9e1-ce31e9393cd2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check out'])[1]/following::h1[1]</value>
+      <webElementGuid>62748c58-d49d-4e1e-a1d4-2e3c0751a577</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in here'])[1]/preceding::button[1]</value>
-      <webElementGuid>37471e0f-3cfd-4776-ae3e-1c7b9da0c28c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue shopping'])[2]/preceding::h1[1]</value>
+      <webElementGuid>91cbf67b-0de4-480f-b47e-1fd828708e65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Enter']/parent::*</value>
-      <webElementGuid>1a923b4f-e71e-48b1-836f-c62008d61128</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your cart is empty'])[1]/preceding::h1[1]</value>
+      <webElementGuid>2971cb72-05dc-45d1-b254-719dfe4ac56c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your cart']/parent::*</value>
+      <webElementGuid>8420202b-42a7-4a1b-a4e6-ed40f70621d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/button</value>
-      <webElementGuid>de0285d8-9cac-4a27-ac11-8f4b6b8507cd</webElementGuid>
+      <value>//h1</value>
+      <webElementGuid>4f4db394-b8b0-4bd5-905f-650c0283ed2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@name = 'commit' and (text() = '
-                Enter
-              ' or . = '
-                Enter
-              ')]</value>
-      <webElementGuid>25d48517-8d94-49d2-9e77-3382953c031e</webElementGuid>
+      <value>//h1[(text() = 'Your cart' or . = 'Your cart')]</value>
+      <webElementGuid>ccd50a54-bd32-4e86-85f3-ed2b964b3dc5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

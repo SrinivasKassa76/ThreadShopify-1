@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7accca85-ead1-48b2-90e2-28501daa027a</webElementGuid>
+      <webElementGuid>50f0a277-8ce0-4678-a3cc-c399a11423a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Catalog</value>
-      <webElementGuid>ed18f9dc-7457-49f3-af0c-d405a56da012</webElementGuid>
+      <webElementGuid>417ed814-8294-4873-9466-c3e0061b6cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;HeaderMenu-catalog&quot;)/span[1]</value>
-      <webElementGuid>246174ae-278f-444e-8c51-4a1cdc5732ab</webElementGuid>
+      <webElementGuid>a49ed750-acd1-42f9-b5eb-805f17114dd5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='HeaderMenu-catalog']/span</value>
-      <webElementGuid>58634c86-f0dc-40ef-aea3-a5d1cb96daec</webElementGuid>
+      <webElementGuid>1c24c179-1468-447a-9713-8098aaf41777</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/following::span[1]</value>
-      <webElementGuid>86465ca7-55a5-4d16-94ac-d04e040c9e69</webElementGuid>
+      <webElementGuid>d62b4ac8-c4cd-45f5-a1d2-34fdb2fb5336</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::span[2]</value>
-      <webElementGuid>8208811e-cd43-4c04-8ea0-62db92c6da0d</webElementGuid>
+      <webElementGuid>7c21490f-1bc1-4e09-b49c-0e65fe7a19a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[2]/preceding::span[1]</value>
-      <webElementGuid>faf649fe-6f53-43e7-bf2b-373dcdebec65</webElementGuid>
+      <webElementGuid>6467d9a3-a763-4de8-a969-cbd3acbb1e2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::span[5]</value>
-      <webElementGuid>f163dc10-a9ae-47b7-9d9b-29255c7fd9b5</webElementGuid>
+      <webElementGuid>d3d0ac55-4dc4-422e-98c5-78042171e497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[2]/a/span</value>
-      <webElementGuid>7c53a1fe-968b-48d5-83a8-9cf0e51d0996</webElementGuid>
+      <webElementGuid>31638d6a-b199-4004-9c7d-c491737d0cc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Catalog' or . = 'Catalog')]</value>
-      <webElementGuid>f0403e8e-d0da-4e94-9bcb-fb71b157373c</webElementGuid>
+      <webElementGuid>e53d4614-7bcf-44cd-8512-766066db4711</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

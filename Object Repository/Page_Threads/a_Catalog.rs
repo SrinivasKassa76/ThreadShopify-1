@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f45461d7-05f1-4251-b9b2-ee9f6bd1aaec</webElementGuid>
+      <webElementGuid>a89ebab5-ce32-43ec-87dc-68d436a488bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>HeaderMenu-catalog</value>
-      <webElementGuid>1cdb963a-f4e4-43dd-8ce2-980d82ebc920</webElementGuid>
+      <webElementGuid>9d5882e6-ae30-4f25-87b1-2c31f6ce8091</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/collections/all</value>
-      <webElementGuid>3aef661a-10a5-494e-8971-8a8b1378f150</webElementGuid>
+      <webElementGuid>51d59f28-5987-4239-b1f2-aa2f296664eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>header__menu-item list-menu__item link link--text focus-inset</value>
-      <webElementGuid>4063b245-55b1-4a1d-bc5d-08841255e9fc</webElementGuid>
+      <webElementGuid>82838e76-8d11-4a37-855f-06c97955c950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
             Catalog
           </value>
-      <webElementGuid>f0a04e8b-9963-453e-a0a3-51ff406dc4f0</webElementGuid>
+      <webElementGuid>0bb42ea4-a106-4b01-90fb-ae0421856bb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;HeaderMenu-catalog&quot;)</value>
-      <webElementGuid>2b631003-f468-4679-b459-5fcc6ee5668f</webElementGuid>
+      <webElementGuid>45a2d2bc-8980-4c93-a5bf-db25f72de87a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='HeaderMenu-catalog']</value>
-      <webElementGuid>731a6e59-4bd0-4c46-a6ea-8d594a6a6c50</webElementGuid>
+      <webElementGuid>7bc4d7c6-2c7e-479e-b5c4-6318b0240b1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopify-section-sections--18610481725663__header']/sticky-header/header/nav/ul/li[2]/a</value>
-      <webElementGuid>a06ad618-7793-4dae-9230-399a6921d1fb</webElementGuid>
+      <webElementGuid>675a2607-319a-4dc1-9eda-1ff84f793418</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[2]/following::a[1]</value>
-      <webElementGuid>8b3b255a-783f-4614-9a41-54763297e497</webElementGuid>
+      <webElementGuid>501fbdd2-cc78-4d4c-9c88-dbf82ebf0df8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/following::a[3]</value>
-      <webElementGuid>220ee488-53f0-4f01-955b-0916e04c21ca</webElementGuid>
+      <webElementGuid>6fe89bb0-96cc-47ff-808f-e4471b183258</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact'])[2]/preceding::a[1]</value>
-      <webElementGuid>676efa71-6b43-47bb-bf3f-589e50ada161</webElementGuid>
+      <webElementGuid>8b095e21-bc2a-4335-b99e-14855aedeee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/collections/all')])[2]</value>
-      <webElementGuid>511ae49b-3142-4af1-b727-b816f782175e</webElementGuid>
+      <webElementGuid>30057717-9424-43f4-8ef9-88e0393ad8be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//header/nav/ul/li[2]/a</value>
-      <webElementGuid>d33a86e2-20ef-4d6e-91c7-6492d3678b6d</webElementGuid>
+      <webElementGuid>5f169ff8-8dbc-4009-8a7f-c2d07bd4cd0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +139,6 @@
           ' or . = '
             Catalog
           ')]</value>
-      <webElementGuid>62dffd47-047e-4b3a-94a0-66cc6dd05f95</webElementGuid>
+      <webElementGuid>e4298397-fca5-43a4-ae4f-1c3d137b30e1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
