@@ -6,16 +6,16 @@
    <elementGuidId>7895d5cb-b05f-4486-939e-8866f27ea793</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;expiry&quot;)[count(. | //input[@autocomplete = 'cc-exp' and @id = 'expiry' and @name = 'expiry' and @type = 'text' and @inputmode = 'numeric' and @pattern = '[0-9]*' and @aria-describedby = 'error-for-expiry tooltip-for-expiry' and @data-current-field = 'expiry' and @class = 'input-placeholder-color--lvl-22' and @placeholder = 'Expiration date (MM / YY)' and @ref_element = 'Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2']) = count(//input[@autocomplete = 'cc-exp' and @id = 'expiry' and @name = 'expiry' and @type = 'text' and @inputmode = 'numeric' and @pattern = '[0-9]*' and @aria-describedby = 'error-for-expiry tooltip-for-expiry' and @data-current-field = 'expiry' and @class = 'input-placeholder-color--lvl-22' and @placeholder = 'Expiration date (MM / YY)' and @ref_element = 'Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2'])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#expiry</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='expiry']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;expiry&quot;)[count(. | //input[@autocomplete = 'cc-exp' and @id = 'expiry' and @name = 'expiry' and @type = 'text' and @inputmode = 'numeric' and @pattern = '[0-9]*' and @aria-describedby = 'error-for-expiry tooltip-for-expiry' and @data-current-field = 'expiry' and @class = 'input-placeholder-color--lvl-22' and @placeholder = 'Expiration date (MM / YY)' and @ref_element = 'Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2']) = count(//input[@autocomplete = 'cc-exp' and @id = 'expiry' and @name = 'expiry' and @type = 'text' and @inputmode = 'numeric' and @pattern = '[0-9]*' and @aria-describedby = 'error-for-expiry tooltip-for-expiry' and @data-current-field = 'expiry' and @class = 'input-placeholder-color--lvl-22' and @placeholder = 'Expiration date (MM / YY)' and @ref_element = 'Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>370730dd-abca-465d-81a0-ac636e20ca04</webElementGuid>
+      <webElementGuid>334ac9eb-9fb7-446e-9c14-aafdbfae6052</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>cc-exp</value>
-      <webElementGuid>6b09c6af-ce42-4227-9789-ad8ef312318e</webElementGuid>
+      <webElementGuid>a5ab216b-953f-42bd-9fb4-da42e739501a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>expiry</value>
-      <webElementGuid>90dc9888-78bb-4909-bcf0-872c71e85e12</webElementGuid>
+      <webElementGuid>c961d4dc-8918-469a-a45f-dd8855940e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>expiry</value>
-      <webElementGuid>a77cae5c-aa2e-4e3f-b31e-6ed5ee8c0ffc</webElementGuid>
+      <webElementGuid>b24f4d76-f80c-4f69-b92e-47fc259349c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>bedb3c02-d9e9-40a2-8dc0-b7e8c2aafd65</webElementGuid>
+      <webElementGuid>3a013d36-eacd-4adf-9d06-8d3a5e24a79b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>ef0dc381-84ac-45fa-ba39-cfdb42204017</webElementGuid>
+      <webElementGuid>a5c179f3-dbc9-4d0e-9ce4-e28e10695b19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>[0-9]*</value>
-      <webElementGuid>88539802-4e1c-403b-9d68-8a59ba9df1bf</webElementGuid>
+      <webElementGuid>31124911-590e-47ce-8153-7dea24d60685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>error-for-expiry tooltip-for-expiry</value>
-      <webElementGuid>30e5ec19-c2e3-461b-bc7e-a388719abb86</webElementGuid>
+      <webElementGuid>1b64d9fc-23a5-4082-97e8-05268a6d0c39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>data-current-field</name>
       <type>Main</type>
       <value>expiry</value>
-      <webElementGuid>ef24be6e-ab30-44c3-aab8-740f4d8b480f</webElementGuid>
+      <webElementGuid>159dc7b5-b9c3-4417-ae66-6205d72a63d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-placeholder-color--lvl-22</value>
-      <webElementGuid>75ed3759-a2ca-4923-bfaa-79d95693c410</webElementGuid>
+      <webElementGuid>4e01d7e3-2dab-4291-bfd4-9020aa41cbd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -113,7 +113,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Expiration date (MM / YY)</value>
-      <webElementGuid>654b0729-9b40-4e66-a900-ab1ea4c584e9</webElementGuid>
+      <webElementGuid>97ca7050-76ce-4787-9a85-202761fc2344</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;expiry&quot;)</value>
-      <webElementGuid>dc0f1b0f-5fd0-43f6-beff-643957f216cb</webElementGuid>
+      <webElementGuid>29c585b9-7b9c-4c25-b565-368188699973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -129,7 +129,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2</value>
-      <webElementGuid>38956c09-d93f-4843-adcc-28b8c35fe1e6</webElementGuid>
+      <webElementGuid>99487565-d4e5-4813-8477-ddde00e90c17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='expiry']</value>
-      <webElementGuid>b7f20cb7-cfb6-4de5-b8c4-be84a1c1162d</webElementGuid>
+      <webElementGuid>8246c840-503f-4b3c-9299-5271c2e53c97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>70b41cc9-521c-43ee-8fd2-61254c82c4a9</webElementGuid>
+      <webElementGuid>811ed49c-17e0-4446-af89-768d99492da1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'expiry' and @name = 'expiry' and @type = 'text' and @placeholder = 'Expiration date (MM / YY)']</value>
-      <webElementGuid>f3f863c1-638a-4fd3-96d1-de5ec55c0733</webElementGuid>
+      <webElementGuid>f6e48d04-3b05-4aff-9250-868743aa489d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

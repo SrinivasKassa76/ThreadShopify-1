@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>21b83a8e-87b7-4975-9c5f-3900acd3a62b</webElementGuid>
+      <webElementGuid>39beed4b-a663-40d2-98c6-30fcfc95358b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>zone</value>
-      <webElementGuid>cbe053eb-c775-4d18-8a84-0549d10f4f0d</webElementGuid>
+      <webElementGuid>153437b9-9fd4-485e-b1d0-c547f7281204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Select1</value>
-      <webElementGuid>aa630572-a25a-4555-8a7e-62ff979c77dd</webElementGuid>
+      <webElementGuid>45b524a9-e6bd-44e4-a74c-fd09dfa8d131</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>shipping address-level1</value>
-      <webElementGuid>6ac5363e-32a3-4092-852e-fbfbc090dbb9</webElementGuid>
+      <webElementGuid>fc494dff-e2a3-4cdd-9005-a3990af976de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ZHJU6 _1k3449n5 _1k3449n3 _1fragemsy oAlPg IWR5K tu1VS</value>
-      <webElementGuid>1b59b16e-6ff3-4c42-8590-5525b95bbb6f</webElementGuid>
+      <webElementGuid>bc693fa6-54ea-4acd-abfe-72268e661edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Andaman and Nicobar IslandsAndhra PradeshArunachal PradeshAssamBiharChandigarhChhattisgarhDadra and Nagar HaveliDaman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLadakhLakshadweepMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPuducherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttarakhandWest Bengal</value>
-      <webElementGuid>d1ae4842-6829-4571-afc8-97505f05930c</webElementGuid>
+      <webElementGuid>af613490-419e-4110-9c0b-8daa2c740840</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Select1&quot;)</value>
-      <webElementGuid>a3f787fc-e020-4ce0-a834-31121655ff33</webElementGuid>
+      <webElementGuid>a9727f1a-242b-4eae-8abb-72f0f3d82268</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='Select1']</value>
-      <webElementGuid>cff17c4b-c8d9-4ee0-b5cf-6491a74ff154</webElementGuid>
+      <webElementGuid>a3021502-7d3c-4b5f-881c-246c3fa34903</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shippingAddressForm']/div/div/div[5]/div[2]/div/div/select</value>
-      <webElementGuid>c684ae52-226c-4b73-add8-5ecdc98b256c</webElementGuid>
+      <webElementGuid>f35afe0f-0214-439d-ba4d-4de76d34d4c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::select[1]</value>
-      <webElementGuid>01239a70-bec6-4dc9-9647-63cca96c5b59</webElementGuid>
+      <webElementGuid>66790624-2e1b-4e38-b140-aa45df3a8466</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::select[1]</value>
-      <webElementGuid>82b29306-b008-4664-8276-df7974bba1f3</webElementGuid>
+      <webElementGuid>63da272a-29b0-4db9-abc1-1b7f172c89c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN code'])[1]/preceding::select[1]</value>
-      <webElementGuid>316a93af-513f-4230-86fb-d7ccf8bf0bba</webElementGuid>
+      <webElementGuid>28b68eaa-1172-41dc-ad87-5bb30cab7bcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save this information for next time'])[1]/preceding::select[1]</value>
-      <webElementGuid>968503a4-b048-4e7b-b7a2-5a1fe498b533</webElementGuid>
+      <webElementGuid>1b0f9750-5a2a-47ed-b7af-d6c17ff41a99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/select</value>
-      <webElementGuid>0e9d5334-2725-4d81-9c54-14739c4cf8e5</webElementGuid>
+      <webElementGuid>b82ac7d8-6ef1-4128-9825-0fd8ab5fc162</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'zone' and @id = 'Select1' and (text() = 'Andaman and Nicobar IslandsAndhra PradeshArunachal PradeshAssamBiharChandigarhChhattisgarhDadra and Nagar HaveliDaman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLadakhLakshadweepMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPuducherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttarakhandWest Bengal' or . = 'Andaman and Nicobar IslandsAndhra PradeshArunachal PradeshAssamBiharChandigarhChhattisgarhDadra and Nagar HaveliDaman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLadakhLakshadweepMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPuducherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttarakhandWest Bengal')]</value>
-      <webElementGuid>d848ba31-bc1e-4b23-aeb6-f7e55886311e</webElementGuid>
+      <webElementGuid>362346ea-abfa-466d-b0a4-0e0c58a8e02c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

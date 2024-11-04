@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>271c8850-1fa1-4f0b-997f-51355123e91e</webElementGuid>
+      <webElementGuid>11f4cad6-08b3-4474-98aa-f347fcae041d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-fields-iframe</value>
-      <webElementGuid>3fb22f34-befa-4276-adf5-cc401ad3540e</webElementGuid>
+      <webElementGuid>8ce12c18-80ba-4554-99dc-2fada1ab900c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>52f60557-ecea-4c65-a749-7a8a75203e48</webElementGuid>
+      <webElementGuid>ede355b7-7a5f-4d18-9034-c7a155cb033c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>card-fields-verification_value-f8vz7sdo31c00000</value>
-      <webElementGuid>6dc421ad-aa3e-467d-b954-ebb11ff3f7be</webElementGuid>
+      <webElementGuid>791444f3-d9c9-405a-a67f-4787d29097f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>card-fields-verification_value-f8vz7sdo31c00000</value>
-      <webElementGuid>06ce67f8-1260-42fd-aab6-fceb9fdef541</webElementGuid>
+      <webElementGuid>0dc455f4-82b7-4784-abc7-3d0f7d7846d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>2ae14198-16ce-493e-8ce3-cf1f3857d05b</webElementGuid>
+      <webElementGuid>cd3d5e8b-66de-4f27-ae60-5b7bd1301b28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://checkout.pci.shopifyinc.com/verification_value?identifier=&amp;location=&amp;dir=ltr</value>
-      <webElementGuid>017f4e30-20c5-4d82-bb36-43fdf0948dea</webElementGuid>
+      <webElementGuid>705943f8-0ae1-4d72-b49b-ccc7ba673c35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Field container for: Security code</value>
-      <webElementGuid>db851c9b-5356-4690-be1f-13632a05ad6c</webElementGuid>
+      <webElementGuid>0dfc3752-a601-4bba-bd12-95112af32fb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;card-fields-verification_value-f8vz7sdo31c00000&quot;)</value>
-      <webElementGuid>7c5a66fd-fc38-4a09-ae40-a946ae35a9df</webElementGuid>
+      <webElementGuid>eb1288f0-b866-4512-a49e-bce0a6d7705a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='card-fields-verification_value-f8vz7sdo31c00000']</value>
-      <webElementGuid>ac1bcc8c-130c-4d0d-bd84-f8346b649819</webElementGuid>
+      <webElementGuid>8caf27a8-7a16-40ad-9895-d63d7ff72e50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='verification_value']/iframe</value>
-      <webElementGuid>5b7c32ee-b030-4c94-98b7-d7066cb1ffbb</webElementGuid>
+      <webElementGuid>d5d75325-e8cb-4b55-a152-77e8b985abd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/iframe</value>
-      <webElementGuid>5a1011f7-ff9e-4244-a393-15bc4508cf0d</webElementGuid>
+      <webElementGuid>2375cf11-1fe7-4197-ba0f-ed005f14029d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'card-fields-verification_value-f8vz7sdo31c00000' and @name = 'card-fields-verification_value-f8vz7sdo31c00000' and @src = 'https://checkout.pci.shopifyinc.com/verification_value?identifier=&amp;location=&amp;dir=ltr' and @title = 'Field container for: Security code']</value>
-      <webElementGuid>cc9b7ffd-8bd6-4102-afd2-7f56c3f0ad41</webElementGuid>
+      <webElementGuid>a8bcc21e-bba4-4214-8498-0948231c6912</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

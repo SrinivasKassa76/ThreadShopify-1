@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>58ff759b-de66-4a2e-b202-f9cf39c486a5</webElementGuid>
+      <webElementGuid>8aad4755-82bc-4f2b-9e9c-6b6568d87ba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-fields-iframe</value>
-      <webElementGuid>355360cc-e10a-4ce8-80da-93f62ecb6fec</webElementGuid>
+      <webElementGuid>849be779-1934-4e2e-84fb-18f703209142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>frameborder</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>4f398ded-1abf-46f7-bc24-b60cde002657</webElementGuid>
+      <webElementGuid>9d50c027-c560-48cd-9346-582415c558ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>card-fields-expiry-zsrnz5pk1h000000</value>
-      <webElementGuid>e5781c61-894e-45d7-8513-909f2ba4a016</webElementGuid>
+      <webElementGuid>5ddc7b72-e3e4-4591-846f-e927717056cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>card-fields-expiry-zsrnz5pk1h000000</value>
-      <webElementGuid>af63a233-4592-43a2-a8d0-5b0e76737314</webElementGuid>
+      <webElementGuid>d8303981-e7a4-4463-b9a8-3e205a64ba1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>scrolling</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>2354ff3b-c40d-4af5-8d55-747742a5e5af</webElementGuid>
+      <webElementGuid>9cec3d20-cb2a-4e3d-b364-d0536aef5dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://checkout.pci.shopifyinc.com/expiry?identifier=&amp;location=&amp;dir=ltr</value>
-      <webElementGuid>e8317fc1-a181-494e-815d-d33bd7942cfa</webElementGuid>
+      <webElementGuid>1ecb3a30-df16-4a26-b471-df215e6ce72c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Field container for: Expiration date (MM / YY)</value>
-      <webElementGuid>c7b09671-743d-404a-9264-ccd28332b4ef</webElementGuid>
+      <webElementGuid>dac66a7e-f6bb-48de-9569-f10af08e8165</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;card-fields-expiry-zsrnz5pk1h000000&quot;)</value>
-      <webElementGuid>81faaf77-320b-41e7-81dc-04698c654367</webElementGuid>
+      <webElementGuid>ad9cdd0e-3e2e-4b8d-a187-e12dd784c570</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='card-fields-expiry-zsrnz5pk1h000000']</value>
-      <webElementGuid>0e1caa48-9784-4d1d-a4c8-65e182fcb9c1</webElementGuid>
+      <webElementGuid>d9361453-b4fb-40b5-9e7d-e1dc5d7d4dd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='expiry']/iframe</value>
-      <webElementGuid>5d458422-dd0e-4d5b-aa55-32366a7cdd75</webElementGuid>
+      <webElementGuid>b4a5bd04-e409-4727-9890-38906657f902</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/iframe</value>
-      <webElementGuid>72f4f34e-d94e-4f1f-bef3-464558ce768f</webElementGuid>
+      <webElementGuid>206d7fbb-0368-4c62-8132-c9e893d0a787</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'card-fields-expiry-zsrnz5pk1h000000' and @name = 'card-fields-expiry-zsrnz5pk1h000000' and @src = 'https://checkout.pci.shopifyinc.com/expiry?identifier=&amp;location=&amp;dir=ltr' and @title = 'Field container for: Expiration date (MM / YY)']</value>
-      <webElementGuid>0f0a7243-885b-41e6-bac1-17628c03e723</webElementGuid>
+      <webElementGuid>de35bd95-8c28-4c1b-b7c4-5ab79f317427</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

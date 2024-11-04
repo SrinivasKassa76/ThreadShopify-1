@@ -6,12 +6,12 @@
    <elementGuidId>f14d2a8b-9c5b-49f2-8ee1-64ec1bff4e1e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/form/div/input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#number</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/form/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>451817ce-99c8-43a6-a4b0-cc6e5bc6c44d</webElementGuid>
+      <webElementGuid>9d8fc763-073f-449d-b4e6-1c42c1228a81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>cc-number</value>
-      <webElementGuid>ee5571be-999f-4198-9601-ed08297a0ccb</webElementGuid>
+      <webElementGuid>58769e28-567b-4845-91a8-51d5b4a79b29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>533819fa-39a1-4bc5-a43e-0c28c2cf6a37</webElementGuid>
+      <webElementGuid>849ba8a3-5af1-488b-acb2-b0dddd88ceda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>d494bf2e-6ea5-4d24-9308-34c869a0598e</webElementGuid>
+      <webElementGuid>38912329-0020-46ee-8580-864d98eb061e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>691ef854-b973-44be-a95f-00c45b679335</webElementGuid>
+      <webElementGuid>32449502-cdab-4c3a-9e56-26f04d5815ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>ce2a5585-8d45-432c-abac-ebe9785748f2</webElementGuid>
+      <webElementGuid>2a63315c-6bd4-4725-bc72-855e7ce418b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>[0-9]*</value>
-      <webElementGuid>bc4aef09-7c89-4895-9901-e797f45778a4</webElementGuid>
+      <webElementGuid>e985e39b-a77a-4078-ac17-969800aac532</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>error-for-number tooltip-for-number</value>
-      <webElementGuid>cf96fb4d-d944-46e8-b77b-e49127a25ebe</webElementGuid>
+      <webElementGuid>9fa9c6df-2178-4f2a-beb0-8c7cde6f5247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>data-current-field</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>49315395-99d1-47b5-b258-c7c4e7c4f0ae</webElementGuid>
+      <webElementGuid>ae715dd9-9a62-4830-b237-00d5f80d487d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-placeholder-color--lvl-22</value>
-      <webElementGuid>2c474194-2849-4672-af47-4a0b37ff3552</webElementGuid>
+      <webElementGuid>9424c7f2-a7b0-48e8-ab4c-ab6d9b8efc48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Card number</value>
-      <webElementGuid>99773e2f-a6e6-448b-8211-bdab1c942b55</webElementGuid>
+      <webElementGuid>b8f8b508-4d7c-4fec-8136-06cb680a48c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;number&quot;)</value>
-      <webElementGuid>b0aa061c-69d1-4c67-b862-0e85849c287a</webElementGuid>
+      <webElementGuid>129371b0-5a29-4869-8795-145f927a49a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-xdjuu_727354</value>
-      <webElementGuid>9525dead-9014-42ab-a3c1-4c00c1f52fce</webElementGuid>
+      <webElementGuid>02041f51-6f7b-4719-9cc6-90d3f36e5ea7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='number']</value>
-      <webElementGuid>8a520dc2-14a9-4be1-8b60-4eed7f4f99fd</webElementGuid>
+      <webElementGuid>85a40e7c-047b-4756-9120-ae66b5aa7b05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>a8d5364e-1f9a-412f-8a86-9d6814f5f8d0</webElementGuid>
+      <webElementGuid>bbf2e555-1d2e-43e7-8912-f7445743ce09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'number' and @name = 'number' and @type = 'text' and @placeholder = 'Card number']</value>
-      <webElementGuid>ec83b4fe-0c65-425f-b577-3f94aaa064c1</webElementGuid>
+      <webElementGuid>9a2513b3-8d03-437d-95f9-077b981ce825</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

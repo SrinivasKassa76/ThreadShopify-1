@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5d3a1871-64f9-4a7e-955c-096ad646c2a7</webElementGuid>
+      <webElementGuid>30b6bdcf-66e5-4557-a736-2522c7a15af2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>checkout-pay-button</value>
-      <webElementGuid>c72a6b1a-c3b9-4e97-81be-a4bbc3596bd2</webElementGuid>
+      <webElementGuid>ecb83be6-aa17-4d74-b598-a163871a7cdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7255de7a-6117-44f3-abe2-678888984330</webElementGuid>
+      <webElementGuid>22558f95-2101-4a6d-af02-2124469af44c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_1m2hr9ge _1m2hr9gd _1fragemsq _1fragemlj _1fragemnk _1fragem2i _1fragems4 _1fragemsg _1fragemsl _1fragemsa _1m2hr9g1h _1m2hr9g1d _1fragemne _1m2hr9g16 _1m2hr9g13 _1fragemop _1fragemon _1fragemor _1fragemol _1fragempl _1fragemph _1fragempp _1fragempd _1fragemb4 _1fragemaf _1fragembt _1fragem9q _1fragemsa _1m2hr9g1q _1m2hr9g1o _1m2hr9g10 _1m2hr9gx _1m2hr9g12 _1m2hr9g11 _1fragemri _1m2hr9g1b _1m2hr9g19 _1fragems5</value>
-      <webElementGuid>86ddb5a3-08db-40ae-9c95-7a1bb8846235</webElementGuid>
+      <webElementGuid>ec5a06a6-1f6d-4783-9a99-a82cb692ee4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pay now</value>
-      <webElementGuid>21a9aca8-442d-4df4-a777-9368f4dc7fd1</webElementGuid>
+      <webElementGuid>d64db8e4-5e1b-403a-bf3a-2695380f3695</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkout-pay-button&quot;)</value>
-      <webElementGuid>e45f7921-7f09-435e-8c9d-afa3e58a0d58</webElementGuid>
+      <webElementGuid>90fb0316-3f53-4c20-91db-cc41a27c1a49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='checkout-pay-button']</value>
-      <webElementGuid>bcab19a3-c8c4-4d43-88f6-335e1a1b0567</webElementGuid>
+      <webElementGuid>6e7cbce0-a64e-4f18-a485-0266f8046a1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='Form1']/div/section[2]/div[2]/div/div/div/div/div[2]/div/div/div/button</value>
-      <webElementGuid>b76b0e88-fd39-4c15-9823-2e332169a679</webElementGuid>
+      <webElementGuid>e8befb2b-eeba-4357-b4ee-e27439acbc0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use shipping address as billing address'])[1]/following::button[1]</value>
-      <webElementGuid>c2cbfe67-0dc4-4a1a-96c9-0b9db39d3642</webElementGuid>
+      <webElementGuid>45f6deab-89eb-4447-a149-eb50141df4d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Name on card'])[1]/following::button[2]</value>
-      <webElementGuid>4a25a51f-522b-4e54-82c7-8d081a65bd07</webElementGuid>
+      <webElementGuid>f1f0efbb-06dc-4265-b86e-1762123cd5ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy policy'])[2]/preceding::button[2]</value>
-      <webElementGuid>491cd57f-8a46-4376-9074-0aec19f38809</webElementGuid>
+      <webElementGuid>de39e154-1460-43ee-a671-457bd73196ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
-      <webElementGuid>caa23af9-b47f-4760-a738-9b09f98a3f52</webElementGuid>
+      <webElementGuid>cac6af2f-2f18-4d85-b43b-d74bd652254c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'checkout-pay-button' and @type = 'submit' and (text() = 'Pay now' or . = 'Pay now')]</value>
-      <webElementGuid>98de7d2c-2e98-47b5-8c76-4129fbf50c56</webElementGuid>
+      <webElementGuid>511e7f3f-827d-4b47-96e2-a5670abe17b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

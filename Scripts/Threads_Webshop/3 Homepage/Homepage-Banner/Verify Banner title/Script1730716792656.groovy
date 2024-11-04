@@ -58,4 +58,5 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads
 
 String text_after_change = WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Banner/Page_ASICS TIGER  Threads/h1_Collection ASICS TIGER'))
 
+WebUI.closeBrowser()
 
