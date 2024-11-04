@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-601, Verify item to cart when not login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3278bfe9-0cc1-431c-9488-80f7f6f3f24c</testCaseGuid>
+</TestCaseEntity>

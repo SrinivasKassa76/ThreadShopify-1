@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a80ef9c5-b759-4dcb-a3b6-74e162323ca7</webElementGuid>
+      <webElementGuid>aa5f4679-edeb-412c-ab5b-69eedbc8c852</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/products/adidas-classic-backpack-legend-ink-multicolour</value>
-      <webElementGuid>aabfc60d-7ad7-4fdf-b956-ec4f25cb6700</webElementGuid>
+      <webElementGuid>0a66cddf-3caf-405b-aa0d-63086073bad7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>CardLink-template--18610480611551__featured_collection-8834482077919</value>
-      <webElementGuid>15be49c2-bd52-47c5-a334-4ecc6c530b99</webElementGuid>
+      <webElementGuid>584a158a-777a-4504-a55e-875f94314ea6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>full-unstyled-link</value>
-      <webElementGuid>70b69c11-d0bd-4859-a7b8-a6a9e8267a8e</webElementGuid>
+      <webElementGuid>8c4b9b94-f937-43a8-a712-20ea8cd128fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>CardLink-template--18610480611551__featured_collection-8834482077919 Badge-template--18610480611551__featured_collection-8834482077919</value>
-      <webElementGuid>ce71a39f-d698-4ed4-93d4-e4b0924d17c4</webElementGuid>
+      <webElementGuid>d883a658-f929-499e-8504-9c1a04a28ff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <value>
               ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR
             </value>
-      <webElementGuid>687f39c1-d56a-4026-b19c-d2085ae16ee7</webElementGuid>
+      <webElementGuid>7e7069a1-9122-452f-8b1d-2d8994ae6767</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;CardLink-template--18610480611551__featured_collection-8834482077919&quot;)</value>
-      <webElementGuid>948d989e-b7f7-4805-85f6-3970bc98c368</webElementGuid>
+      <webElementGuid>73ccba97-a7e5-4f97-9595-b422757c3283</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='CardLink-template--18610480611551__featured_collection-8834482077919']</value>
-      <webElementGuid>c23f02f0-79a1-4f59-914d-9f98820982f6</webElementGuid>
+      <webElementGuid>bcb3cd54-69c8-41ba-b1ee-7799e2594e2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//h3[@id='title-template--18610480611551__featured_collection-8834482077919']/a</value>
-      <webElementGuid>325f4d89-04ae-46cc-a764-ec00bc6c2f3b</webElementGuid>
+      <webElementGuid>e598e755-5c5a-491e-b527-2fa75aded0e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR')])[2]</value>
-      <webElementGuid>d43fac14-fe97-4bcf-b8eb-65cd42c0bd88</webElementGuid>
+      <webElementGuid>39641ea2-88bd-44d0-8426-73ee41e06937</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sale'])[1]/following::a[1]</value>
-      <webElementGuid>e60737ca-a1a4-43ce-bf9a-e375fe7f16ea</webElementGuid>
+      <webElementGuid>00ecb631-730f-4e77-94c0-7e7a7aaec221</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR'])[1]/following::a[1]</value>
-      <webElementGuid>3df7722f-94de-40bf-8838-51359aac8209</webElementGuid>
+      <webElementGuid>0c65001e-12a9-42e7-a86c-c0b88d3c4a06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular price'])[3]/preceding::a[1]</value>
-      <webElementGuid>24c6b868-8f02-4f44-869e-fc3fce683e34</webElementGuid>
+      <webElementGuid>c60df254-f48f-4670-8b59-e1bba0f1f9dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rs. 40.00'])[1]/preceding::a[1]</value>
-      <webElementGuid>c8061cb1-c317-4b34-a453-ccffb8588f53</webElementGuid>
+      <webElementGuid>af567418-f138-419e-b1c4-3865a7db6c93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/products/adidas-classic-backpack-legend-ink-multicolour')])[2]</value>
-      <webElementGuid>bc0a2088-ae7e-4865-9be4-1ced380f9afb</webElementGuid>
+      <webElementGuid>829e32ce-6abf-4656-afe8-7d1c28643f6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +151,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div/div/div[2]/div/h3/a</value>
-      <webElementGuid>ea2d9d85-9a74-4504-980c-6199db4ac851</webElementGuid>
+      <webElementGuid>dfe077e3-4d27-4afa-92b5-04c4d8974893</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -163,6 +163,6 @@
             ' or . = '
               ADIDAS | CLASSIC BACKPACK | LEGEND INK MULTICOLOUR
             ')]</value>
-      <webElementGuid>83b259b1-8bed-4ba1-bc2b-ac063a71bc9f</webElementGuid>
+      <webElementGuid>1db6bcc1-0e58-4588-9b5a-412c5c9244ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
