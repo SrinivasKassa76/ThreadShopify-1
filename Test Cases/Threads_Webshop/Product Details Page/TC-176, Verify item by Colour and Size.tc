@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-176, Verify item by Colour and Size</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>00af1d41-c5d9-4afb-923f-a28924f942a1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67a12d96-4399-4021-ae62-c5846322d61d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bac7d169-542e-4111-ad9a-3a8f93ef60fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abe5323b-96e2-44fc-ab95-e22677f4fbb6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'blue'</defaultValue>
+      <description></description>
+      <id>67a12d96-4399-4021-ae62-c5846322d61d</id>
+      <masked>false</masked>
+      <name>color1</name>
+   </variable>
+   <variable>
+      <defaultValue>'white'</defaultValue>
+      <description></description>
+      <id>bac7d169-542e-4111-ad9a-3a8f93ef60fb</id>
+      <masked>false</masked>
+      <name>color2</name>
+   </variable>
+   <variable>
+      <defaultValue>'black'</defaultValue>
+      <description></description>
+      <id>abe5323b-96e2-44fc-ab95-e22677f4fbb6</id>
+      <masked>false</masked>
+      <name>color3</name>
+   </variable>
+</TestCaseEntity>
