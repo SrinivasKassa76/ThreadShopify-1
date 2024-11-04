@@ -6,12 +6,12 @@
    <elementGuidId>fbf61cb5-5a40-4b84-941b-b5c782c29e49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='checkout-pay-button']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#checkout-pay-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='checkout-pay-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1bdc22db-5131-469b-9942-13abe0976eb3</webElementGuid>
+      <webElementGuid>a95da1a1-46e9-424f-948c-a8b1f9242e7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>checkout-pay-button</value>
-      <webElementGuid>963d0675-03c2-4655-a5c5-3c2f40d43227</webElementGuid>
+      <webElementGuid>e4995c6b-6480-4f0c-accf-cf49fc12142a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>89911756-3a08-44d9-bd8c-2444a6b7f266</webElementGuid>
+      <webElementGuid>f6237ebb-fb23-453f-93ba-509f85930313</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_1m2hr9ge _1m2hr9gd _1fragemsq _1fragemlj _1fragemnk _1fragem2i _1fragems4 _1fragemsg _1fragemsl _1fragemsa _1m2hr9g1h _1m2hr9g1d _1fragemne _1m2hr9g16 _1m2hr9g13 _1fragemop _1fragemon _1fragemor _1fragemol _1fragempl _1fragemph _1fragempp _1fragempd _1fragemb4 _1fragemaf _1fragembt _1fragem9q _1fragemsa _1m2hr9g1q _1m2hr9g1o _1m2hr9g10 _1m2hr9gx _1m2hr9g12 _1m2hr9g11 _1fragemri _1m2hr9g1b _1m2hr9g19 _1fragems5</value>
-      <webElementGuid>37847ac6-8ee8-4292-9f58-dc49ca015289</webElementGuid>
+      <webElementGuid>9129244c-68a9-4485-887d-f3008272912e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pay now</value>
-      <webElementGuid>4095213c-a3b3-4461-a388-60a4d121ebd5</webElementGuid>
+      <webElementGuid>9dfdd245-53e8-4dbf-b52e-a6fcab11414b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkout-pay-button&quot;)</value>
-      <webElementGuid>b96574d0-529d-4419-817f-799ab47a2457</webElementGuid>
+      <webElementGuid>4a76cf13-77b8-4ee7-bb1d-badb0cd83d17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,15 +77,15 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='checkout-pay-button']</value>
-      <webElementGuid>3a6386cb-e0e0-49e5-9eef-e5da55a87fe7</webElementGuid>
+      <webElementGuid>1d3b6ffb-dd42-4861-8ec2-51f585368c86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='Form1']/div/section/div[2]/div/div/div/div/div[2]/div/div/div/button</value>
-      <webElementGuid>85ed3720-09d7-448d-a786-1aafb092e6b7</webElementGuid>
+      <value>//form[@id='Form1']/div/section[2]/div[2]/div/div/div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>e92e8afc-0913-4c47-bcca-124a4af6ba69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,15 +93,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use shipping address as billing address'])[1]/following::button[1]</value>
-      <webElementGuid>3c516956-fbf3-4bd6-b00c-5ad36f7c9933</webElementGuid>
+      <webElementGuid>c9dbba23-b145-4d1b-9937-c248f8654178</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name on card'])[1]/following::button[2]</value>
-      <webElementGuid>9e3d56c8-5916-4ff8-8bef-7624942b5e7f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name on card'])[1]/following::button[1]</value>
+      <webElementGuid>a3d41046-4cb4-4edb-afb3-fa12240d22af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy policy'])[1]/preceding::button[2]</value>
-      <webElementGuid>ee5a31e3-879d-4670-a2d1-f2481c4b3d5b</webElementGuid>
+      <webElementGuid>bf5852b7-2607-49ff-846b-8555db1001c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
-      <webElementGuid>4f7574a4-33ac-413d-8fff-fe9cecbe4d92</webElementGuid>
+      <webElementGuid>7c42f5d7-42b0-4b4c-91c2-0f0f5be4a4fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'checkout-pay-button' and @type = 'submit' and (text() = 'Pay now' or . = 'Pay now')]</value>
-      <webElementGuid>77684c4b-7da9-45d8-bfb2-494c9543b0c8</webElementGuid>
+      <webElementGuid>f7c39c28-0d08-4189-b48b-9c66dd498948</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

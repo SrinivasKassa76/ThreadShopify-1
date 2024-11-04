@@ -6,12 +6,12 @@
    <elementGuidId>af6907df-4e54-4433-bfed-da9a4e73d2c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='shopify-section-main-password-header']/div/div/password-modal/details/summary/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.modal__toggle-open.password-link.link.underlined-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shopify-section-main-password-header']/div/div/password-modal/details/summary/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>febb97f2-2cee-4774-861f-eb3d7b183dc1</webElementGuid>
+      <webElementGuid>7d54fd5d-1357-42a3-b2f8-45890fe8a90c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>modal__toggle-open password-link link underlined-link</value>
-      <webElementGuid>12a10df5-8d6b-4a91-bdd9-d58d39111897</webElementGuid>
+      <webElementGuid>dfa9af45-eac0-4c8e-9205-3299b0a9e565</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 
             Enter using password
           </value>
-      <webElementGuid>30fcbe5e-7e48-4afa-97f8-03bc18e4e06b</webElementGuid>
+      <webElementGuid>5fb58167-21e8-4062-8b15-4883715c59c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;shopify-section-main-password-header&quot;)/div[@class=&quot;color-scheme-1 gradient&quot;]/div[@class=&quot;password-header&quot;]/password-modal[1]/details[@class=&quot;password-modal modal&quot;]/summary[@class=&quot;modal__toggle&quot;]/div[@class=&quot;modal__toggle-open password-link link underlined-link&quot;]</value>
-      <webElementGuid>ae319700-9c4c-4009-9779-6b4398d88430</webElementGuid>
+      <webElementGuid>bc7f1005-cc78-4ca0-9b55-f61160d7fff7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopify-section-main-password-header']/div/div/password-modal/details/summary/div</value>
-      <webElementGuid>185d0406-7743-4fe9-8a1a-932482b79fa4</webElementGuid>
+      <webElementGuid>a3c97417-23a9-4d27-9df1-69ed37132b57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to content'])[1]/following::div[4]</value>
-      <webElementGuid>1604b16e-56f6-49ad-848f-137e53b0b027</webElementGuid>
+      <webElementGuid>9102f78a-96d2-4da3-9d02-c734e8aa4b1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter store using password:'])[1]/preceding::div[2]</value>
-      <webElementGuid>f68eaa8d-8d1f-44a6-bcaf-a9db9aabe25c</webElementGuid>
+      <webElementGuid>91a419a8-a0fe-4447-80a1-03a6066b9208</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your password'])[1]/preceding::div[2]</value>
-      <webElementGuid>bfdd6108-78b4-4d8d-bd32-feee1f232ced</webElementGuid>
+      <webElementGuid>e712422d-65b3-43b9-9eb5-c650e837486e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enter using password']/parent::*</value>
-      <webElementGuid>067f8599-bf4d-4911-894d-9dbb88111afd</webElementGuid>
+      <webElementGuid>fc2ff037-06ef-4d31-8486-5c4e7b87c8c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//summary/div</value>
-      <webElementGuid>4f11ada1-fc4e-48e7-a0aa-8c3e2d2f33cd</webElementGuid>
+      <webElementGuid>a8a766f5-852d-47d9-861f-01eb2b0931b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
 
             Enter using password
           ')]</value>
-      <webElementGuid>daa7276f-2024-4fd2-98d8-635d043c743b</webElementGuid>
+      <webElementGuid>50741205-5132-4df9-b9d1-6293d2753972</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

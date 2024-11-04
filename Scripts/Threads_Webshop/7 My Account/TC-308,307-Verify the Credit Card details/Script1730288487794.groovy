@@ -19,79 +19,74 @@ import org.openqa.selenium.Keys as Keys
 import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 
-// Generate a unique folder path with a timestamp for screenshots
-String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
-String screenshotFolder = "screenshots/my_account_" + timestamp + "/"
+// Generate a unique timestamped folder path for screenshots
+LocalDateTime currentDateTime = LocalDateTime.now()
+DateTimeFormatter formatter = DateTimeFormatter.ofPattern('yyyyMMddHHmmss')
+String dateTimeString = currentDateTime.format(formatter)
+String screenshotFolderPath = 'screenshots/credit_card' + dateTimeString + '/'
+new File(screenshotFolderPath).mkdirs() // Create the folder
 
-WebUI.openBrowser('')
+// Begin test execution and screenshot steps
+// Step 1: Enter password
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot(screenshotFolderPath + 'enter_password.png')
 
-WebUI.navigateToUrl('https://threads0.myshopify.com/password')
+// Step 2: Navigate to catalog
+WebUI.click(findTestObject('Object Repository/Page_Threads/a_Catalog'))
+WebUI.takeScreenshot(screenshotFolderPath + 'catalog_page.png')
 
-WebUI.click(findTestObject('Object Repository/Page_Threads/div_Enter using password'))
+// Step 3: Select product "ADIDAS KIDS STAN SMITH"
+WebUI.click(findTestObject('Object Repository/Page_Products  Threads/a_ADIDAS  KIDS STAN SMITH'))
+WebUI.takeScreenshot(screenshotFolderPath + 'select_product.png')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Threads/input_Enter store using password_password'), 'gnzTAVlujIw+lTr0To6+Cg==')
+// Step 4: Click "Buy it now"
+WebUI.click(findTestObject('Object Repository/Page_ADIDAS  KIDS STAN SMITH  Threads/button_Buy it now'))
+WebUI.takeScreenshot(screenshotFolderPath + 'buy_now.png')
 
-WebUI.click(findTestObject('Object Repository/Page_Threads/button_Enter'))
+// Step 5: Enter email or phone number (Invalid case)
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Email or mobile phone number_email'), '1234567890')
+WebUI.takeScreenshot(screenshotFolderPath + 'enter_email.png')
 
-//Verify Home page
-WebUI.verifyTextPresent('Home', false)
+// Step 6: Choose delivery method
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/input_Choose a delivery method_delivery_strategies'))
+WebUI.takeScreenshot(screenshotFolderPath + 'delivery_method.png')
 
-//Selecting an item for checkout
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Threads/a_ADIDAS  CLASSIC BACKPACK'))
-
-WebUI.click(findTestObject('Object Repository/Page_Threads/a_ADIDAS  CLASSIC BACKPACK'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now'))
-
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Page_ADIDAS  CLASSIC BACKPACK  Threads/button_Buy it now'))
-
-WebUI.verifyTextPresent('Threads', false)
-
-//Providing the nessary details
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Email or mobile phone number_email'), 'johndeere@mailinator.com')
-
+// Step 7: Enter customer details
 WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_First name (optional)_firstName'), 'John')
-
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Last name_lastName'), 'Deere')
-
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Address_address1'), 'abc Apartment, xyz Road')
-
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Last name_lastName'), 'Cena')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Address_address1'), 'ABC Street')
 WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_City_city'), 'Kolkata')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_PIN code_postalCode'), '700001')
+WebUI.takeScreenshot(screenshotFolderPath + 'customer_details.png')
 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_PIN code_postalCode'), '700007')
-
-//Verify payment section
-WebUI.verifyTextPresent('Payment', false)
-
-WebUI.verifyTextPresent('Credit card', false)
-
-//Providing invalid credentials 
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Card number_number'), '2222 2222 2222 2222')
-
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry'), '02 /               34')
-
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Security code_verification_value'), '123')
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Checkout - Threads/button_Pay now'))
-
+// Step 8: Attempt payment (Invalid case)
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Card number_number (1)'), '3')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry (1)'), '02 27')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Security code_verification_value (1)'), '345')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Name on card_name'), 'John Cena')
 WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/button_Pay now'))
-
+WebUI.takeScreenshot(screenshotFolderPath + 'attempt_payment_invalid_case_1.png')
 WebUI.delay(3)
 
-WebUI.verifyTextPresent('Your payment details couldn’t be verified.', false)
-
-WebUI.verifyTextPresent('Enter a valid card number', false)
-
-//Provide the valid information
-WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Card number_number'), '1')
-
+// Step 9: Attempt second invalid payment
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Card number_number (2)'), '2')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry (2)'), '02 27')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Security code_verification_value (2)'), '456')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Name on card_name (1)'), 'John Cena')
 WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/button_Pay now'))
+WebUI.takeScreenshot(screenshotFolderPath + 'attempt_payment_invalid_case_2.png')
 
-WebUI.delay(3)
+// Step 10: Attempt valid payment
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Card number_number (3)'), '1')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry (3)'), '02 27')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Security code_verification_value (3)'), '456')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Name on card_name (2)'), 'John Cena')
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/button_Pay now'))
+WebUI.takeScreenshot(screenshotFolderPath + 'attempt_payment_valid_case.png')
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Page_Thank you for your purchase - Threads _893876/h2_Thank you, John'))
+// Step 11: Verify order confirmation
+WebUI.verifyTextPresent('Your order is confirmed', false)
+WebUI.takeScreenshot(screenshotFolderPath + 'order_confirmation.png')
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Page_Thank you for your purchase - Threads _893876/h2_Your order is confirmed'))
-
+// Step 12: Close the browser
 WebUI.closeBrowser()
-

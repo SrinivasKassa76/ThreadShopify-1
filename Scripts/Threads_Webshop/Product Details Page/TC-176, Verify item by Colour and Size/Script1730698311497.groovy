@@ -1,4 +1,4 @@
-// Import necessary Katalon libraries and classes
+ // Import necessary Katalon libraries and classes
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -19,9 +19,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // Call reusable test case to log into an account with specified credentials
-WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), 
-    [('validemail') : 'cenaalice1234@mailinator.com', ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), [('validemail') : 'cenaalice1234@mailinator.com'
+        , ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], FailureHandling.STOP_ON_FAILURE)
 
 // Select a specific product (ADIDAS CLASSIC BACKPACK) to view its details
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_Threads/a_ADIDAS  CLASSIC BACKPACK  LEGEND INK MULTICOLOUR'))
@@ -61,9 +60,13 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Pag
 
 // Attempt to select multiple size variants that are sold out
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_4Variant sold out or unavailable'))
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_5Variant sold out or unavailable'))
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_6Variant sold out or unavailable'))
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_9Variant sold out or unavailable'))
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_11Variant sold out or unavailable'))
 
 // Verify that the specified color is displayed on the page
@@ -72,5 +75,5 @@ WebUI.verifyTextPresent(color3, false)
 // Attempt to select another color variant (black) that is sold out
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_blackVariant sold out or unavailable'))
 
-// Return to the home page
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/span_Home'))
+WebUI.closeBrowser()
+

@@ -6,12 +6,12 @@
    <elementGuidId>a482b2b3-73b8-461a-8e28-15e28d2f893e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@name='commit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button[name=&quot;commit&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@name='commit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a69fdf91-72e7-4364-af89-46e807e33ca4</webElementGuid>
+      <webElementGuid>7136fb3e-20fd-4e13-9a0e-7030d110e772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>commit</value>
-      <webElementGuid>3172b5f2-5083-4734-bdb5-d89de5611f53</webElementGuid>
+      <webElementGuid>36b94f2f-e266-46c3-af4b-85f452bde4ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>password-button button button--outline</value>
-      <webElementGuid>cf7975aa-c6ce-4bc4-8abd-93dfec04aaac</webElementGuid>
+      <webElementGuid>0d6233cc-f43a-4423-a454-d1c1e91dd908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
                 Enter
               </value>
-      <webElementGuid>95716560-a72a-4e85-81b1-9de3ebce963d</webElementGuid>
+      <webElementGuid>5fa8198d-7d60-457f-aefe-f40905606f94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login_form&quot;)/button[@class=&quot;password-button button button--outline&quot;]</value>
-      <webElementGuid>8dd00b78-24f6-4093-b65c-bdbcb927a0d4</webElementGuid>
+      <webElementGuid>ecaec190-5830-41f0-a6e3-832abd5ef90d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@name='commit']</value>
-      <webElementGuid>b999d90d-f9e2-4916-9916-7026a22a99f9</webElementGuid>
+      <webElementGuid>2c0dbc4e-40df-459d-8dcb-49f38abcc337</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='login_form']/button</value>
-      <webElementGuid>43a30bba-3583-4ea8-aacc-c31d78ae20d5</webElementGuid>
+      <webElementGuid>96d06fe8-0ec9-4059-8089-51448c3d40d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your password'])[1]/following::button[1]</value>
-      <webElementGuid>3c3d6e05-331c-43ac-800c-0a8a7c5bb20e</webElementGuid>
+      <webElementGuid>507bc21c-e9eb-4cda-b5ee-8b9dbe334627</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter store using password:'])[1]/following::button[1]</value>
-      <webElementGuid>d06df4dc-4e94-4bf8-a711-f019e20792a7</webElementGuid>
+      <webElementGuid>25f94078-b528-471f-a63e-fb51e3db0c81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in here'])[1]/preceding::button[1]</value>
-      <webElementGuid>c6279967-4e41-436a-8ec2-7caa1ed7437d</webElementGuid>
+      <webElementGuid>53f3aa4b-6760-42a4-8ac6-a3b807b8519b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enter']/parent::*</value>
-      <webElementGuid>dae84db1-830f-4719-a20f-74026b4b1ce8</webElementGuid>
+      <webElementGuid>049c7162-5d2d-4c1e-b8ac-ce1b6d64efa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button</value>
-      <webElementGuid>90ded96d-ab54-4f3e-ad94-04158b4ead78</webElementGuid>
+      <webElementGuid>df5890b9-1fc0-49cd-860e-9de6382ba826</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
               ' or . = '
                 Enter
               ')]</value>
-      <webElementGuid>b7d00a97-b697-463c-a848-efc7044ed39a</webElementGuid>
+      <webElementGuid>b2b7360e-b055-456a-aed5-1d3fcaa6549a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

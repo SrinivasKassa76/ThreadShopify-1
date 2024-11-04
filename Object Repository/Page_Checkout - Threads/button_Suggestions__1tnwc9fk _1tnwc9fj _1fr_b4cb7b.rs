@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Suggestions__1tnwc9fk _1tnwc9fj _1fr_b4cb7b</name>
+   <tag></tag>
+   <elementGuidId>da85a7dd-3703-4c5a-8182-9f6dae8e9d62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button._1tnwc9fk._1tnwc9fj._1fragemev._1fragemgo._1fragemd2._1fragemih</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Close suggestions&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e89d8bf9-ea3a-4d74-874c-227fde681215</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e68b3d17-9ae5-47c7-8658-51302dfa5de7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1tnwc9fk _1tnwc9fj _1fragemev _1fragemgo _1fragemd2 _1fragemih</value>
+      <webElementGuid>76301407-d841-4581-be5d-90dc57a2c63b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Portal1&quot;)/div[@class=&quot;xoxyfm1 xoxyfm0 _1frageml9 _1fragemsx&quot;]/div[@class=&quot;_1tnwc9f1 _1tnwc9f0 _1fragem8r _1fragem87 _1fragem9b _1fragem7n _1fragemsy _1fragemmw _1tnwc9fd _1tnwc9fb _1fragemnb&quot;]/div[@class=&quot;_1tnwc9fg _1tnwc9ff _1fragemev _1fragemgo _1fragemd2 _1fragemih _1fragem28 _1fragemmc _1fragem7d&quot;]/button[@class=&quot;_1tnwc9fk _1tnwc9fj _1fragemev _1fragemgo _1fragemd2 _1fragemih&quot;]</value>
+      <webElementGuid>4c5d8ddb-61cb-4857-8c89-b3b5c44bddf6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>c6a5761e-d98d-4c9c-9b9f-b7a1a1bdd254</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='Portal1']/div/div/div/button</value>
+      <webElementGuid>0c7dadbb-1d9b-4a81-98cd-90e1a71fd52f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggestions'])[1]/following::button[1]</value>
+      <webElementGuid>40f4b954-c621-44b9-aabb-eb632aeaea4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹78.48'])[2]/following::button[1]</value>
+      <webElementGuid>59528896-1883-4bed-b792-006a6b7c7add</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ABC'])[1]/preceding::button[1]</value>
+      <webElementGuid>5db6d979-59b4-4f31-8e22-d800bc318d4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Consultants, Middleton Street, Kankaria Estates, Park'])[1]/preceding::button[1]</value>
+      <webElementGuid>eb90089b-42ba-43bf-983b-40bbae3f6020</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/button</value>
+      <webElementGuid>28357539-1bdc-4eda-9a25-40726dcd0faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>58b7faf8-5dcb-40a0-8cf8-59af61d50c29</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
