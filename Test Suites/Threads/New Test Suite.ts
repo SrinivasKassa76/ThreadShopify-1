@@ -336,4 +336,18 @@
       <testCaseId>Test Cases/Threads_Webshop/7 My Account/TC-308,307-Verify the Credit Card details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>be11b376-0054-4fab-8b85-13599733ccc7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Threads_Webshop/3 Homepage/Homepage-Banner/Reset the Banner</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5810bd2d-e5d7-42b0-82af-be2f131f56f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Threads_Webshop/3 Homepage/Homepage-Banner/Verify Banner title</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
