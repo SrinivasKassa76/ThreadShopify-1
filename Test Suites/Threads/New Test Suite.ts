@@ -246,29 +246,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>22645167-eb1e-4e7b-b38d-5dfab46a5f54</guid>
+      <guid>80dc75a3-ac3a-41ae-bd8b-4e555d57ea03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/TC-444, Verify Summary</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7e7a1134-165c-45f7-8727-f576ca604365</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d2cfe091-e0b0-4300-b6b5-81b57446cd0e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d1e4a51b-a018-4413-b8e6-35a4438ac02f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/TC-575, Verify Reorder</testCaseId>
+      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/verify order summary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -348,6 +329,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Threads_Webshop/3 Homepage/Homepage-Banner/Verify Banner title</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1e4a51b-a018-4413-b8e6-35a4438ac02f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/TC-575, Verify Reorder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
