@@ -16,12 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
+
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/subscription_" + timestamp + "/"
 
 WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot(screenshotFolder + "home.png")
 
 WebUI.click(findTestObject('Object Repository/Page_Threads/span_Catalog'))
 
 WebUI.click(findTestObject('Object Repository/Page_Products  Threads/a_ADIDAS  SUPERSTAR 80S'))
+
+WebUI.takeScreenshot(screenshotFolder + "select_product.png")
 
 WebUI.verifyTextPresent('One-time purchase', false)
 
@@ -35,6 +44,8 @@ WebUI.click(findTestObject('Object Repository/Page_ADIDAS  SUPERSTAR 80S  Thread
 WebUI.click(findTestObject('Object Repository/Page_ADIDAS  SUPERSTAR 80S  Threads/button_Add to cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_ADIDAS  SUPERSTAR 80S  Threads/a_View cart (1)'))
+
+WebUI.takeScreenshot(screenshotFolder + "subscription.png")
 
 //WebUI.click(findTestObject('Object Repository/Page_Your Shopping Cart  Threads/div_Subscription interval                  _3bdc82'))
 WebUI.verifyTextPresent('Discount on next order', false)
