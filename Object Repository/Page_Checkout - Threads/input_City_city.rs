@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3cc0a5d9-0068-4f94-853c-9c3f14425ed5</webElementGuid>
+      <webElementGuid>2b9cf31d-694b-41f2-a432-f4be2a6f88ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TextField3</value>
-      <webElementGuid>7571e2ba-c678-4c14-831b-bde709a4d43a</webElementGuid>
+      <webElementGuid>ee68998b-7755-49ac-afa8-7756d692a033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>city</value>
-      <webElementGuid>33cd88d6-273c-4044-8a19-60698a06a0be</webElementGuid>
+      <webElementGuid>9a50bdfa-546d-4759-8bbb-670adb496060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>City</value>
-      <webElementGuid>cfcafbfe-fc42-477e-8ed2-19a6efc5baf9</webElementGuid>
+      <webElementGuid>a34fda23-371d-47bb-930d-3be4333d25bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1b7460a4-dcfa-4950-9b9b-5295c1b71480</webElementGuid>
+      <webElementGuid>3437cde5-d96d-4699-9a95-81571095deb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>86f80a04-d524-41cb-82e6-f5bfcb02842e</webElementGuid>
+      <webElementGuid>a2ee5eca-5d76-4c2c-bc7a-60064c4878fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>TextField3-label</value>
-      <webElementGuid>4803743c-ed16-4fc4-b4d4-168be6f02eb1</webElementGuid>
+      <webElementGuid>35d6244f-f849-4d25-a61c-aed786b0dc6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>shipping address-level2</value>
-      <webElementGuid>ed4b69c4-7e3c-4cba-b448-e7f532ecc1b9</webElementGuid>
+      <webElementGuid>1c9da2d3-9649-48e0-9348-cce0e7a9aba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,23 +93,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_7ozb2uq _7ozb2up _1fragemlj _1fragemst _1fragemod _1fragemrz _7ozb2ut _7ozb2us _1fragemsf _1fragemsa _1fragemsp _7ozb2u11 _7ozb2u1h _7ozb2ur</value>
-      <webElementGuid>1352d7bd-cb76-4a14-af4e-b083b96717b2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>error-for-TextField3</value>
-      <webElementGuid>dc13326a-74fb-44d1-a4e3-17c8ed2e3929</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-invalid</name>
-      <type>Main</type>
-      <value>true</value>
-      <webElementGuid>ba719c83-76a8-47e7-b945-76da4b689ac8</webElementGuid>
+      <webElementGuid>c68aff38-5dd1-4af1-a558-ef26376ee7af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TextField3&quot;)</value>
-      <webElementGuid>27e7d0bb-f4d0-4c53-87e3-92e2b9a29e88</webElementGuid>
+      <webElementGuid>1431053d-b33e-4d37-85e2-361dc767294d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -125,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TextField3']</value>
-      <webElementGuid>f598c6cc-993a-4233-a442-8bf606405712</webElementGuid>
+      <webElementGuid>dd7a171f-dfef-4af8-9708-09c465a27485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shippingAddressForm']/div/div/div[5]/div/div/div/input</value>
-      <webElementGuid>3ef1c1f7-f68a-4161-a55d-0205db153a7d</webElementGuid>
+      <webElementGuid>c17543b8-c4ac-4db1-88f4-f2c24551e654</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/input</value>
-      <webElementGuid>56102639-99be-4cd3-afb3-7a732798f85a</webElementGuid>
+      <webElementGuid>d7fa8a8c-da4c-4c60-97dc-c75a41da3045</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TextField3' and @name = 'city' and @placeholder = 'City' and @type = 'text']</value>
-      <webElementGuid>8015b5eb-db40-4e35-8c21-25aa390a8ade</webElementGuid>
+      <webElementGuid>74c14855-5263-408a-b85c-455aa9dedf4b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>7c0f5bdb-0aeb-43d5-b6bb-86d978363e4e</webElementGuid>
+      <webElementGuid>90930271-86dc-4969-a477-802cd671a1fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>n8k95w1 n8k95w0 _1fragemlj n8k95w3</value>
-      <webElementGuid>21ce8762-5b15-4b64-bfb8-18d373a9e36d</webElementGuid>
+      <webElementGuid>f261a684-0750-451b-8c0e-135d28614806</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Your order is confirmed</value>
-      <webElementGuid>c82ce755-997f-4dd4-96cb-9b5d0d31c16d</webElementGuid>
+      <webElementGuid>74e4a208-315b-46b8-bca1-f21c3fd24ec7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkout-main&quot;)/div[@class=&quot;_1fragem1y _1fragemff _1fragemg1 _1fragemgt _1fragemhu _1fragemdm _1frageme8 _1fragemim _1fragemjn _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem4b _1fragem4o _1fragem64 _1fragem6h _1fragem2s&quot;]/div[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem4b _1fragem64 _1fragem2s&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem3w _1fragem5p _1fragem2s&quot;]/section[@class=&quot;_197l2ofj _197l2ofh _1fragemnb _197l2of1g _197l2of1f _1fragemjv _1fragemk5 _1fragemou _1fragemoz _1fragemp9 _1fragemp4 _1fragem8r _1fragem87 _1fragem9b _1fragem7n _1fragemsy _1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem3w _1fragem5p _1fragemf0 _1fragemgt _1fragemd7 _1fragemim _1fragem8r _1fragem82 _1fragem96 _1fragem7i _1fragem2s&quot;]/h2[@class=&quot;n8k95w1 n8k95w0 _1fragemlj n8k95w3&quot;]</value>
-      <webElementGuid>8d9d379c-6a00-49c0-8789-ca8a9a301b63</webElementGuid>
+      <webElementGuid>3ebf9d5d-38c3-4847-8060-f24ccf5cf45b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='checkout-main']/div/div/div[2]/div/div/section/div/h2</value>
-      <webElementGuid>01c69d8d-676e-4deb-a12e-3be4bfeb8945</webElementGuid>
+      <webElementGuid>f93aafd2-5f5d-495f-b682-f2de0be9e085</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,15 +69,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Thank you, John!'])[1]/following::h2[1]</value>
-      <webElementGuid>305c01a9-bcf5-4324-89d5-674c7ed359fb</webElementGuid>
+      <webElementGuid>3cda03f0-9787-4a82-9f97-81d85b8a5d05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show order summary'])[1]/following::h2[2]</value>
-      <webElementGuid>ba4a2942-378e-4088-bf9e-1b851c0eb7e2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹56.48'])[1]/following::h2[2]</value>
+      <webElementGuid>c5d0d11b-d7b1-451b-b2dc-c3328887bced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You’ll receive a confirmation text with your order number shortly.'])[1]/preceding::h2[1]</value>
-      <webElementGuid>94c29d6c-efe9-4e91-bca9-c6d830fb8d4b</webElementGuid>
+      <webElementGuid>8a4bdd86-d407-4883-8cee-9f4b3eb108fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order updates'])[1]/preceding::h2[1]</value>
-      <webElementGuid>c18dadac-488a-4093-919b-e2bd15b0eb89</webElementGuid>
+      <webElementGuid>f5af1b70-c7a4-4103-b167-62cfa9f0573f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Your order is confirmed']/parent::*</value>
-      <webElementGuid>27612c5e-d07c-4c40-97d4-117cf60e7088</webElementGuid>
+      <webElementGuid>343101cb-c05c-4260-afcc-a6ccedd8bd5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/h2</value>
-      <webElementGuid>63da6b2f-f5d2-4bd9-b0ab-bbe46bbbda79</webElementGuid>
+      <webElementGuid>8992aa5e-64a2-4085-9509-d49f5f2b4f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Your order is confirmed' or . = 'Your order is confirmed')]</value>
-      <webElementGuid>57966d89-cb73-4d2e-9178-e9a1ac113e56</webElementGuid>
+      <webElementGuid>630b14d6-3c12-4a31-826b-730bcbc861fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

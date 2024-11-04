@@ -1,4 +1,4 @@
-// Import necessary Katalon libraries and classes
+ // Import necessary Katalon libraries and classes
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -21,47 +21,122 @@ import org.openqa.selenium.Keys as Keys
 // Open a browser instance
 WebUI.openBrowser('')
 
-// Navigate to the specified URL (MyShopify store login page)
+WebUI.maximizeWindow()
+
+WebUI.takeScreenshot('screenshots/open_browser.png')
+
+// Navigate to URL and login
 WebUI.navigateToUrl('https://threads0.myshopify.com/password')
 
-// Click on the 'Enter using password' button
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Threads/div_Enter using password'))
+WebUI.click(findTestObject('Object Repository/Page_Threads/div_Enter using password'))
 
-// Enter the store password (encrypted for security)
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Account/Page_Threads/input_Enter store using password_password'), 
-    'gnzTAVlujIw+lTr0To6+Cg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Threads/input_Enter store using password_password'), 'gnzTAVlujIw+lTr0To6+Cg==')
 
-WebUI.takeScreenshot('screenshots/account/login.png')
+WebUI.click(findTestObject('Object Repository/Page_Threads/button_Enter'))
 
-// Click on the 'Enter' button to log in to the store
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Threads/button_Enter'))
+WebUI.takeScreenshot('screenshots/after_login.png')
 
-// Click on the account icon to navigate to the login section
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Threads/svg_Search_icon icon-account'))
+// Navigate to Catalog
+WebUI.click(findTestObject('Object Repository/Page_Threads/a_Catalog'))
 
-// Enter the email address for the login (in this case, a temporary Mailinator address)
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Account/Page_Account  Threads/input_Login_customeremail'), 
-    'alaxjoan@mailinator.com')
+WebUI.takeScreenshot('screenshots/catalog_page.png')
 
-// Enter the encrypted password for the account login
-WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Account/Page_Account  Threads/input_Email_customerpassword'), 
-    'UDMlkmqWREzH+mr49N5wRw==')
+// Select Product and proceed
+WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK'))
 
-// Click the 'Sign in' button to log in to the account
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Account  Threads/button_Sign in'))
+WebUI.takeScreenshot('screenshots/selected_product.png')
 
-WebUI.takeScreenshot('screenshots/account/account.png')
+WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_ASICS TIGER  GEL-LYTE V 30 YEARS OF GE_209da4/button_Buy it now'))
 
-// Verify the presence of the text 'account' on the page to confirm successful login
-WebUI.verifyTextPresent('account', false)
+WebUI.takeScreenshot('screenshots/buy_it_now.png')
 
-// Verify the presence of 'order history' text to ensure the section loads correctly
-WebUI.verifyTextPresent('order_history', false)
+// Enter user details
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Email or mobile phone number_email'), '1234567890')
 
-// Click on a specific order (with ID 1042) to view details
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Account  Threads/a_1042'))
+WebUI.takeScreenshot('screenshots/enter_contact.png')
 
-// Scroll to the desired position on the page (200 pixels down, horizontally centered)
-WebUI.scrollToPosition(200, 0)
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/input_Choose a delivery method_delivery_strategies'))
 
-WebUI.takeScreenshot('screenshots/account/summary.png')
+// Fill address information
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_First name (optional)_firstName'), 'Celine')
+
+WebUI.takeScreenshot('screenshots/enter_first_name.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Last name_lastName'), 'Cena')
+
+WebUI.takeScreenshot('screenshots/enter_last_name.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Address_address1'), 'jfjbsbs')
+
+WebUI.takeScreenshot('screenshots/enter_address.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Apartment, suite, etc. (optional)_address2'), 
+    'segeg')
+
+WebUI.takeScreenshot('screenshots/enter_apartment.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_City_city'), 'efe')
+
+WebUI.takeScreenshot('screenshots/enter_city.png')
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Checkout - Threads/select_Andaman and Nicobar IslandsAndhra Pr_2effd7'), 
+    'WB', true)
+
+WebUI.takeScreenshot('screenshots/select_state.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_PIN code_postalCode'), '700053')
+
+WebUI.takeScreenshot('screenshots/enter_pin.png')
+
+// Choose shipping method and enter payment info
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods'))
+
+WebUI.takeScreenshot('screenshots/choose_shipping.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Card number_number (4)'), '2222 1111 3333 4444')
+
+WebUI.takeScreenshot('screenshots/enter_card_number.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry (4)'), '12 / 26')
+
+WebUI.takeScreenshot('screenshots/enter_expiry.png')
+
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Security code_verification_value (4)'), '567')
+
+WebUI.takeScreenshot('screenshots/enter_security_code.png')
+
+// Apply discount code
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Discount code_reductions'), 'WINTER10')
+
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/button_Apply'))
+
+WebUI.takeScreenshot('screenshots/apply_discount.png')
+
+// Calculate and validate prices
+float ordertotal = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_220.00')))
+
+float discount = parseDisc(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_22.00')))
+
+float shipping = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_10.00')))
+
+float tax = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_35.64')))
+
+float finalPrice = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/strong_243.64')))
+
+if ((((ordertotal - discount) + shipping) + tax) == finalPrice) {
+    println('Match')
+} else {
+    println('No match')
+}
+
+WebUI.takeScreenshot('screenshots/validate_prices.png')
+
+// Confirm order
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/button_Pay now'))
+
+WebUI.takeScreenshot('screenshots/order_confirmation.png')
+
+WebUI.closeBrowser() // Parsing functions
+
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods_1'))
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_10.00</name>
+   <tag></tag>
+   <elementGuidId>8cc5731e-5817-4920-b7a7-b505d0b72877</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu._19gi7ytn.notranslate</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[4]/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Cost summary&quot;i >> internal:text=&quot;₹10.00&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1b86ff0c-9601-45b5-987a-a4a31c5f599c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>translate</name>
+      <type>Main</type>
+      <value>no</value>
+      <webElementGuid>24ccd9bd-7303-40c8-8afa-94dac065d5ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu _19gi7ytn notranslate</value>
+      <webElementGuid>82c6e531-a3f6-44c8-acbc-fc131e2b564f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>₹10.00</value>
+      <webElementGuid>7791c14f-2dbd-475b-91fd-f83e62796f8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/div[@class=&quot;Sxi8I&quot;]/div[@class=&quot;i4DWM _1fragemna _1fragemn7 _1fragemsy&quot;]/div[@class=&quot;_4QenE&quot;]/aside[1]/div[1]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem46 _1fragem5z _1fragem2s&quot;]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[2]/div[@class=&quot;nfgb6p1 nfgb6p0 _1fragem2s nfgb6p3&quot;]/div[@class=&quot;_1qy6ue60 _1qy6ue6a _1qy6ue61 _1qy6ue67 _1qy6ue65 _1fragem3h _1fragem5a _1fragem2s&quot;]/div[@class=&quot;_1qy6ue6c&quot;]/span[@class=&quot;_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu _19gi7ytn notranslate&quot;]</value>
+      <webElementGuid>138e56e5-d63b-42ed-b4bf-52ed02c3a705</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[4]/div[2]/span</value>
+      <webElementGuid>f7d16ef1-9b09-4b3b-b5f5-286b70645c00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping'])[1]/following::span[1]</value>
+      <webElementGuid>c39121e6-98b9-4a8d-bc4b-695c75a705e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='− ₹22.00'])[1]/following::span[2]</value>
+      <webElementGuid>fd11ce27-d423-4c6c-909a-0ec9a9812eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated taxes'])[1]/preceding::span[1]</value>
+      <webElementGuid>0d997ded-bab5-4cf8-8cb8-01dbd06603a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹35.64'])[1]/preceding::span[4]</value>
+      <webElementGuid>d4b1fff8-de32-463d-b337-736b66396bc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/span</value>
+      <webElementGuid>a59b4711-f104-4f44-b2ca-a9cc27c121c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '₹10.00' or . = '₹10.00')]</value>
+      <webElementGuid>bedeafec-e66b-405a-aa57-88eadd3ba109</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7d54fd5d-1357-42a3-b2f8-45890fe8a90c</webElementGuid>
+      <webElementGuid>04ae38e3-61a9-4f61-9014-4d584002e1c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>modal__toggle-open password-link link underlined-link</value>
-      <webElementGuid>dfa9af45-eac0-4c8e-9205-3299b0a9e565</webElementGuid>
+      <webElementGuid>8558d3ac-f2e7-4535-b320-322695ccc9d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
 
             Enter using password
           </value>
-      <webElementGuid>5fb58167-21e8-4062-8b15-4883715c59c3</webElementGuid>
+      <webElementGuid>9e6c5aea-7cc7-4685-99e8-e0f4cb3e1078</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;shopify-section-main-password-header&quot;)/div[@class=&quot;color-scheme-1 gradient&quot;]/div[@class=&quot;password-header&quot;]/password-modal[1]/details[@class=&quot;password-modal modal&quot;]/summary[@class=&quot;modal__toggle&quot;]/div[@class=&quot;modal__toggle-open password-link link underlined-link&quot;]</value>
-      <webElementGuid>bc7f1005-cc78-4ca0-9b55-f61160d7fff7</webElementGuid>
+      <webElementGuid>783cf802-2859-4165-8626-e4afcffeabb3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shopify-section-main-password-header']/div/div/password-modal/details/summary/div</value>
-      <webElementGuid>a3c97417-23a9-4d27-9df1-69ed37132b57</webElementGuid>
+      <webElementGuid>69955153-a989-4b25-b0b2-b0adc4a0c397</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to content'])[1]/following::div[4]</value>
-      <webElementGuid>9102f78a-96d2-4da3-9d02-c734e8aa4b1e</webElementGuid>
+      <webElementGuid>fcb42292-3ed7-49d5-b2a2-a9efadde6196</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter store using password:'])[1]/preceding::div[2]</value>
-      <webElementGuid>91a419a8-a0fe-4447-80a1-03a6066b9208</webElementGuid>
+      <webElementGuid>87d10ad2-53ab-4a6a-9a1f-50872676eecd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your password'])[1]/preceding::div[2]</value>
-      <webElementGuid>e712422d-65b3-43b9-9eb5-c650e837486e</webElementGuid>
+      <webElementGuid>b967f097-7d22-45c1-a5ab-5ca2fd2ea84f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Enter using password']/parent::*</value>
-      <webElementGuid>fc2ff037-06ef-4d31-8486-5c4e7b87c8c4</webElementGuid>
+      <webElementGuid>048ae35e-5904-4365-b9da-75f17f7300fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//summary/div</value>
-      <webElementGuid>a8a766f5-852d-47d9-861f-01eb2b0931b3</webElementGuid>
+      <webElementGuid>f0d8e184-7eb7-4017-879c-778c417fed42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
 
             Enter using password
           ')]</value>
-      <webElementGuid>50741205-5132-4df9-b9d1-6293d2753972</webElementGuid>
+      <webElementGuid>7d04daee-08e8-4c8d-8595-4538d2942900</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,204 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK",
+      "brokenLocator": "/html/body/main/div[2]/div/div/div/div/ul/li[1]/div/div/div[2]/div[1]/h3/a/text()",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027CardLink-template--18610480578783__product-grid-8834481160415\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[3]/div/div/div/strong[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TOTAL SAVINGS\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dbutton[name\u003d\"Shipping method Standard · ₹10.00\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-8065b300762b4a82452fb156c5f860bb\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-e1ddef4ea339ac02339348a2a08e6f6c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg",
+      "brokenLocator": "/html/body/div[2]/sticky-header/header/div/a[2]/span[1]/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Log in\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-lcd5o_0c6f78",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-number-lcd5o9hn76k00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027number\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-lcd5o_0c6f78_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_715201",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-expiry-du22z9h93q000000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027expiry\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_715201_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_fa8ec1",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-verification_value-ogiocjdvt2000000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027verification_value\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_fa8ec1_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-t7lhux_e72b22",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-name-t7lhux7oa6a00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027name\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-t7lhux_e72b22_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-xdjuu_727354",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-number-xdjuuwcz27000000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027number\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-xdjuu_727354_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-expiry-4l0tmwrnncu00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027expiry\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry (2)",
+      "brokenLocator": "id(\"expiry\")[count(. | //input[@autocomplete \u003d \u0027cc-exp\u0027 and @id \u003d \u0027expiry\u0027 and @name \u003d \u0027expiry\u0027 and @type \u003d \u0027text\u0027 and @inputmode \u003d \u0027numeric\u0027 and @pattern \u003d \u0027[0-9]*\u0027 and @aria-describedby \u003d \u0027error-for-expiry tooltip-for-expiry\u0027 and @data-current-field \u003d \u0027expiry\u0027 and @class \u003d \u0027input-placeholder-color--lvl-22\u0027 and @placeholder \u003d \u0027Expiration date (MM / YY)\u0027 and @ref_element \u003d \u0027Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2\u0027]) \u003d count(//input[@autocomplete \u003d \u0027cc-exp\u0027 and @id \u003d \u0027expiry\u0027 and @name \u003d \u0027expiry\u0027 and @type \u003d \u0027text\u0027 and @inputmode \u003d \u0027numeric\u0027 and @pattern \u003d \u0027[0-9]*\u0027 and @aria-describedby \u003d \u0027error-for-expiry tooltip-for-expiry\u0027 and @data-current-field \u003d \u0027expiry\u0027 and @class \u003d \u0027input-placeholder-color--lvl-22\u0027 and @placeholder \u003d \u0027Expiration date (MM / YY)\u0027 and @ref_element \u003d \u0027Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027expiry\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/input_Expiration date (MM  YY)_expiry (2)_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_1a0e43",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-verification_value-hbs0c4rt1rd00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027verification_value\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_1a0e43_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-h8mxeq_b22138",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-name-h8mxeqginvn00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027name\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-h8mxeq_b22138_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-wgmke_5ea4ae",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-number-wgmke362szi00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027number\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-wgmke_5ea4ae_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_d66788",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-expiry-zsrnz5pk1h000000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027expiry\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_d66788_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_98be33",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-verification_value-f8vz7sdo31c00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027verification_value\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_98be33_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-p7oyqf_89c151",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-name-p7oyqfjv79n00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027name\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-p7oyqf_89c151_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-lcd5o_0c6f78",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-number-lcd5o9hn76k00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241104_152933/Threads/New Test Suite/20241104_152934/Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-lcd5o_0c6f78_position.png"
+    }
+  ]
+}
