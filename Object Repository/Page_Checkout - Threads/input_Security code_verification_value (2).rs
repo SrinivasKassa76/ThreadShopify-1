@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a57a36d1-ea93-4720-8976-1238231f9fe1</webElementGuid>
+      <webElementGuid>49c80e4f-bd48-4b6e-a85c-84c94b202435</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>cc-csc</value>
-      <webElementGuid>fa99dda3-f6e1-4f6f-8dea-9cda9a3ef5a9</webElementGuid>
+      <webElementGuid>d8afd51c-779c-47ff-bd1f-d5e5296d92ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>verification_value</value>
-      <webElementGuid>0deaad28-2aa5-4bc4-bf7b-48af552c0113</webElementGuid>
+      <webElementGuid>bbc9610e-6c89-4491-b8f4-8983a9d93f82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>verification_value</value>
-      <webElementGuid>944203d9-40be-43b5-a934-0081afc46659</webElementGuid>
+      <webElementGuid>ede60d15-a058-4153-bde4-b324fd848d55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>51f4f207-0085-417d-b40e-81343ca22911</webElementGuid>
+      <webElementGuid>92d13a8f-501d-4214-9d7b-a1555ae1c807</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>5f08d997-6cc7-4a7e-8471-4d061daddd99</webElementGuid>
+      <webElementGuid>e15a29f9-93dd-4dea-9e08-79827faa3b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>[0-9]*</value>
-      <webElementGuid>f27c3aac-3fdb-4551-b595-9675b93b8aac</webElementGuid>
+      <webElementGuid>8b391e57-df67-44cb-84bd-c0fd0639da48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>error-for-verification_value tooltip-for-verification_value</value>
-      <webElementGuid>6255767f-f650-4df7-97dd-a3fd4f213f22</webElementGuid>
+      <webElementGuid>0207f817-4010-49e5-b03b-7850e548ae52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>data-current-field</name>
       <type>Main</type>
       <value>verification_value</value>
-      <webElementGuid>b018ae13-589d-4158-8ea6-8e46bb7dc371</webElementGuid>
+      <webElementGuid>aea3a920-2984-4f08-bf2c-762713da327c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-placeholder-color--lvl-22</value>
-      <webElementGuid>3bc6683e-a485-4a34-964a-6240c2459091</webElementGuid>
+      <webElementGuid>ad5aec25-5de7-424d-9e11-f496270c3cd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Security code</value>
-      <webElementGuid>40f98dcb-7c8f-4d73-84ec-9970a855086a</webElementGuid>
+      <webElementGuid>495c3724-760a-4d35-b824-3c1845258c1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;verification_value&quot;)</value>
-      <webElementGuid>6dff8c41-03e9-4538-b479-32b977c657dc</webElementGuid>
+      <webElementGuid>97c4cdde-328f-402c-b61d-6cacc55b15fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_1a0e43</value>
-      <webElementGuid>3f181d0d-aa26-4e4b-bd3e-fa61f49445fe</webElementGuid>
+      <webElementGuid>6ec5e34d-6883-43d7-ad3e-920a3a6acf95</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='verification_value']</value>
-      <webElementGuid>9602978f-e922-4ea8-b5f0-51b2de53e037</webElementGuid>
+      <webElementGuid>d82d5dd6-7f57-4b45-88b5-e6a021e1e9c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>5e79bec8-c25c-4f78-b7da-9ddfd41c44e1</webElementGuid>
+      <webElementGuid>469c3376-26f2-4113-8cbd-16522a53f1b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'verification_value' and @name = 'verification_value' and @type = 'text' and @placeholder = 'Security code']</value>
-      <webElementGuid>a74495fb-4e3a-4c2f-b087-46de74eb801f</webElementGuid>
+      <webElementGuid>f0637deb-fb6f-420f-8c6c-794003e4e0a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

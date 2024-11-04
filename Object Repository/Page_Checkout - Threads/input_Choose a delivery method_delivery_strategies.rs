@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4f0c48d9-107f-46a4-8baa-688f96654e51</webElementGuid>
+      <webElementGuid>cd7477c1-bb7e-4afc-a761-2e34f136bc00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>af38d787-0fa8-4df6-a789-40242eb394e8</webElementGuid>
+      <webElementGuid>47c3f46f-a018-4a8b-aa4b-1854f22a17cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>delivery_strategies-SHIPPING</value>
-      <webElementGuid>0a39b0c6-f931-470c-9d67-9edbbfe07b96</webElementGuid>
+      <webElementGuid>457be415-020a-47de-8ce6-fe088affefa8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>delivery_strategies</value>
-      <webElementGuid>3e12e08e-c4dc-46ea-87c0-41c0cb8ac7c6</webElementGuid>
+      <webElementGuid>e4cfea11-8d8f-4e65-97c4-523a78eef0db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_6hzjvo4 _6hzjvo3 _1fragemnk _1fragem1y _1fragemsf _1fragems9 _1fragemsm _6hzjvog _6hzjvo8 _6hzjvo6 _1fragemsy _6hzjvof _6hzjvoc</value>
-      <webElementGuid>f2cc5f22-019d-44e0-b788-ba94cc7699e4</webElementGuid>
+      <webElementGuid>21429ccf-427f-4973-9a51-02c732273615</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;delivery_strategies-SHIPPING&quot;)</value>
-      <webElementGuid>1e6935d9-9436-4c6a-98a0-745df793c95c</webElementGuid>
+      <webElementGuid>5ef90492-256b-4f54-ac44-325b130976f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='delivery_strategies-SHIPPING']</value>
-      <webElementGuid>8315011f-fef2-4d41-ba74-789946b616c9</webElementGuid>
+      <webElementGuid>53b4cb2b-9ff8-443c-a317-46355842a41f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='delivery_strategies']/div/div/div/div/input</value>
-      <webElementGuid>f5f1c31e-1c3a-4ded-881b-7bad59f4a407</webElementGuid>
+      <webElementGuid>2ced3a5a-93d7-4488-9281-e730520caf20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div/div/div/div/input</value>
-      <webElementGuid>f8ea38a1-70e7-4558-b5db-2c0be440ec8e</webElementGuid>
+      <webElementGuid>143ffd0e-e032-4fab-85e4-99d3836605c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'delivery_strategies-SHIPPING' and @name = 'delivery_strategies']</value>
-      <webElementGuid>5fc841ca-a3ee-4d9e-b148-31b92e915a94</webElementGuid>
+      <webElementGuid>4ebf58ed-c5dc-415a-8861-6aa3da9f10c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

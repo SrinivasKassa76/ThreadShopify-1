@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2c8ae8b4-e6f6-44fe-ad16-f14818b1cf04</webElementGuid>
+      <webElementGuid>b3323f08-1a1f-4585-a03f-97148c7e844b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>cc-number</value>
-      <webElementGuid>32058ea8-27f8-4d9c-9697-2e49ff359097</webElementGuid>
+      <webElementGuid>c241eab4-ce17-4283-9a9c-c61805e4a80d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>54dc5a9d-5bc6-45a8-8f11-d086a08b6ca6</webElementGuid>
+      <webElementGuid>a4e453dd-52eb-434a-bf0f-f952b29e7c1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>825a0a37-fe68-40fe-803b-4a7d8f83e446</webElementGuid>
+      <webElementGuid>730e56c5-2cc7-4245-b0fe-beacf267f43c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>8a01ddf5-a54b-48d9-ab9d-19818bcdc527</webElementGuid>
+      <webElementGuid>f5e4413f-c5d2-44c6-a801-0d31743c7826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>4c2a4760-330e-4875-8f1d-136d59c33489</webElementGuid>
+      <webElementGuid>84a86f66-e9e5-4e86-bd61-116a11cf5583</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>[0-9]*</value>
-      <webElementGuid>1ec413c9-f5c8-46c4-a5b0-6917eac61649</webElementGuid>
+      <webElementGuid>834a30f2-cfa7-42af-9742-ae100cb3b24d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>error-for-number tooltip-for-number</value>
-      <webElementGuid>16bb28c0-fa4f-42b7-a1ea-67621b7e704e</webElementGuid>
+      <webElementGuid>fd329693-47d8-4dee-861d-72cac4569a8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>data-current-field</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>32c1e715-27e3-4d05-a000-ac10bd38f169</webElementGuid>
+      <webElementGuid>9100448b-f00d-4354-8fcf-7c05d6c33f62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-placeholder-color--lvl-22</value>
-      <webElementGuid>c1b971d1-a93a-4e6a-b0ba-baf597bfa394</webElementGuid>
+      <webElementGuid>251318e5-dd71-4769-9689-f00bf7c29c83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Card number</value>
-      <webElementGuid>ea16693b-843e-41b6-b257-b45c0e4fba95</webElementGuid>
+      <webElementGuid>153eb325-1307-4fa1-ba9f-f73b3cee0ae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;number&quot;)</value>
-      <webElementGuid>c3e83c06-549f-427f-8220-017f854a74e0</webElementGuid>
+      <webElementGuid>496e5f3e-da19-46a3-95b6-11105a7eebb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-wgmke_5ea4ae</value>
-      <webElementGuid>d7df4b23-5f10-4591-9064-8bd6c7f1dcf4</webElementGuid>
+      <webElementGuid>79005a1a-1149-48e0-8292-17cf2e46fa2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='number']</value>
-      <webElementGuid>b8021e41-7df6-4050-950d-3ba167bd36ef</webElementGuid>
+      <webElementGuid>85b293c4-c366-427c-98fd-21b55bc52341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>de07e1b4-973b-4106-9442-7af49588f459</webElementGuid>
+      <webElementGuid>cf1c7062-5801-48f3-ba7d-1a12ecf448c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'number' and @name = 'number' and @type = 'text' and @placeholder = 'Card number']</value>
-      <webElementGuid>1e3d3e2c-ed77-400c-b90c-48120659a40c</webElementGuid>
+      <webElementGuid>a82f3fd8-6d10-451b-9dec-99a322ad4aa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
