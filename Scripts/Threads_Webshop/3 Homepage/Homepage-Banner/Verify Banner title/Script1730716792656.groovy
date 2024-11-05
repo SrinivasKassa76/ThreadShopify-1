@@ -16,7 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
 
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/Banner_" + timestamp + "/"
+ 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://accounts.shopify.com/lookup?rid=0afa009d-54e4-4293-85aa-e6413ed2f1d5&verify=1730713676-ynuqOa0Hs%2FJY+t6ojqHu++2TLa7otw1DETPdL%2FQmTWw%3D')
@@ -35,9 +40,13 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Shopify
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Log in  Shopify/div_samajit_kpursuitsoftware.com'))
 
+WebUI.takeScreenshot(screenshotFolder + "shopify_website.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Home  Shopify/span_Online Store'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/a_Customize'))
+
+WebUI.takeScreenshot(screenshotFolder + "customize_page.png")
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/button_Uncover your wardrobe essentials_Onl_54202d (2)'))
 
@@ -46,6 +55,8 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/div_Collections (2)'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/div_ASICS TIGER (2)'))
+
+WebUI.takeScreenshot(screenshotFolder + "select_banner.png")
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/span_Save (4)'))
 
@@ -57,6 +68,8 @@ WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Passwo
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads/a_Explore Threads'))
 
 String text_after_change = WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Banner/Page_ASICS TIGER  Threads/h1_Collection ASICS TIGER'))
+
+WebUI.takeScreenshot(screenshotFolder + "check_banner.png")
 
 WebUI.closeBrowser()
 

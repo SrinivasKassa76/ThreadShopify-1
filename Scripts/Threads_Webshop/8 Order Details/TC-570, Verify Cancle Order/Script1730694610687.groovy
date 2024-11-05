@@ -16,11 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
+
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/cancle_order_" + timestamp + "/"
+
 
 // Call a reusable test case to log in to an account with specified email and password
-WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), 
-    [('validemail') : 'cenaalice1234@mailinator.com', ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), [('validemail') : 'cenaalice1234@mailinator.com'
+        , ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], FailureHandling.STOP_ON_FAILURE)
 
 // Click on the account icon to view account details
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Threads/svg_Search_icon icon-account'))
@@ -28,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Thread
 // Verify that the account information text is present on the page
 WebUI.verifyTextPresent(account, false)
 
-WebUI.takeScreenshot('screenshots/account/account.png')
+WebUI.takeScreenshot(screenshotFolder + 'account.png')
 
 // Verify that the summary text is displayed on the account page
 WebUI.verifyTextPresent(summary, false)
@@ -36,12 +41,15 @@ WebUI.verifyTextPresent(summary, false)
 // Click on the "Cancel" button to return or exit account details
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Account  Threads/button_Cancel'))
 
-WebUI.takeScreenshot('screenshots/account/cancle_before.png')
+WebUI.takeScreenshot(screenshotFolder + 'cancle_before.png')
 
 // Delay for 2 seconds to ensure page stability before proceeding
 WebUI.delay(2)
 
-WebUI.takeScreenshot('screenshots/account/cancle_after.png')
+WebUI.takeScreenshot(screenshotFolder + 'cancle_after.png')
 
 // Click on the "Proceed" button to continue with the next steps after canceling
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Page_Account  Threads/button_Proceed'))
+
+WebUI.closeBrowser()
+

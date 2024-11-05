@@ -31,7 +31,7 @@ String uniqueEmail = ('tester_' + dateTimeString) + '@mailinator.com'
 println('Generated unique email: ' + uniqueEmail)
 
 // Define a unique folder path for screenshots
-String screenshotFolderPath = ('screenshots/item_to_cart_without_login_' + dateTimeString) + '/'
+String screenshotFolderPath = ('screenshots/product_details' + dateTimeString) + '/'
 
 new File(screenshotFolderPath).mkdirs()
 

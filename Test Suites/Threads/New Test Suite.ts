@@ -246,6 +246,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
       <guid>80dc75a3-ac3a-41ae-bd8b-4e555d57ea03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -253,6 +254,8 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+=======
+>>>>>>> branch 'master' of https://github.com/PursuitQA-spec/ThreadShopify.git
       <guid>99c4523a-89d2-476e-b088-b3db55f5c061</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

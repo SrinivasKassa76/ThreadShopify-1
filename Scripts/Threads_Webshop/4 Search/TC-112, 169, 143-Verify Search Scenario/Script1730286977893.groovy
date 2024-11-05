@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
+
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/search_" + timestamp + "/"
  
 WebUI.openBrowser('')
  
@@ -33,14 +38,20 @@ WebUI.click(findTestObject('Object Repository/Search with Category_An/Page_Threa
 //Verify Home Page
 WebUI.verifyTextPresent('Home', false)
  
+WebUI.takeScreenshot(screenshotFolder + "home.png")
+
 //verify catalog page
 WebUI.verifyTextPresent('Catalog', false)
+
+WebUI.takeScreenshot(screenshotFolder + "catalog.png")
  
 WebUI.click(findTestObject('Object Repository/Search with Category_An/Page_Threads/span_Catalog'))
  
 //verify Products page
 WebUI.verifyTextPresent('Products', false)
  
+WebUI.takeScreenshot(screenshotFolder + "product.png")
+
 //Filter using Price
 WebUI.verifyTextPresent('Price', false)
  
@@ -56,6 +67,8 @@ WebUI.setText(findTestObject('Object Repository/Search with Category_An/Page_Pro
 WebUI.click(findTestObject('Object Repository/Search with Category_An/Page_Products  Threads/summary_Price'))
  
 WebUI.verifyTextPresent('Sort by:', false)
+
+WebUI.takeScreenshot(screenshotFolder + "items.png")
  
 /*WebUI.selectOptionByValue(findTestObject('Object Repository/Search with Category_An/s2/Page_Products  Threads/select_Featured                            _7b0490'),
     'price-ascending', true)*/

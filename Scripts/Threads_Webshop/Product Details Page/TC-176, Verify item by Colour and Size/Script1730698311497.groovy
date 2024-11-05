@@ -1,4 +1,3 @@
- // Import necessary Katalon libraries and classes
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,21 +16,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
+
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/product_detail_" + timestamp + "/"
 
 // Call reusable test case to log into an account with specified credentials
 WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Login to an Account'), [('validemail') : 'cenaalice1234@mailinator.com'
         , ('password') : 'UDMlkmqWREzH+mr49N5wRw=='], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshot(screenshotFolder + "home.png")
+
 // Select a specific product (ADIDAS CLASSIC BACKPACK) to view its details
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_Threads/a_ADIDAS  CLASSIC BACKPACK  LEGEND INK MULTICOLOUR'))
 
-// Attempt to select a variant option (OS) that is sold out
+WebUI.takeScreenshot(screenshotFolder + "product1.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_ADIDAS  CLASSIC BACKPACK  LEGEND INK M_ff53f1/label_OSVariant sold out or unavailable'))
 
 // Verify that the specified color is displayed on the page
 WebUI.verifyTextPresent(color1, false)
 
-// Attempt to select another variant option (blue) that is sold out
+WebUI.takeScreenshot(screenshotFolder + "color.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_ADIDAS  CLASSIC BACKPACK  LEGEND INK M_ff53f1/label_blueVariant sold out or unavailable'))
 
 // Go back to the catalog page
@@ -40,16 +48,17 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Pag
 // Select a different product (ADIDAS KIDS STAN SMITH)
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_Products  Threads/a_ADIDAS  KIDS STAN SMITH'))
 
-// Attempt to select size variants that are sold out (size 1)
+ebUI.takeScreenshot(screenshotFolder + "product2.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_ADIDAS  KIDS STAN SMITH  Threads/label_1Variant sold out or unavailable'))
 
-// Attempt to select another size variant that is sold out (size 2)
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_ADIDAS  KIDS STAN SMITH  Threads/label_2Variant sold out or unavailable'))
 
 // Verify that the specified color is displayed on the page
 WebUI.verifyTextPresent(color2, false)
 
-// Attempt to select another color variant (white) that is sold out
+WebUI.takeScreenshot(screenshotFolder + "color2.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_ADIDAS  KIDS STAN SMITH  Threads/label_whiteVariant sold out or unavailable'))
 
 // Go back to the catalog page
@@ -58,19 +67,32 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Pag
 // Select another product (CONVERSE CHUCK TAYLOR ALL STAR II HI)
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_Products  Threads/a_CONVERSE  CHUCK TAYLOR ALL STAR II HI'))
 
-// Attempt to select multiple size variants that are sold out
+ebUI.takeScreenshot(screenshotFolder + "product3.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_4Variant sold out or unavailable'))
+
+ebUI.takeScreenshot(screenshotFolder + "size1.png")
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_5Variant sold out or unavailable'))
 
+ebUI.takeScreenshot(screenshotFolder + "size2.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_6Variant sold out or unavailable'))
+
+ebUI.takeScreenshot(screenshotFolder + "size3.png")
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_9Variant sold out or unavailable'))
 
+ebUI.takeScreenshot(screenshotFolder + "size4.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_11Variant sold out or unavailable'))
+
+WebUI.takeScreenshot(screenshotFolder + "size5.png")
 
 // Verify that the specified color is displayed on the page
 WebUI.verifyTextPresent(color3, false)
+
+ebUI.takeScreenshot(screenshotFolder + "color3.png")
 
 // Attempt to select another color variant (black) that is sold out
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Product Details Page/Page_CONVERSE  CHUCK TAYLOR ALL STAR II HI _4a158e/label_blackVariant sold out or unavailable'))

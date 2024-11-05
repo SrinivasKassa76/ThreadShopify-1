@@ -16,7 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
 
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/reorder_" + timestamp + "/"
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://threads0.myshopify.com/password')
@@ -25,6 +29,8 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/Pag
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/Page_Threads/input_Enter store using password_password'), 
     'gnzTAVlujIw+lTr0To6+Cg==')
+
+WebUI.takeScreenshot(screenshotFolder + "catalog_page.png")
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/Page_Threads/button_Enter'))
 
@@ -36,9 +42,13 @@ WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/P
 WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/input_Email_customerpassword'), 
     'UDMlkmqWREzH+mr49N5wRw==')
 
+WebUI.takeScreenshot(screenshotFolder + "login.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/button_Sign in'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Account/Reorder/Page_Account  Threads/button_Reorder'))
+
+WebUI.takeScreenshot(screenshotFolder + "reorder.png")
 
 WebUI.verifyTextPresent('Payment', false)
 

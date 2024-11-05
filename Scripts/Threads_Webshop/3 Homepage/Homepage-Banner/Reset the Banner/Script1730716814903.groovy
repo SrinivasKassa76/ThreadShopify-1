@@ -16,8 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.text.SimpleDateFormat
 
-
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/Banner_" + timestamp + "/"
+ 
 //Reset the value
 WebUI.openBrowser('')
 
@@ -36,9 +40,13 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Shopify
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Log in  Shopify/div_Samajit Kundu'))
 
+WebUI.takeScreenshot(screenshotFolder + "shopify_website.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Home  Shopify/span_Online Store'))
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/span_Customize'))
+
+WebUI.takeScreenshot(screenshotFolder + "customize_page.png")
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/button_Uncover your wardrobe essentials_Onl_54202d'))
 
@@ -50,14 +58,20 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/div_All products'))
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/span_Save (1)'))
+WebUI.takeScreenshot(screenshotFolder + "selection_banner.png")
 
+WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/span_Save (4)'))
+
+WebUI.delay(2)
 
 //Verify reset
-
 WebUI.callTestCase(findTestCase('Threads_Webshop/ReUsable Testcases/Enter Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Threads/a_Explore Threads_1'))
 
+WebUI.takeScreenshot(screenshotFolder + "check_banner.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/Banner/Page_Products  Threads/a_ADIDAS  CLASSIC BACKPACK'))
+
+WebUI.closeBrowser()
 

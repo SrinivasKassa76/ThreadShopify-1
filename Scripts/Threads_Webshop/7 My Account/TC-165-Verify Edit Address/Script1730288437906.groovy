@@ -16,12 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.time.LocalDateTime as LocalDateTime
-import java.time.format.DateTimeFormatter as DateTimeFormatter
+import java.text.SimpleDateFormat
 
-// Generate a unique folder path with a timestamp for screenshots
-String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
-String screenshotFolder = "screenshots/my_account_" + timestamp + "/"
+// Get unique folder path based on the current timestamp
+String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date())
+String screenshotFolder = "screenshots/account_" + timestamp + "/"
 
 WebUI.openBrowser('')
 
@@ -36,10 +35,14 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Thr
 
 WebUI.maximizeWindow()
 
+WebUI.takeScreenshot(screenshotFolder + "home.png")
+
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Threads/svg_Search_icon icon-account'))
 
 // Verify login page
 WebUI.verifyTextPresent('Login', false)
+
+WebUI.takeScreenshot(screenshotFolder + "login_page.png")
 
 // Enter login details
 WebUI.setText(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/input_Login_customeremail'), 
@@ -50,6 +53,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Thread_Webshop/My Conta
 
 WebUI.click(findTestObject('Object Repository/Thread_Webshop/My Contact/Page_Account  Threads/button_Sign in'))
 
+WebUI.takeScreenshot(screenshotFolder + "login.png")
 // Verify my Account
 WebUI.verifyTextPresent('Account', false)
 
