@@ -6,12 +6,12 @@
    <elementGuidId>8abc707c-d99f-4e70-be74-4dd294eeba49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#TextField4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='TextField4']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#TextField4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4ae67dd6-bafc-4887-931f-56d52e6f9c20</webElementGuid>
+      <webElementGuid>6a50e6cc-dee5-43bd-a5f3-4d69127e5b3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>TextField4</value>
-      <webElementGuid>17fcceef-ef42-42f7-8666-07e5b7ae89ea</webElementGuid>
+      <webElementGuid>df45bf97-5af4-496d-a6ea-abf8719b17d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>postalCode</value>
-      <webElementGuid>f77911b5-83ba-4c09-9507-bff0b7478180</webElementGuid>
+      <webElementGuid>7d64470b-d7cf-4a09-9767-048dc1e0545f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>PIN code</value>
-      <webElementGuid>170abd82-fc52-4447-8d2f-2de124a87e01</webElementGuid>
+      <webElementGuid>be6326b6-b420-4407-8417-2cd8dd21baf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5d6b5cac-2c65-444f-8a8d-752316a7dcc7</webElementGuid>
+      <webElementGuid>83050b0a-7cf1-4151-88a8-f1680b27198c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>47a511e5-3093-40bc-a220-74925776133a</webElementGuid>
+      <webElementGuid>b9b549bc-0cfe-4304-ab15-c622c19de001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4ba2c5fd-2728-48d7-a3cf-caa6271fd27f</webElementGuid>
+      <webElementGuid>ea20513f-e686-4d0c-9642-806bcb01db46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>TextField4-label</value>
-      <webElementGuid>def9da8a-027e-43ec-9e07-13f8918f5e57</webElementGuid>
+      <webElementGuid>78f71fb8-7699-421d-9f98-af940c4267cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>shipping postal-code</value>
-      <webElementGuid>230ab98c-9c8b-4b1a-80ba-e38648f7f0c2</webElementGuid>
+      <webElementGuid>9d438d55-5a0b-4a99-b8b2-6c15a903f361</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>characters</value>
-      <webElementGuid>31b1cf4f-c96e-46b5-a74f-f02637a5b663</webElementGuid>
+      <webElementGuid>574eb3c6-536d-4145-86e0-3d271cc099e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_7ozb2uq _7ozb2up _1fragemlj _1fragemst _1fragemod _1fragemrz _7ozb2ut _7ozb2us _1fragemsf _1fragemsa _1fragemsp _7ozb2u11 _7ozb2u1h _7ozb2ur</value>
-      <webElementGuid>7a852568-3f46-4bcb-8d4f-d48bb679b7a7</webElementGuid>
+      <webElementGuid>bca3740d-acfe-45fc-a784-0baf7cbc7ad8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;TextField4&quot;)</value>
-      <webElementGuid>15234928-6dc5-4f87-ac00-c5eacd2591ee</webElementGuid>
+      <webElementGuid>6f1d4bb9-a50a-41d2-ba33-3c834bba4199</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='TextField4']</value>
-      <webElementGuid>3814cd1f-0168-4ea5-8f2b-3706f27f7033</webElementGuid>
+      <webElementGuid>e03cd343-6863-4877-9ad0-0b93cbefb564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shippingAddressForm']/div/div/div[5]/div[3]/div/div/div/input</value>
-      <webElementGuid>1881bacb-1d49-4317-bf8a-8be74e91ce80</webElementGuid>
+      <webElementGuid>6256dbf0-2b31-44ff-9529-576e87ab28a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/input</value>
-      <webElementGuid>5c0de331-dea7-4863-96a6-5288222172bf</webElementGuid>
+      <webElementGuid>ff2afb39-0343-40a9-8165-78551fa228b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'TextField4' and @name = 'postalCode' and @placeholder = 'PIN code' and @type = 'text']</value>
-      <webElementGuid>fb968c1f-f9e7-4215-b58e-9de530e5c788</webElementGuid>
+      <webElementGuid>8bba985e-b1c9-4f1f-8e56-048a23f7c4a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

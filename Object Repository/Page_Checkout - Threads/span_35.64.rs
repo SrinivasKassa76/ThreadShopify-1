@@ -6,12 +6,12 @@
    <elementGuidId>a3e4f369-7604-4c43-8af2-227f158593c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div._5uqybw2._5uqybw1._1fragem28._1fragemkp._1fragem3m._1fragem5f._1fragemma._1fragemmf._1fragem78 > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[5]/div[2]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._5uqybw2._5uqybw1._1fragem28._1fragemkp._1fragem3m._1fragem5f._1fragemma._1fragemmf._1fragem78 > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dbbdc1a9-92e6-4087-b3f5-61f7029cd50f</webElementGuid>
+      <webElementGuid>0ba117cd-4de6-41d3-b90e-b39ffeddea44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu</value>
-      <webElementGuid>6442c235-7662-4c94-96bf-c6f8e2d4cc01</webElementGuid>
+      <webElementGuid>f04c671a-1b6e-465c-9fc5-915973a94f3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>₹35.64</value>
-      <webElementGuid>51ae950f-abe6-49dc-bc8c-387705828d9d</webElementGuid>
+      <webElementGuid>1f2691b4-6780-4d57-9eb3-041d61a1dfee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/div[@class=&quot;Sxi8I&quot;]/div[@class=&quot;i4DWM _1fragemna _1fragemn7 _1fragemsy&quot;]/div[@class=&quot;_4QenE&quot;]/aside[1]/div[1]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem46 _1fragem5z _1fragem2s&quot;]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[2]/div[@class=&quot;nfgb6p1 nfgb6p0 _1fragem2s nfgb6p3&quot;]/div[@class=&quot;_1qy6ue60 _1qy6ue69 _1qy6ue61 _1qy6ue67 _1qy6ue65 _1fragem3h _1fragem5a _1fragem2s&quot;]/div[@class=&quot;_1qy6ue6c&quot;]/div[@class=&quot;_5uqybw0 _1fragemlj _1fragem28 _1fragem78&quot;]/div[@class=&quot;_5uqybw2 _5uqybw1 _1fragem28 _1fragemkp _1fragem3m _1fragem5f _1fragemma _1fragemmf _1fragem78&quot;]/span[@class=&quot;_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu&quot;]</value>
-      <webElementGuid>6b408796-2ea9-4428-a260-c812c262ee00</webElementGuid>
+      <webElementGuid>c24bbae8-f280-4a3f-861f-c4a6a12b0692</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[5]/div[2]/div/div/span</value>
-      <webElementGuid>47544680-36da-4bd7-9b99-f24219bc15e1</webElementGuid>
+      <webElementGuid>e9b83923-a94a-4953-abd1-bb73796c630c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated taxes'])[1]/following::span[3]</value>
-      <webElementGuid>575046c3-aac0-4648-8310-c4d9c656fb56</webElementGuid>
+      <webElementGuid>ce8a49e5-969d-4a8c-9f05-e3ee8baeda4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹10.00'])[2]/following::span[4]</value>
-      <webElementGuid>60dbc61e-f99e-4968-9e0b-bb23d8f25396</webElementGuid>
+      <webElementGuid>a54a554b-1235-4a73-a802-ca887e42379e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::span[1]</value>
-      <webElementGuid>8244f073-1d46-450b-860c-b01c64026016</webElementGuid>
+      <webElementGuid>2722b03b-5b15-4d3a-bc3a-13180035461a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='INR'])[1]/preceding::span[2]</value>
-      <webElementGuid>a7adacd0-03bf-4ada-9ca1-288863cba69b</webElementGuid>
+      <webElementGuid>f112b1d8-c52f-4c4f-8f8b-9aaec8fe551e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='₹35.64']/parent::*</value>
-      <webElementGuid>d2cccb88-c29a-44ef-a2aa-65bbfdba0377</webElementGuid>
+      <webElementGuid>784bd50e-6789-4ac5-9a77-9816f2763963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div/span</value>
-      <webElementGuid>7bfff2e2-cad5-4f16-862e-e7d223c912b2</webElementGuid>
+      <webElementGuid>55665eff-e0ec-4084-8d3f-d6c9e82e9fff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '₹35.64' or . = '₹35.64')]</value>
-      <webElementGuid>704ea980-3a49-4821-b861-9531c510a516</webElementGuid>
+      <webElementGuid>da99ea85-3235-4e4a-9520-559c89063afe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

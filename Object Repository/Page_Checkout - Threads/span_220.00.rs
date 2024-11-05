@@ -6,12 +6,12 @@
    <elementGuidId>80ad5955-171b-4729-9beb-a12fe05e9f58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div._1qy6ue6c > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu.notranslate</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._1qy6ue6c > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu.notranslate</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7812fdfa-b7c2-4dfa-8d8a-2b0b4ce485c4</webElementGuid>
+      <webElementGuid>d1945dba-666d-4c79-905c-661c883025a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>translate</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>8d4f82ce-4d1a-40d1-b568-92cbcd0feca2</webElementGuid>
+      <webElementGuid>433aef24-6be6-4290-a7ba-31a44ba2eaa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu notranslate</value>
-      <webElementGuid>29df7976-750c-4a7a-8c5a-1aa6737934d4</webElementGuid>
+      <webElementGuid>f1c239c4-1d63-4b6f-9ef2-c6f9e3d6d5c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>₹220.00</value>
-      <webElementGuid>9ebcce73-260a-445c-bd21-eb41438bab8f</webElementGuid>
+      <webElementGuid>67a81e27-bedf-4e03-b1c5-d1b34454804b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/div[@class=&quot;Sxi8I&quot;]/div[@class=&quot;i4DWM _1fragemna _1fragemn7 _1fragemsy&quot;]/div[@class=&quot;_4QenE&quot;]/aside[1]/div[1]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem46 _1fragem5z _1fragem2s&quot;]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[2]/div[@class=&quot;nfgb6p1 nfgb6p0 _1fragem2s nfgb6p3&quot;]/div[@class=&quot;_1qy6ue60 _1qy6ue69 _1qy6ue61 _1qy6ue67 _1qy6ue65 _1fragem3h _1fragem5a _1fragem2s&quot;]/div[@class=&quot;_1qy6ue6c&quot;]/span[@class=&quot;_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu notranslate&quot;]</value>
-      <webElementGuid>ec8afaf9-eb44-441c-adb2-5548faf58796</webElementGuid>
+      <webElementGuid>1a569325-e967-4211-a976-eb1e903edfb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div/div[2]/span</value>
-      <webElementGuid>302252fe-8162-4c78-b463-030f8c41f406</webElementGuid>
+      <webElementGuid>09b8e32b-1cab-4568-8c4a-9e87b2d6f61d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal'])[1]/following::span[1]</value>
-      <webElementGuid>d6f3fe02-79c2-4f37-83f6-595572763979</webElementGuid>
+      <webElementGuid>4296f836-1057-443a-a4ac-95ddd8970280</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Value'])[1]/following::span[2]</value>
-      <webElementGuid>0a396ec1-59c4-4b12-a0de-67c793d7a7ba</webElementGuid>
+      <webElementGuid>c1b2406a-5976-4728-a995-80f51b823cd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order discount'])[1]/preceding::span[1]</value>
-      <webElementGuid>a22e7e21-3099-4fff-81a4-867c54a60588</webElementGuid>
+      <webElementGuid>3920e27e-6227-4024-8fec-699ef06806ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='WINTER10'])[2]/preceding::span[3]</value>
-      <webElementGuid>61de8310-8b3e-479a-86e3-1f068c479610</webElementGuid>
+      <webElementGuid>d1504e6c-0bc7-4e1e-b254-6816aaac1247</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/span</value>
-      <webElementGuid>63f66f6f-7287-40ec-a257-5416508d9e42</webElementGuid>
+      <webElementGuid>28466535-7e74-4f53-ac6d-c1a6e2f5d08e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '₹220.00' or . = '₹220.00')]</value>
-      <webElementGuid>2ff9125e-7827-4c44-8adc-a8a7d0779940</webElementGuid>
+      <webElementGuid>260b7319-8b75-4509-b884-b02f905fd5ab</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

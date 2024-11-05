@@ -6,12 +6,12 @@
    <elementGuidId>8cc5731e-5817-4920-b7a7-b505d0b72877</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu._19gi7ytn.notranslate</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[4]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu._19gi7ytn.notranslate</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1b86ff0c-9601-45b5-987a-a4a31c5f599c</webElementGuid>
+      <webElementGuid>07688a3c-0d95-4a60-9de0-a6a60303c6ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>translate</name>
       <type>Main</type>
       <value>no</value>
-      <webElementGuid>24ccd9bd-7303-40c8-8afa-94dac065d5ea</webElementGuid>
+      <webElementGuid>19d48a41-a140-4688-92bc-ff740cbb777d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu _19gi7ytn notranslate</value>
-      <webElementGuid>82c6e531-a3f6-44c8-acbc-fc131e2b564f</webElementGuid>
+      <webElementGuid>f49b9efb-f95b-436e-865e-25c48096d037</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>₹10.00</value>
-      <webElementGuid>7791c14f-2dbd-475b-91fd-f83e62796f8e</webElementGuid>
+      <webElementGuid>6cdc12dc-0196-4943-be02-7060693dd256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/div[@class=&quot;Sxi8I&quot;]/div[@class=&quot;i4DWM _1fragemna _1fragemn7 _1fragemsy&quot;]/div[@class=&quot;_4QenE&quot;]/aside[1]/div[1]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem46 _1fragem5z _1fragem2s&quot;]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[2]/div[@class=&quot;nfgb6p1 nfgb6p0 _1fragem2s nfgb6p3&quot;]/div[@class=&quot;_1qy6ue60 _1qy6ue6a _1qy6ue61 _1qy6ue67 _1qy6ue65 _1fragem3h _1fragem5a _1fragem2s&quot;]/div[@class=&quot;_1qy6ue6c&quot;]/span[@class=&quot;_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu _19gi7ytn notranslate&quot;]</value>
-      <webElementGuid>138e56e5-d63b-42ed-b4bf-52ed02c3a705</webElementGuid>
+      <webElementGuid>c16e37bb-3454-462d-ae72-06e32f579b31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[4]/div[2]/span</value>
-      <webElementGuid>f7d16ef1-9b09-4b3b-b5f5-286b70645c00</webElementGuid>
+      <webElementGuid>641817ef-64ee-4024-9675-6854a32f2e57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping'])[1]/following::span[1]</value>
-      <webElementGuid>c39121e6-98b9-4a8d-bc4b-695c75a705e2</webElementGuid>
+      <webElementGuid>74f300eb-52e2-4800-9221-6f0f530a40a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='− ₹22.00'])[1]/following::span[2]</value>
-      <webElementGuid>fd11ce27-d423-4c6c-909a-0ec9a9812eda</webElementGuid>
+      <webElementGuid>c7f5ebfe-6df8-4daa-85bb-007ba52a4db9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated taxes'])[1]/preceding::span[1]</value>
-      <webElementGuid>0d997ded-bab5-4cf8-8cb8-01dbd06603a1</webElementGuid>
+      <webElementGuid>97a6f000-1bf2-4198-af1f-01b963ce0bc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹35.64'])[1]/preceding::span[4]</value>
-      <webElementGuid>d4b1fff8-de32-463d-b337-736b66396bc1</webElementGuid>
+      <webElementGuid>5c8a7913-b94e-4f87-ba98-30fcf72dee29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/span</value>
-      <webElementGuid>a59b4711-f104-4f44-b2ca-a9cc27c121c5</webElementGuid>
+      <webElementGuid>e19da0ef-42a3-4cc2-b0f0-5e3cd60bd103</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '₹10.00' or . = '₹10.00')]</value>
-      <webElementGuid>bedeafec-e66b-405a-aa57-88eadd3ba109</webElementGuid>
+      <webElementGuid>fe65577e-5176-4f77-bb51-f5ac7d79ec30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

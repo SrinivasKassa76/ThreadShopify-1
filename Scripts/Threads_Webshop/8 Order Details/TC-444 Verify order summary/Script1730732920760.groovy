@@ -37,54 +37,48 @@ WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order
 WebUI.takeScreenshot('screenshots/buy_it_now.png')
 
 // Enter user details
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Email or mobile phone number_email'), 
-    '1234567890')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Email or mobile phone number_email'), '1234567890')
 
 WebUI.takeScreenshot('screenshots/enter_contact.png')
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Choose a delivery method_delivery_strategies'))
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/input_Choose a delivery method_delivery_strategies'))
 
 // Fill address information
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_First name (optional)_firstName'), 
-    'Celine')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_First name (optional)_firstName'), 'Celine')
 
 WebUI.takeScreenshot('screenshots/enter_first_name.png')
 
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Last name_lastName'), 
-    'Cena')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Last name_lastName'), 'Cena')
 
 WebUI.takeScreenshot('screenshots/enter_last_name.png')
 
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Address_address1'), 
-    'XYZ Street')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Address_address1'), 'XYZ Street')
 
 WebUI.takeScreenshot('screenshots/enter_address.png')
 
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Apartment, suite, etc. (optional)_address2'), 
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Apartment, suite, etc. (optional)_address2'), 
     'ABC apartment')
 
 WebUI.takeScreenshot('screenshots/enter_apartment.png')
 
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_City_city'), 
-    'Kolkata')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_City_city'), 'Kolkata')
 
 WebUI.takeScreenshot('screenshots/enter_city.png')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/select_Andaman and Nicobar IslandsAndhra Pr_2effd7'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Checkout - Threads/select_Andaman and Nicobar IslandsAndhra Pr_2effd7'), 
     'WB', true)
 
 WebUI.takeScreenshot('screenshots/select_state.png')
 
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_PIN code_postalCode'), 
-    '700053')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_PIN code_postalCode'), '700053')
 
 WebUI.takeScreenshot('screenshots/enter_pin.png')
 
+WebUI.delay(3)
+
 // Choose shipping method and enter payment info
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods'))
-
-WebUI.takeScreenshot('screenshots/choose_shipping.png')
-
+//WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods'))
+//WebUI.takeScreenshot('screenshots/choose_shipping.png')
 //WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Card number_number'), 
 //    '2')
 //
@@ -99,25 +93,23 @@ WebUI.takeScreenshot('screenshots/choose_shipping.png')
 //    '567')
 //
 //WebUI.takeScreenshot('screenshots/enter_security_code.png')
-
 // Apply discount code
-WebUI.setText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/input_Discount code_reductions'), 
-    'WINTER10')
+WebUI.setText(findTestObject('Object Repository/Page_Checkout - Threads/input_Discount code_reductions'), 'WINTER10')
 
-WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/button_Apply'))
+WebUI.click(findTestObject('Object Repository/Page_Checkout - Threads/button_Apply'))
 
 WebUI.takeScreenshot('screenshots/apply_discount.png')
 
 // Calculate and validate prices
-float ordertotal = parsePrice(WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/span_220.00')))
+float ordertotal = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_220.00')))
 
-float discount = parseDisc(WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/span_22.00')))
+float discount = parseDisc(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_22.00')))
 
-float shipping = parsePrice(WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/span_10.00')))
+float shipping = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_10.00')))
 
-float tax = parsePrice(WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/span_35.64')))
+float tax = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/span_35.64')))
 
-float finalPrice = parsePrice(WebUI.getText(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/strong_243.64')))
+float finalPrice = parsePrice(WebUI.getText(findTestObject('Object Repository/Page_Checkout - Threads/strong_243.64')))
 
 if ((((ordertotal - discount) + shipping) + tax) == finalPrice) {
     println('Match')
@@ -129,10 +121,10 @@ WebUI.takeScreenshot('screenshots/validate_prices.png')
 
 // Confirm order
 //WebUI.click(findTestObject('Object Repository/Thread_Webshop/Shopping Cart/Order Summary/Page_Checkout - Threads/button_Pay now'))
-
 WebUI.takeScreenshot('screenshots/order_confirmation.png')
 
-WebUI.closeBrowser() // Parsing functions
+WebUI.closeBrowser( // Parsing functions
+    )
 
 float parsePrice(String price) {
     String cleanText = price.replaceAll('[^\\d.]', '').trim()

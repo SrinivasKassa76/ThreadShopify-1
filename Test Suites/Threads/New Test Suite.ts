@@ -249,7 +249,7 @@
       <guid>80dc75a3-ac3a-41ae-bd8b-4e555d57ea03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/verify order summary</testCaseId>
+      <testCaseId>Test Cases/Threads_Webshop/8 Order Details/TC-444 Verify order summary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

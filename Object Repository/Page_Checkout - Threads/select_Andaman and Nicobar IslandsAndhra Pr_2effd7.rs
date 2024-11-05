@@ -6,12 +6,12 @@
    <elementGuidId>54a6c355-4480-4f7e-9d13-dca4994f1068</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Select1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='Select1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Select1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>39beed4b-a663-40d2-98c6-30fcfc95358b</webElementGuid>
+      <webElementGuid>55d46170-98a6-4ca3-83bc-47e26f7fb1d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>name</name>
       <type>Main</type>
       <value>zone</value>
-      <webElementGuid>153437b9-9fd4-485e-b1d0-c547f7281204</webElementGuid>
+      <webElementGuid>8ecae6cd-e800-43da-afe5-51a09e7c7fa3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Select1</value>
-      <webElementGuid>45b524a9-e6bd-44e4-a74c-fd09dfa8d131</webElementGuid>
+      <webElementGuid>dbf58ebd-ee54-43dc-9984-cc42895d447d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>shipping address-level1</value>
-      <webElementGuid>fc494dff-e2a3-4cdd-9005-a3990af976de</webElementGuid>
+      <webElementGuid>d1177d0d-305e-446a-ba42-7b8f9c766642</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ZHJU6 _1k3449n5 _1k3449n3 _1fragemsy oAlPg IWR5K tu1VS</value>
-      <webElementGuid>bc693fa6-54ea-4acd-abfe-72268e661edd</webElementGuid>
+      <webElementGuid>b5432f97-8b01-4734-ba1d-f5ccdc396a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Andaman and Nicobar IslandsAndhra PradeshArunachal PradeshAssamBiharChandigarhChhattisgarhDadra and Nagar HaveliDaman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLadakhLakshadweepMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPuducherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttarakhandWest Bengal</value>
-      <webElementGuid>af613490-419e-4110-9c0b-8daa2c740840</webElementGuid>
+      <webElementGuid>4d68f569-f700-42d9-b64c-01e95e460c81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Select1&quot;)</value>
-      <webElementGuid>a9727f1a-242b-4eae-8abb-72f0f3d82268</webElementGuid>
+      <webElementGuid>8574ca95-5fb4-4823-83fd-596377d130cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='Select1']</value>
-      <webElementGuid>a3021502-7d3c-4b5f-881c-246c3fa34903</webElementGuid>
+      <webElementGuid>deb7ac6b-1fa7-434d-a8eb-19c37ba83924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='shippingAddressForm']/div/div/div[5]/div[2]/div/div/select</value>
-      <webElementGuid>f35afe0f-0214-439d-ba4d-4de76d34d4c8</webElementGuid>
+      <webElementGuid>19bd468c-9416-40ae-870a-2460fd677d93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='State'])[1]/following::select[1]</value>
-      <webElementGuid>66790624-2e1b-4e38-b140-aa45df3a8466</webElementGuid>
+      <webElementGuid>b5677271-e217-44ba-b477-e5471397bbf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::select[1]</value>
-      <webElementGuid>63da272a-29b0-4db9-abc1-1b7f172c89c2</webElementGuid>
+      <webElementGuid>d525b62b-4fef-4f09-aaba-73f2027f296c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PIN code'])[1]/preceding::select[1]</value>
-      <webElementGuid>28b68eaa-1172-41dc-ad87-5bb30cab7bcf</webElementGuid>
+      <webElementGuid>1b75cfaa-a45c-4727-b687-ae8550b75976</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save this information for next time'])[1]/preceding::select[1]</value>
-      <webElementGuid>1b0f9750-5a2a-47ed-b7af-d6c17ff41a99</webElementGuid>
+      <webElementGuid>e66aa151-d412-4968-bf6d-c6e5770e64df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/select</value>
-      <webElementGuid>b82ac7d8-6ef1-4128-9825-0fd8ab5fc162</webElementGuid>
+      <webElementGuid>0a7abda7-ec84-48f4-b75a-cf2f3376d385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@name = 'zone' and @id = 'Select1' and (text() = 'Andaman and Nicobar IslandsAndhra PradeshArunachal PradeshAssamBiharChandigarhChhattisgarhDadra and Nagar HaveliDaman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLadakhLakshadweepMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPuducherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttarakhandWest Bengal' or . = 'Andaman and Nicobar IslandsAndhra PradeshArunachal PradeshAssamBiharChandigarhChhattisgarhDadra and Nagar HaveliDaman and DiuDelhiGoaGujaratHaryanaHimachal PradeshJammu and KashmirJharkhandKarnatakaKeralaLadakhLakshadweepMadhya PradeshMaharashtraManipurMeghalayaMizoramNagalandOdishaPuducherryPunjabRajasthanSikkimTamil NaduTelanganaTripuraUttar PradeshUttarakhandWest Bengal')]</value>
-      <webElementGuid>362346ea-abfa-466d-b0a4-0e0c58a8e02c</webElementGuid>
+      <webElementGuid>382d4882-09ca-4a1b-ab82-4ce7a2ec0a07</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

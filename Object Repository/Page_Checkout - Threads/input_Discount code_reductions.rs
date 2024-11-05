@@ -6,12 +6,12 @@
    <elementGuidId>4f56cb9a-68e8-463a-aedc-f845dc781e31</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#ReductionsInput0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='ReductionsInput0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ReductionsInput0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>14344459-0ed9-499c-b38a-d7bbecb718ae</webElementGuid>
+      <webElementGuid>5260ee59-afc1-42ec-adae-26c4486f5f45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ReductionsInput0</value>
-      <webElementGuid>7c39ca6e-aaed-41df-a406-57ddbb89714b</webElementGuid>
+      <webElementGuid>3f8f638d-3073-4c15-b497-6c6e7c0e5651</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>reductions</value>
-      <webElementGuid>bc9da94a-41ab-4b7b-b46d-ad1dadc62a0a</webElementGuid>
+      <webElementGuid>7a79c09c-604f-4422-852d-ebb3f9b5ed3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Discount code</value>
-      <webElementGuid>4c12e889-0307-4153-bb23-d1e4c483586f</webElementGuid>
+      <webElementGuid>f6955a2d-b2cf-446a-95e4-b888a9d0e740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>0a4a0eb7-8d5d-409a-980f-193a399f29d8</webElementGuid>
+      <webElementGuid>9e9427ff-fcf9-4bf2-b043-5ca870092ec6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>ReductionsInput0-label</value>
-      <webElementGuid>3157881e-7335-4754-a80d-cf474bde2024</webElementGuid>
+      <webElementGuid>a81f6752-3180-40ac-a6e7-cb3314b46614</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_7ozb2uq _7ozb2up _1fragemlj _1fragemst _1fragemod _1fragemrz _7ozb2ut _7ozb2us _1fragemsf _1fragemsa _1fragemsp _7ozb2u11 _7ozb2u1h _7ozb2ur</value>
-      <webElementGuid>5822937a-4cbc-4542-b89e-cb4424737471</webElementGuid>
+      <webElementGuid>43c0d7ec-ed31-4873-bc82-6946181d384d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ReductionsInput0&quot;)</value>
-      <webElementGuid>88162aa2-b3a5-40fd-a1de-42a95295e855</webElementGuid>
+      <webElementGuid>dbb71d4e-20b5-4a33-8e42-943a64723fab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='ReductionsInput0']</value>
-      <webElementGuid>7acfa631-9f6e-4032-9a2c-a71cf984932b</webElementGuid>
+      <webElementGuid>1897b03a-be15-43f0-9bde-36323ac896e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='Form0']/div/div/div/div/div/input</value>
-      <webElementGuid>77018210-bee6-4805-903b-966a0ccc29c1</webElementGuid>
+      <webElementGuid>1aad6b80-8ff5-45f3-ac4d-e03e0af1dc55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div/div/div/input</value>
-      <webElementGuid>160440b6-fd5c-47ba-ae31-2c52e38de687</webElementGuid>
+      <webElementGuid>073df65a-4271-4dff-a6b6-2e28936a14ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'ReductionsInput0' and @name = 'reductions' and @placeholder = 'Discount code' and @type = 'text']</value>
-      <webElementGuid>f484cb19-a7ba-498e-a4a2-f94e1688694f</webElementGuid>
+      <webElementGuid>63ec64e1-81aa-4b01-9819-63bc10f071a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>1ebcd911-1099-4704-be98-4dea491a8dd6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div._1qy6ue60._1qy6ue69._1qy6ue63._1qy6ue67._1qy6ue65._1fragem3h._1fragem5a._1fragem2s > div._1qy6ue6c > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[3]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._1qy6ue60._1qy6ue69._1qy6ue63._1qy6ue67._1qy6ue65._1fragem3h._1fragem5a._1fragem2s > div._1qy6ue6c > span._19gi7yt0._19gi7ytw._19gi7ytv._1fragemnu</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dab69b6b-0269-42d6-972b-ba6a68ba221c</webElementGuid>
+      <webElementGuid>97cef74c-9b94-4b2b-b4c7-24ac054567a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu</value>
-      <webElementGuid>1602de8e-94bf-4b4b-8e59-5e283c0706c3</webElementGuid>
+      <webElementGuid>8111f4ab-6953-4c40-b499-bec39b722f78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>− ₹22.00</value>
-      <webElementGuid>d8b78221-eccf-4ccd-821c-d545afd3c46c</webElementGuid>
+      <webElementGuid>dd476b32-c8f5-4b48-ae5f-65140bbcd44d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;g9gqqf1 g9gqqf0 _1fragemnu g9gqqfc g9gqqfa _1fragemsy g9gqqf6 g9gqqf2 _1fragemn6 _1fragemna&quot;]/div[@class=&quot;cm5pp U3Rye FeQiM oYrwu _1fragemna _1fragemn6 _1fragemsy&quot;]/div[@class=&quot;Sxi8I&quot;]/div[@class=&quot;i4DWM _1fragemna _1fragemn7 _1fragemsy&quot;]/div[@class=&quot;_4QenE&quot;]/aside[1]/div[1]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[@class=&quot;_1ip0g651 _1ip0g650 _1fragemlj _1fragem46 _1fragem5z _1fragem2s&quot;]/section[@class=&quot;_1fragem1y _1fragemlj&quot;]/div[2]/div[@class=&quot;nfgb6p1 nfgb6p0 _1fragem2s nfgb6p3&quot;]/div[@class=&quot;_1qy6ue60 _1qy6ue69 _1qy6ue63 _1qy6ue67 _1qy6ue65 _1fragem3h _1fragem5a _1fragem2s&quot;]/div[@class=&quot;_1qy6ue6c&quot;]/span[@class=&quot;_19gi7yt0 _19gi7ytw _19gi7ytv _1fragemnu&quot;]</value>
-      <webElementGuid>c2e274d1-42c3-4fe3-afbb-e341c294fa78</webElementGuid>
+      <webElementGuid>40727004-bc6f-4116-88a5-6145c536669a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[2]/div[2]/div[3]/div[2]/span</value>
-      <webElementGuid>9024ee45-e4a6-4600-804f-cb4075ff3108</webElementGuid>
+      <webElementGuid>6d3ef1d0-59d6-48cd-82fb-495a1bdb4ef5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='WINTER10'])[2]/following::span[1]</value>
-      <webElementGuid>d4c1c778-23c8-4d2a-8faa-e3ea76a9fe49</webElementGuid>
+      <webElementGuid>113fc18e-5c72-4fdd-8e7b-f0f19b47b264</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order discount'])[1]/following::span[4]</value>
-      <webElementGuid>c113776d-73e2-4a7d-8bb6-cc5ac7a0c106</webElementGuid>
+      <webElementGuid>1af1e7cb-3387-4df5-854b-86fe95327c2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shipping'])[1]/preceding::span[1]</value>
-      <webElementGuid>ff0fea99-b105-4690-a7fd-0c2992b96b3e</webElementGuid>
+      <webElementGuid>cfb7606a-c178-44ad-b71f-a7cc16dfd380</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹10.00'])[2]/preceding::span[2]</value>
-      <webElementGuid>c0f77c38-a572-4188-84aa-ecadd5a29c96</webElementGuid>
+      <webElementGuid>d49ec8e9-6c81-437d-ab54-6affbfd31dbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='− ₹22.00']/parent::*</value>
-      <webElementGuid>5d615e87-a9d2-4db1-801b-754ec98535ac</webElementGuid>
+      <webElementGuid>aefdcede-e7e5-4217-8395-8dbae07b1026</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/span</value>
-      <webElementGuid>82dedbe8-b1e3-4426-bb7d-b8ee9d08bc80</webElementGuid>
+      <webElementGuid>bd94e3b3-fcb8-4f25-8dfa-04e2c473bb9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '− ₹22.00' or . = '− ₹22.00')]</value>
-      <webElementGuid>653b0191-4cb2-43a3-ba00-fd3b8e4e4b4d</webElementGuid>
+      <webElementGuid>745613c9-9705-4df4-940d-98c7912f8c82</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

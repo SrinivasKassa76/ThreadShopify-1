@@ -6,12 +6,12 @@
    <elementGuidId>cf3bb641-4c82-44ad-887c-b8b12c21df84</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#delivery_strategies-SHIPPING</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='delivery_strategies-SHIPPING']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#delivery_strategies-SHIPPING</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>cd7477c1-bb7e-4afc-a761-2e34f136bc00</webElementGuid>
+      <webElementGuid>ca8199eb-d0fd-4f30-8626-444a719156e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>47c3f46f-a018-4a8b-aa4b-1854f22a17cf</webElementGuid>
+      <webElementGuid>ee435632-0e3d-444c-b12d-77dda0e1cc3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>delivery_strategies-SHIPPING</value>
-      <webElementGuid>457be415-020a-47de-8ce6-fe088affefa8</webElementGuid>
+      <webElementGuid>033edf58-b754-4b71-bcfe-4c2874a0644a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>delivery_strategies</value>
-      <webElementGuid>e4cfea11-8d8f-4e65-97c4-523a78eef0db</webElementGuid>
+      <webElementGuid>08398864-2667-4db0-962e-2f97fa547654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_6hzjvo4 _6hzjvo3 _1fragemnk _1fragem1y _1fragemsf _1fragems9 _1fragemsm _6hzjvog _6hzjvo8 _6hzjvo6 _1fragemsy _6hzjvof _6hzjvoc</value>
-      <webElementGuid>21429ccf-427f-4973-9a51-02c732273615</webElementGuid>
+      <webElementGuid>df1ab994-16ae-4753-9ce4-3593ed219e56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;delivery_strategies-SHIPPING&quot;)</value>
-      <webElementGuid>5ef90492-256b-4f54-ac44-325b130976f3</webElementGuid>
+      <webElementGuid>b7b168a7-43da-4e26-a572-8ef9fb2ab7ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='delivery_strategies-SHIPPING']</value>
-      <webElementGuid>53b4cb2b-9ff8-443c-a317-46355842a41f</webElementGuid>
+      <webElementGuid>c0bc3b1d-efbf-41a8-a2aa-6c9b5e1290e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='delivery_strategies']/div/div/div/div/input</value>
-      <webElementGuid>2ced3a5a-93d7-4488-9281-e730520caf20</webElementGuid>
+      <webElementGuid>64afc6dd-26df-438b-9703-191742e1ba68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div/div/div/div/input</value>
-      <webElementGuid>143ffd0e-e032-4fab-85e4-99d3836605c3</webElementGuid>
+      <webElementGuid>f7308edf-7402-453b-9e6d-22704b5cfe78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @id = 'delivery_strategies-SHIPPING' and @name = 'delivery_strategies']</value>
-      <webElementGuid>4ebf58ed-c5dc-415a-8861-6aa3da9f10c4</webElementGuid>
+      <webElementGuid>d0d9d2e2-cef4-4323-8f5e-47f51819a322</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

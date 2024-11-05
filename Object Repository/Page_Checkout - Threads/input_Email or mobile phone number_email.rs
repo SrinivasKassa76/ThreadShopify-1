@@ -6,12 +6,12 @@
    <elementGuidId>0ecaf033-9e89-4b40-8bc5-d7a92d7e1694</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#email</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='email']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#email</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b1074498-7122-487b-bafc-00145c174320</webElementGuid>
+      <webElementGuid>50a06c8a-7a0e-47fa-9f39-9ec25ad16308</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>95037fd2-68af-4c51-b12f-ae7cc2af026b</webElementGuid>
+      <webElementGuid>854ccec5-15a7-4896-9a67-659bcb1fd791</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>6d2af6d8-b563-4d00-ac5a-394190049822</webElementGuid>
+      <webElementGuid>0ee2f05c-637e-4f88-af8b-56f525c9837e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Email or mobile phone number</value>
-      <webElementGuid>8ee19a72-2e92-4aa7-9b86-b95fb05636f9</webElementGuid>
+      <webElementGuid>26236ea0-03e4-4be3-8294-1217512b8699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fb0dc548-cc4b-4eeb-93d8-04fd0eb9d873</webElementGuid>
+      <webElementGuid>5cd04f3d-2d32-4e20-9b71-4fdf2c23e6c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>aa9a460e-b8eb-4780-95ed-62fd9713f3fc</webElementGuid>
+      <webElementGuid>7e0884fc-5379-492e-9690-2c329db081ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>email-label</value>
-      <webElementGuid>42bbb751-82bf-44fa-b0f0-2e86dab584c7</webElementGuid>
+      <webElementGuid>50b915ad-4e60-4df4-971a-f5bb1be4122b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>shipping email</value>
-      <webElementGuid>a0dda3b5-a6e7-40aa-a91b-8a1daf0a0d9f</webElementGuid>
+      <webElementGuid>1c2790ae-a64b-407d-b34a-b73ff61fc0a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>autofocus</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>57f9ae75-dc2d-4c80-a845-5f9362a97cbf</webElementGuid>
+      <webElementGuid>b5163425-352c-4c67-b72e-20b71da1dd56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>9ed622e6-d413-4402-a52d-592f66d0e67a</webElementGuid>
+      <webElementGuid>a6af8665-b9d7-410d-9900-f5f7368c111c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>class</name>
       <type>Main</type>
       <value>_7ozb2uq _7ozb2up _1fragemlj _1fragemst _1fragemod _1fragemrz _7ozb2ut _7ozb2us _1fragemsf _1fragemsa _1fragemsp _7ozb2u11 _7ozb2u1h _7ozb2ur</value>
-      <webElementGuid>af8f519c-8a62-4423-9864-c93c6285107b</webElementGuid>
+      <webElementGuid>03763d57-bf9b-4a4a-a656-408773e2abb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;email&quot;)</value>
-      <webElementGuid>a27f1e17-2300-44ac-883f-4973286b89d5</webElementGuid>
+      <webElementGuid>5d9a75ca-6f26-4084-bd68-7cfdee608c60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='email']</value>
-      <webElementGuid>27e398d2-d567-40fa-8ecf-e1def89f45e3</webElementGuid>
+      <webElementGuid>dbea8ee1-7a86-40a8-866b-90d4f1be87b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='Form1']/div/div/section/div/div/div/div/div[3]/div/div/div/div/input</value>
-      <webElementGuid>fc7226ba-93d2-44c9-a926-910344ebf2f3</webElementGuid>
+      <webElementGuid>c92e9894-5119-4560-9e62-4b9a4d006ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>c96b7ed1-2442-429a-a579-58097ae3569b</webElementGuid>
+      <webElementGuid>78df9b6a-2493-4091-a638-cec4c2c57ba7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'email' and @name = 'email' and @placeholder = 'Email or mobile phone number' and @type = 'text']</value>
-      <webElementGuid>1e3a6ac4-080a-4682-9219-75d8c4d5994c</webElementGuid>
+      <webElementGuid>bcc38618-1bb9-4592-98e3-9a528a8ef4fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
