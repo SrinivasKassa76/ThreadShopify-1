@@ -1,0 +1,204 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK",
+      "brokenLocator": "/html/body/main/div[2]/div/div/div/div/ul/li[1]/div/div/div[2]/div[1]/h3/a/text()",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027CardLink-template--18610480578783__product-grid-8834481160415\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Search with Category_An/Page_Products  Threads/a_ASICS TIGER  GEL-LYTE V 30 YEARS OF GEL PACK_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div/div/div[2]/div[2]/div/aside/div/section/div/section/div[3]/div/div/div/strong[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027TOTAL SAVINGS\u0027])[1]/following::strong[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Shopping cart_An/PROMO CODE/Page_Checkout - Threads/strong_10.00_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dbutton[name\u003d\"Shipping method Standard · ₹10.00\"i]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/path_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-8065b300762b4a82452fb156c5f860bb\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_Choose a shipping method_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods",
+      "brokenLocator": "//input[@id\u003d\u0027shipping_methods-87a3659e7fe354379e05ee630f6a14f5-e1ddef4ea339ac02339348a2a08e6f6c\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset[@id\u003d\u0027shipping_methods\u0027]/div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Checkout/Page_Checkout - Threads/input_10.00_shipping_methods_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-xdjuu_727354",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-number-xdjuuwcz27000000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027number\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-xdjuu_727354_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-expiry-4l0tmwrnncu00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027expiry\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_b2acd2_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_1a0e43",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-verification_value-hbs0c4rt1rd00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027verification_value\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_1a0e43_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-h8mxeq_b22138",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-name-h8mxeqginvn00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027name\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-h8mxeq_b22138_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-wgmke_5ea4ae",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-number-wgmke362szi00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027number\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Card number_card-fields-number-wgmke_5ea4ae_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_d66788",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-expiry-zsrnz5pk1h000000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027expiry\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Expiration date (MM  YY)_card-fields_d66788_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_98be33",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-verification_value-f8vz7sdo31c00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027verification_value\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Security code_card-fields-verificati_98be33_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-p7oyqf_89c151",
+      "brokenLocator": "//iframe[@id\u003d\u0027card-fields-name-p7oyqfjv79n00000\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027name\u0027]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Page_Checkout - Threads/iframe_Name on card_card-fields-name-p7oyqf_89c151_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Account/Page_Account  Threads/button_Proceed",
+      "brokenLocator": "//button[@onclick\u003d\u0027coc_handleCancelOrder(this,5840969597151)\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Account/Page_Account  Threads/button_Proceed_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg",
+      "brokenLocator": "/html/body/div[2]/sticky-header/header/div/a[2]/span[1]/svg",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Log in\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Wishlist to cart_An/Page_ADIDAS  CLASSIC BACKPACK  Threads/svg_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/iframe_Online Store_fe56d741-3ec3-491d-b2e4_176b02",
+      "brokenLocator": "//iframe[@name\u003d\u0027fe56d741-3ec3-491d-b2e4-4f073b20fe50\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027AppFrameScrollable\u0027]/div/div/div/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/iframe_Online Store_fe56d741-3ec3-491d-b2e4_176b02_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_fe56d741-3ec3-491d-b_5f461d",
+      "brokenLocator": "//iframe[@name\u003d\u0027fe56d741-3ec3-491d-b2e4-4f073b20fe50\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027AppFrameScrollable\u0027]/div/div/div/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_fe56d741-3ec3-491d-b_5f461d_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/iframe_Online Store_a99f666a-be2e-4590-8342_49adf1",
+      "brokenLocator": "//iframe[@name\u003d\u0027a99f666a-be2e-4590-8342-6c601bc7b6fe\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027AppFrameScrollable\u0027]/div/div/div/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Banner/Page_Threads  Themes  Shopify/iframe_Online Store_a99f666a-be2e-4590-8342_49adf1_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_21babb25-8e7e-4493-9_120058",
+      "brokenLocator": "//iframe[@name\u003d\u002721babb25-8e7e-4493-93a1-8ae7bd2c3301\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027AppFrameScrollable\u0027]/div/div/div/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_21babb25-8e7e-4493-9_120058_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_9cc54c77-f6ce-460d-a_b95ee9",
+      "brokenLocator": "//iframe[@name\u003d\u00279cc54c77-f6ce-460d-a73a-47539e55d8d3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027AppFrameScrollable\u0027]/div/div/div/div/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241105_120811/Threads/New Test Suite (1)/20241105_120811/Object Repository/Thread_Webshop/Banner/Page_Threads  Customize Dawn  Shopify/iframe_Skip to content_9cc54c77-f6ce-460d-a_b95ee9_idRelative.png"
+    }
+  ]
+}
